@@ -68,4 +68,15 @@ Vagrant.configure(2) do |config|
   #   sudo apt-get update
   #   sudo apt-get install -y apache2
   # SHELL
+
+  # SSH agent forwarding allows access to GitHub from within VM
+  config.ssh.forward_agent = true
+  
+  config.vm.synced_folder "salt/roots/", "/srv/salt/"
+  config.vm.provision :salt do |salt|
+        salt.minion_config = "salt/minion"
+        salt.run_highstate = true
+        salt.verbose = true
+  end
+
 end
