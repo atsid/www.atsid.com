@@ -3,4 +3,4 @@ base:
     - apache
     - mysql
     - php
-#    - wordpress
+    - wordpress
