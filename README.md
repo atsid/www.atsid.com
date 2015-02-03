@@ -20,7 +20,7 @@ vagrant plugin install vagrant-triggers
 5. Checkout this project as `dev.atsid.com` into the `www` directory inside `VVV`:
 ```
 cd VVV/www
-clone git@github.com:atsid/www.atsid.com.git dev.atsid.com
+git clone git@github.com:atsid/www.atsid.com.git dev.atsid.com
 ```
 6. Launch the Vagrant VM (_**Note**: this will take quite a long time the first time through._)
 ```
