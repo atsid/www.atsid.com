@@ -1,0 +1,208 @@
+@charset "utf-8";
+
+
+
+.iScrollHorizontalScrollbar, :before, a {
+	-webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+
+.factoids li h3, .factoids li p {
+	-webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+
+line { display: block; }
+
+#timelineBox {
+	margin:0 auto;
+	width:710px;
+	height:480px;
+	background:#e0e0e0 url('/wp-content/themes/ats/images/timelineBG.jpg') center center no-repeat;
+	background-size: cover;
+	position:relative;
+	overflow:hidden;
+	cursor: ew-resize;
+	box-sizing:border-box; 
+	-moz-box-sizing:border-box;
+	margin-bottom: 20px;
+}
+#timelineBox * { box-sizing:border-box; -moz-box-sizing:border-box; }
+#timelineTitle { position: absolute; top:20px; left: 20px; z-index: 5;}
+#timelineSlider {
+	position:absolute;
+	height: 100%;
+	width:1600px;
+	
+	/* Prevent elements to be highlighted on tap */
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+
+	/* Put the scroller into the HW Compositing layer right from the start */
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.iScrollIndicator {
+	border:none !important;
+	border-radius:0 !important;
+	background-color:#000 !important;
+}
+.iScrollHorizontalScrollbar {
+	height:2px !important;
+	bottom:3px !important;
+	left:3px !important;
+	right:3px !important;
+	opacity: 0.2;
+}
+#timelineBox:hover .iScrollHorizontalScrollbar { opacity:0.5; }
+
+
+#timeline {
+	position:absolute;
+	height:70px;
+	width:100%;
+	bottom:10px;
+	left:0;
+	padding: 0 5px;
+}
+#timeline:before {
+	content:'';
+	display: block;
+	width:100%;
+	height:2px;
+	position:absolute;
+	left:0;
+	top:50%;
+	margin-top:-1px;
+	background-color:#838383;
+	z-index:2;
+	box-shadow:0 0 0 1px #e0e0e0;
+}
+.year {
+	position:relative;
+	float:left;
+	height:70px;
+	width:50px;
+	margin:10px 8px 10px 7px;
+	text-align:center;
+}
+.year a {
+	width:50px;
+	height:50px;
+	border-radius: 50%;
+	background-color: #a41c0e;
+	display: inline-block;
+	line-height: 50px;
+	color: #fff;
+	position: relative;
+	z-index: 3;
+	font-weight:800;
+	cursor: pointer;
+	box-shadow:0 0 0 1px #e0e0e0;
+	font-size: 15px;
+}
+.year a:hover { background-color: #82160b; text-decoration: none; }
+.year.active a { background-color: #000; }
+.year.empty { width:2px; text-align:center; margin:28px 8px 0 7px; }
+.year.empty a {
+	display:inline-block;
+	width:1px;
+	height:14px;
+	line-height:70px;
+	background-color:#838383;
+	border-radius:0;
+	z-index:1;
+	cursor:default;
+}
+.year.empty a span {
+	position:absolute;
+	width:16px;
+	height:10px;
+	font-size:9px;
+	font-weight:normal;
+	color:#888;
+	top:-18px;
+	left:-8px;
+	line-height: 20px;
+}
+line {
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:2px;
+	height:0;
+	background-color: #8d8d8d;
+}
+.factoids {
+	position:absolute;
+	display: table;
+	bottom:80px;
+	left:24px;
+	width:580px;
+	height:340px;
+	font-weight:normal;
+	text-align:left;
+	text-shadow: 0 0 1px #e0e0e0;
+}
+
+.factoids h3 { margin:0 0 0 0; color:rgba(0,0,0,0); line-height:22px; font-weight: bold; }
+.factoids p { margin:0; color:rgba(0,0,0,0); font-size:12px; line-height:18px; }
+.factoids .on h3 { color:rgba(0,0,0,1); }
+.factoids .on p { color:#444; }
+.factoids ul {
+	padding:0;
+	margin:0;
+	display:table-cell;
+	height:100%;
+	width:auto;
+	vertical-align:middle;
+	position: relative;
+	z-index: 5;
+}
+.factoids ul li {
+	margin:0;
+	padding:10px 20px;
+	list-style:none;
+	position: relative;
+}
+.factoids ul li:before {
+	position:absolute;
+	left:-2px;
+	top:19px;
+	width:1px;
+	height:1px;
+	content:'';
+	background-color:#a41c0e;
+	border:1px solid #a41c0e;
+	border-radius:50%;
+	box-shadow:0 0 0 0 #a41c0e, 0 0 0 3px #e0e0e0;
+	opacity:0;
+}
+.factoids ul li.on:before {
+	box-shadow:0 0 0 5px #a41c0e, 0 0 0 8px #e0e0e0;
+	opacity:1;
+}
+
+/** FLIP THE FACTOIDS **/
+.factoids.flip { left:auto; right:24px; text-align: right; }
+.factoids.flip line { left: auto; right:0; }
+.factoids.flip ul li:before { left:auto; right:-1px; }
+

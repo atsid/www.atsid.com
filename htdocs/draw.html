@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>
+		Untitled Document
+	</title>
+
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="/wp-content/themes/ats/js/jquery.lazylinepainter-1.4.1.min.js"></script>
+<script src="/wp-content/themes/ats/js/raphael-min.js"></script>
+<script>
+	
+	/* 
+ * Lazy Line Painter - Path Object 
+ * Generated using 'SVG to Lazy Line Converter'
+ * 
+ * http://lazylinepainter.info 
+ * Copyright 2013, Cam O'Connell  
+ *  
+ */ 
+ 
+/* 
+ * Lazy Line Painter - Path Object 
+ * Generated using 'SVG to Lazy Line Converter'
+ * 
+ * http://lazylinepainter.info 
+ * Copyright 2013, Cam O'Connell  
+ *  
+ */ 
+ 
+var pathObj = {
+    "test": {
+        "strokepath": [
+            {
+                "path": "M143,1v34c0,5-4,9-9,9H1V10c0-5,4-9,9-9H143 M144,0H10C4.5,0,0,4.5,0,10v35h134c5.5,0,10-4.5,10-10V0L144,0z",
+                "duration": 600
+            },
+            {
+                "path": "M301,32v34c0,5-4,9-9,9H159V41c0-5,4-9,9-9H301 M302,31H168c-5.5,0-10,4.5-10,10v35h134c5.5,0,10-4.5,10-10V31L302,31z",
+                "duration": 600
+            },
+            {
+                "path": "M182,89v34c0,5-4,9-9,9H40V98c0-5,4-9,9-9H182 M183,88H49c-5.5,0-10,4.5-10,10v35h134c5.5,0,10-4.5,10-10V88L183,88z",
+                "duration": 600
+            },
+            {
+                "path": "M263,209v34c0,5-4,9-9,9H121v-34c0-5,4-9,9-9H263 M264,208H130c-5.5,0-10,4.5-10,10v35h134c5.5,0,10-4.5,10-10V208L264,208   z",
+                "duration": 600
+            }
+        ],
+        "dimensions": {
+            "width": 302,
+            "height": 253
+        }
+    }
+}; 
+ 
+ 
+/* 
+ Setup and Paint your lazyline! 
+ */ 
+ 
+ $(document).ready(function(){ 
+ $('#test').lazylinepainter( 
+ {
+    "svgData": pathObj,
+    "strokeWidth":1,
+    "strokeColor": "#000"
+}).lazylinepainter('paint'); 
+ });
+</script>
+
+
+</head>
+<body>
+	
+
+
+
+
+<div id="test"></div>
+</body>
+</html>
