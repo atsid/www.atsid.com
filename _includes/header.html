@@ -1,11 +1,14 @@
-<header>
-  <a href="{{ site.baseurl }}/">Home</a>
-  <nav>
-    {% for page in site.pages %}
-      {% if page.title %}
-      <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-      {% endif %}
-    {% endfor %}
-  </nav>
-  <p>header.html include</p>
+<header class="page-nav">
+    <div class="container">
+        <a href="{{ site.baseurl }}/" class="logo"> <img src="images/ats-logo-sml.png" alt="ATS Logo"></a>
+        <nav>
+            <ul class="nav__menu">
+                {% for page in site.pages %}
+                  {% if page.title %}
+                  <li class="nav__link"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                  {% endif %}
+                {% endfor %}
+            </ul>
+        </nav>
+    </div>
 </header>
