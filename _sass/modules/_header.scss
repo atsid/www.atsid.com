@@ -2,7 +2,7 @@ header.page-nav {
     $dark-gray: #333 !default;
     $large-screen: em(860) !default;
     $navigation-padding: 1em;
-    $navigation-background: transparent;
+    $navigation-background: black;
     $navigation-color: transparentize(white, 0.3);
     $navigation-color-hover: white;
     $navigation-height: 60px;
@@ -13,8 +13,8 @@ header.page-nav {
     min-height: $navigation-height;
     width: 100%;
     z-index: 999;
-    padding-top: 1.5em;
-    position: absolute;
+    padding: 1em 0;
+    position: relative;
     top: 0;
 
     .logo {
