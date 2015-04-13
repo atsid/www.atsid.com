@@ -1,14 +1,16 @@
 <header class="page-nav">
     <div class="container">
-        <a href="{{ site.baseurl }}/" class="logo"> <img src="images/ats-logo-sml.png" alt="ATS Logo"></a>
+        <a href="{{ site.baseurl }}/" class="logo"> <img src="{{ site.baseurl }}/images/ats-logo-sml.png" alt="ATS Logo"></a>
         <nav>
             <ul class="nav__menu">
-                {% for page in site.pages %}
-                  {% if page.title %}
-                  <li class="nav__link"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-                  {% endif %}
-                {% endfor %}
+              {% for p in site.pages %}
+                {% if p.title %}
+                   <li class="nav__link {% if page.title == p.title %}nav__link--active{% endif %} "><a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></li>
+                 {% endif %}
+              {% endfor %}
             </ul>
         </nav>
     </div>
 </header>
+
+

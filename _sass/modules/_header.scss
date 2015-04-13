@@ -66,6 +66,10 @@ header.page-nav {
         }
     }
 
+    .nav__link--active a {
+        color: white;
+    }
+
     a {
         color: $navigation-color;
         display: inline-block;
