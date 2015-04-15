@@ -27,10 +27,7 @@ Vagrant.configure(2) do |config|
   # SSH agent forwarding
   config.ssh.forward_agent = true
 
-  # Setup ruby/git/jekyll
-  config.vm.provision :shell, :path => "provision.sh"
-
-  # Setup symmounts for node_modules
+  # Provision with salt
   config.vm.provision :salt do |salt|
     salt.minion_config = "salt/minion"
     salt.run_highstate = true
