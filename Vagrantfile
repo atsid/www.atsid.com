@@ -5,7 +5,6 @@ Vagrant.configure(2) do |config|
   # For a complete reference, please see the online documentation at
   # https://docs.vagrantup.com.
 
-  # TODO: Will consider creating tech-stack specific boxes for us later.
   config.vm.box = "ubuntu-cloud-images/trusty64"
   config.vm.box_url = "https://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box"
 
@@ -28,7 +27,10 @@ Vagrant.configure(2) do |config|
   # SSH agent forwarding
   config.ssh.forward_agent = true
 
-  # Provision with salt
+  # Setup ruby/git/jekyll
+  config.vm.provision :shell, :path => "provision.sh"
+
+  # Setup symmounts for node_modules
   config.vm.provision :salt do |salt|
     salt.minion_config = "salt/minion"
     salt.run_highstate = true
