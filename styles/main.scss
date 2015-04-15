@@ -1,11 +1,59 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
 @charset "utf-8";
 
-$base-font-family: Courier New;
+// ========================
+// Libs
+// ========================
+// Add css frameworks and libraries here. Load variable overrides first.
 
-// Import partials from `_sass`
-@import
-        "base"
-;
+@import "libs/library-variable-overrides";
+@import "libs/normalize";
+@import "libs/bourbon/bourbon";
+@import "libs/neat/neat";
+
+// ========================
+// Base
+// ========================
+
+@import "core/variables";
+@import "core/utilities";
+@import "core/base";
+@import "core/layout";
+@import "core/typography";
+
+// ========================
+// Modules
+// ========================
+// add new modules to the modules/_modules.scss file and they'll get pulled in here.
+
+@import "modules/modules";
+
+// ========================
+// Pages
+// ========================
+// Page-specific styling
+
+@import "pages/home";
+
+// ========================
+// Inbox
+// ========================
+// the inbox allows developers, and those not actively working on the project
+// to quickly add styles that are easily seen by the maintainer of the file.
+
+// ========================
+// Oh, what a shame
+// ========================
+// need to add a quick fix, hack, or questionable technique?  add it here, fix it later.
+
+// ========================
+// To Do's
+// ========================
+
+// Webfonts or Locally loaded fonts?
+// Identify & create re-useable content bits
+// Fix image mapping - ATS logo would be neat to re-draw in SVG
+// BEM-ify classes & cleanup

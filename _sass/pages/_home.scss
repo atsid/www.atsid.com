@@ -1,0 +1,113 @@
+// Introduction
+.intro {
+    @include outer-container;
+    @include fill-parent();
+
+    padding: 10em 0;
+
+    .intro__content {
+        @include span-columns(6);
+        @include clearfix;
+
+    }
+
+    .intro__stats {
+        @include span-columns(4);
+        @include shift(2);
+        @include pad(1em);
+
+        background: $light-gray;
+    }
+}
+
+// Divisions
+.divisions {
+    @include fill-parent();
+    @include clearfix;
+
+    background-color: black;
+
+    .software, .systems {
+        @include span-columns(6);
+        @include pad(10em 5em);
+
+        background: $dark-gray;
+        color: white;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+    
+    button {
+        color: white;
+        border-color: white;
+
+        &:hover {
+            background-color: white;
+            color: $dark-gray;
+        }
+    }
+}
+
+// Join
+.join {
+    @include outer-container;
+    @include fill-parent();
+
+    padding: 10em 0;
+
+    .join__content {
+        @include span-columns(6);
+        @include clearfix;
+    }
+}
+
+// Conversation
+.convo {
+
+    $convo-background: #001234;
+    $convo-image: '../images/bg-conversation.png';
+
+    @include background(url($convo-image), no-repeat scroll);
+
+    background-position: 0 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $teal;
+    color: white;
+    padding: 5em 0;
+    text-align: center;
+
+    h2 {
+        font-size: 2em;
+    }
+
+    button {
+        color: white;
+        border-color: white;
+
+        &:hover {
+            background-color: white;
+            color: $teal;
+        }
+    }
+
+    .convo__content {
+        @include outer-container;
+        @include fill-parent;
+        @include clearfix;
+
+        max-width: 50em;
+    
+        > h2 {
+            font-weight: 500;
+            margin-bottom: 0.8em;
+        }
+
+        > p {
+            font-size: 1.3em;
+        }
+
+    }
+}
