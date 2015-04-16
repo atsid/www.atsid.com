@@ -1,37 +1,121 @@
+// all heros start from somewhere...
+
 .hero {  
-    $action-color: #477DCA !default;
-    $hero-background: #001234;
+    $hero-background: $dark-gray;
     $hero-color: white;
-    $hero-image: '../images/bg-team-office.png';
 
-    @include background(url($hero-image), no-repeat scroll);
-
-    background-color:  $hero-background;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 20em 0;
+    position: relative;
 
     .hero__content {
         color: $hero-color;
         text-align: center;
+        padding: 25em 0;
         margin: auto;
         text-align: center;
+        position: relative;
 
-        h1 {
-            font-size: 1.5em;
-            margin-bottom: 0.5em;
-
-            @include media($large-screen) {
-                font-size: 2.8em;
-            }
+        // tablet view
+        @include media($tablet) {
+            padding: 15em 0;
         }
 
-        p {
-            font-weight: 300;
-            font-size: 2em;
-            line-height: 1.4em;
-            margin: 0 auto 3em auto; 
+        // mobile view
+        @include media($mobile) {
+             padding: 10em 0;
         }
     }
+
+    .hero__content--short {
+        padding: 15em 0 12em;
+    }
+    
+    .hero__title {
+        font-size: 3.5em;
+        margin-bottom: 0.5em;
+
+        // tablet view
+        @include media($tablet) {
+            font-size: 2.2em;
+        }
+
+        // mobile view
+        @include media($mobile) {
+             font-size: 1.5em;
+        }
+    }
+
+    .hero__summary {
+        font-weight: 300;
+        font-size: 2em;
+
+        // tablet view
+        @include media($tablet) {
+            font-size: 1.5em;
+        }
+
+        // mobile view
+        @include media($mobile) {
+             font-size: 1.2em;
+             font-weight: 400;
+             padding: 0 1em;
+        }
+    }
+
+
+    // effects
+    &.hero--tint:before {
+      content: '';
+      display: block;
+      position: absolute;
+      background-color: rgba(0,0,0, 0.6);
+      width: 100%;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      // z-index: 1;
+    }
+
+
+    // homepage
+    &.hero--home {
+        $hero-image: '../assets/images/bg-team-office.png';
+        
+        @include background(url($hero-image) no-repeat fixed); 
+
+        background-color:  $hero-background;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+     // about 
+    &.hero--about {
+        $hero-image: '../assets/images/bg-about.jpg';
+        
+        @include background(url($hero-image) no-repeat fixed); 
+
+        background-color:  $hero-background;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    // capabilities
+    &.hero--capabilities {
+        background: $dark-gray;
+   }
+
+    // careers
+    &.hero--careers {
+        background: teal;
+    }
+
+    // contact
+    &.hero--contact {
+        background: darken($red,25%);
+    }
+
+
 }
+

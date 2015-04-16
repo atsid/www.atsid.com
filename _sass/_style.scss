@@ -1,0 +1,176 @@
+//  BINGLES TO DO: CLEAN THIS UP
+
+// Introduction
+.intro {
+    @include outer-container;
+    @include fill-parent();
+
+    padding: 5em 2em;
+
+    .intro__content {
+        @include span-columns(6);
+        @include clearfix;
+
+        // tablet view
+        @include media($tablet) {
+            @include span-columns(8);
+
+            margin-bottom: 2em;
+        }
+
+        // mobile view
+        @include media($mobile) {
+            @include span-columns(4);
+        }
+    }
+
+    .intro__stats {
+        @include span-columns(4);
+        @include shift(2);
+        @include pad(1em);
+        @include omega;
+        
+        min-height: 20em;
+        background: lighten($light-gray,5%);
+
+        // tablet view
+        @include media($tablet) {
+            @include span-columns(8);
+            @include shift(0);
+        }
+
+        // mobile view
+        @include media($mobile) {
+            @include span-columns(4);
+        }
+    }
+}
+
+// Divisions
+.text-block--divisions {
+    @include fill-parent();
+    @include clearfix;
+
+    background-color: #131F2D;
+    
+    .software, .systems {
+        @include span-columns(6.135);
+        @include pad(10em 4em);
+
+        color: white;
+
+        > * {
+            z-index: 1;
+            position: relative;
+        }
+
+        &:before {
+          content: '';
+          display: block;
+          position: absolute;
+          background-color: rgba(19,31,45,0.75);
+          width: 100%;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          left: 0;
+        }
+
+        // mobile & tablet view
+        @include media($tablet) {
+            @include fill-parent;
+        }
+    }
+
+    .software {
+        $bg-image: '../assets/images/bg-programmer.png';
+
+        @include background(url($bg-image), no-repeat scroll);
+        @include omega;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;  
+    }
+
+    .systems {
+        $bg-image: '../assets/images/bg-ship-deck.png';
+
+        @include background(url($bg-image), no-repeat scroll);
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;  
+    }
+        
+    button {
+        color: white;
+        border-color: white;
+
+        &:hover {
+            background-color: white;
+            color: $dark-gray;
+        }
+    }
+}
+
+// Join
+.join__content {
+    padding: 10em 0;
+
+    div {
+        @include span-columns(6);
+
+        &:last-of-type {
+          position: relative;
+          top: -4em;
+        }
+    }
+}
+
+// Conversation
+.convo {
+
+    $convo-background: #001234;
+    $convo-image: '../assets/images/bg-conversation.png';
+
+    @include background(url($convo-image), no-repeat scroll);
+
+    background-position: 0 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $teal;
+    color: white;
+    padding: 5em 0;
+    text-align: center;
+
+    h2 {
+        // font-size: 2em;
+    }
+
+    button {
+        color: white;
+        border-color: white;
+
+        &:hover {
+            background-color: white;
+            color: $teal;
+        }
+    }
+
+    .convo__content {
+        @include outer-container;
+
+        max-width: 50em;
+    
+        > h2 {
+            margin-bottom: 0.8em;
+        }
+
+        > p {
+            font-size: 1.2em;
+            margin-bottom: 1.5em;
+        }
+
+    }
+}

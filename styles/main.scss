@@ -7,22 +7,22 @@
 // ========================
 // Libs
 // ========================
-// Add css frameworks and libraries here. Load variable overrides first.
+// Add css frameworks and libraries here. Load variable overrides BEFORE neat.
 
-@import "libs/library-variable-overrides";
 @import "libs/normalize";
 @import "libs/bourbon/bourbon";
+@import "libs/library-variable-overrides";
 @import "libs/neat/neat";
 
 // ========================
 // Base
 // ========================
 
-@import "core/variables";
-@import "core/utilities";
-@import "core/base";
-@import "core/layout";
 @import "core/typography";
+@import "core/variables";
+@import "core/base";
+@import "core/utilities";
+@import "core/layout";
 
 // ========================
 // Modules
@@ -32,11 +32,11 @@
 @import "modules/modules";
 
 // ========================
-// Pages
+// Generic
 // ========================
-// Page-specific styling
+// site & page-specifc
 
-@import "pages/home";
+@import "_style.scss";
 
 // ========================
 // Inbox
