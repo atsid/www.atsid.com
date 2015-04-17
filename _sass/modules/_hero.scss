@@ -81,11 +81,10 @@
     &.hero--home {
         $hero-image: '../assets/images/bg-team-office.png';
         
-        @include background(url($hero-image) no-repeat fixed); 
+        @include background(url($hero-image) no-repeat center center fixed); 
 
         background-color:  $hero-background;
         background-position: top;
-        background-repeat: no-repeat;
         background-size: cover;
     }
 

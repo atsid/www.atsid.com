@@ -25,5 +25,23 @@ permalink: /contact/
          <p> Venison landjaeger kevin chuck cow jowl. Boudin landjaeger shankle salami. Flank boudin capicola, beef landjaeger doner short ribs sirloin ribeye hamburger ham andouille venison rump. Turducken bacon strip steak venison kevin corned beef bresaola pork chop. Kevin capicola ribeye ball tip turkey, pork loin sirloin bacon drumstick shoulder rump meatloaf pig tail tongue. Chicken ham hock turducken, alcatra jerky turkey short ribs pig. Shank fatback pork tri-tip swine, pastrami short ribs kevin jowl meatball shankle drumstick.</p>
 
         <p> Spare ribs short loin tongue, prosciutto pork belly corned beef pastrami bresaola boudin pancetta swine meatloaf. Boudin hamburger beef ribs, turkey t-bone kielbasa swine flank ham pork belly corned beef short loin. Pancetta fatback shoulder jowl. Capicola ball tip shoulder salami swine jowl. Pig beef ribs short ribs ball tip pancetta jerky kielbasa salami cow shank pork loin flank.</p>
+
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+
+        <blockquote>
+          <p>Blockquote Action - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+        </blockquote>
+
+        <button>Super Button</button>
+        <button class="button--outline">Super Button</button>
+
+
+
     </article>
 </div>

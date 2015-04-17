@@ -2,7 +2,7 @@
     $dark-gray: #333 !default;
     $navigation-padding: 1em;
     $navigation-background: transparent;
-    $navigation-background-showing: rgba(0,0,0,0.8);
+    $navigation-background-showing: rgba(23, 23, 23, 0.9);
     $navigation-color: white;
     $navigation-color-hover: transparentize(white, 0.3);
     $navigation-height: 90px;
@@ -34,6 +34,8 @@
         position: absolute;
 
         img {
+            @include transition(all 0.3s ease-in-out);
+
             vertical-align: middle;
         }
     }
@@ -114,7 +116,9 @@
         height: $navigation-showing-height;
 
         .logo {
+            @include transition(all 0.3s ease-in-out);
              line-height: $navigation-showing-height;
+             max-width: 5.5em;
         }
 
         nav {
@@ -125,7 +129,6 @@
             line-height: $navigation-showing-height;
         }
         .nav__link--active {
-            border-bottom: 0;
             padding-bottom: 0;
         }
     }

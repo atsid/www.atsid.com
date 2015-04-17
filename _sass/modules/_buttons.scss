@@ -4,7 +4,7 @@ button {
     -webkit-font-smoothing: antialiased;
     background-color: $action-color;
     border-radius: $base-border-radius;
-    border: none;
+    border: 2px solid $action-color;
     color: #fff;
     cursor: pointer;
     display: inline-block;

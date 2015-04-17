@@ -1,6 +1,6 @@
-//  BINGLES TO DO: CLEAN THIS UP
+// - - - - - - - - - - - - - - - - - - -
+// - - Intro
 
-// Introduction
 .intro {
     @include outer-container;
     @include fill-parent();
@@ -10,6 +10,8 @@
     .intro__content {
         @include span-columns(6);
         @include clearfix;
+
+        padding: 0 0 0 2em;
 
         // tablet view
         @include media($tablet) {
@@ -46,8 +48,11 @@
     }
 }
 
-// Divisions
-.text-block--divisions {
+
+// - - - - - - - - - - - - - - - - - - -
+// - - Divisions
+
+.divisions {
     @include fill-parent();
     @include clearfix;
 
@@ -56,6 +61,7 @@
     .software, .systems {
         @include span-columns(6.135);
         @include pad(10em 4em);
+        margin: 0;
 
         color: white;
 
@@ -65,15 +71,21 @@
         }
 
         &:before {
-          content: '';
-          display: block;
-          position: absolute;
-          background-color: rgba(19,31,45,0.75);
-          width: 100%;
-          top: 0;
-          bottom: 0;
-          right: 0;
-          left: 0;
+            @include transition(all 0.3s ease-in-out);
+
+            content: '';
+            display: block;
+            position: absolute;
+            background-color: rgba(21, 24, 26, 0.85);
+            width: 100%;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+        }
+
+        &:hover:before {
+            background-color: rgba(16,27,38,0.55);
         }
 
         // mobile & tablet view
@@ -85,7 +97,7 @@
     .software {
         $bg-image: '../assets/images/bg-programmer.png';
 
-        @include background(url($bg-image), no-repeat scroll);
+        @include background(url($bg-image) no-repeat center center scroll);
         @include omega;
 
         background-repeat: no-repeat;
@@ -96,7 +108,7 @@
     .systems {
         $bg-image: '../assets/images/bg-ship-deck.png';
 
-        @include background(url($bg-image), no-repeat scroll);
+        @include background(url($bg-image) no-repeat center center scroll);
 
         background-repeat: no-repeat;
         background-size: cover;
@@ -114,27 +126,34 @@
     }
 }
 
-// Join
-.join__content {
-    padding: 10em 0;
+// - - - - - - - - - - - - - - - - - - -
+// - - Join Us
 
-    div {
+.join {
+    @include outer-container;
+    @include fill-parent();
+
+    padding: 5em 2em;
+
+    .join__content {
+        @include span-columns(6);
+        @include clearfix;
+    }
+
+    article:last-of-type {
         @include span-columns(6);
 
-        &:last-of-type {
-          position: relative;
-          top: -4em;
-        }
     }
 }
 
-// Conversation
+// - - - - - - - - - - - - - - - - - - -
+// - - Contact Us
 .convo {
 
     $convo-background: #001234;
     $convo-image: '../assets/images/bg-conversation.png';
 
-    @include background(url($convo-image), no-repeat scroll);
+    @include background(url($convo-image) no-repeat center center scroll);
 
     background-position: 0 35%;
     background-repeat: no-repeat;
