@@ -2,8 +2,8 @@
 layout: page
 title: Careers
 permalink: /careers/
-header: Whatever you want!
-byline: I am that super catchy byline that is also optional. You make the call.
+header: Working for ATS
+byline: "So much more than I expected"
 ---
 
 ## Careers
