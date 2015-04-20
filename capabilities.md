@@ -3,7 +3,7 @@ layout: page
 title: Capabilities
 permalink: /capabilities/
 header: Capabilities - I am an optional header
-byline: I am that super catchy byline that is also optional. You make the call.
+byline: We keep the Navy efficient, a Nuclear Plant safer and we also develop software.
 ---
 
 ## Capabilities
