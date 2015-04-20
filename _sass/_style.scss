@@ -5,13 +5,11 @@
     @include outer-container;
     @include fill-parent();
 
-    padding: 5em 2em;
+    padding: 8em 2em;
 
     .intro__content {
-        @include span-columns(6);
+        @include span-columns(7);
         @include clearfix;
-
-        padding: 0 0 0 2em;
 
         // tablet view
         @include media($tablet) {
@@ -28,7 +26,7 @@
 
     .intro__stats {
         @include span-columns(4);
-        @include shift(2);
+        @include shift(1);
         @include pad(1em);
         @include omega;
         
@@ -133,16 +131,18 @@
     @include outer-container;
     @include fill-parent();
 
-    padding: 5em 2em;
+    padding: 8em 2em;
 
     .join__content {
-        @include span-columns(6);
+        @include span-columns(7);
         @include clearfix;
     }
 
     article:last-of-type {
-        @include span-columns(6);
-
+        @include span-columns(5);
+        
+        position: relative;
+        top: -3em;
     }
 }
 
@@ -162,10 +162,6 @@
     color: white;
     padding: 5em 0;
     text-align: center;
-
-    h2 {
-        // font-size: 2em;
-    }
 
     button {
         color: white;

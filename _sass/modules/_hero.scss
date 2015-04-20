@@ -44,7 +44,7 @@
         }
     }
 
-    .hero__summary {
+    .hero__byline {
         font-weight: 300;
         font-size: 2em;
 
@@ -93,6 +93,7 @@
         $hero-image: '../assets/images/bg-about.jpg';
         
         @include background(url($hero-image) no-repeat fixed); 
+        @extend .hero--tint;
 
         background-color:  $hero-background;
         background-position: top;

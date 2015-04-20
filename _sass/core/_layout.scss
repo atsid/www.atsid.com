@@ -2,7 +2,8 @@
 
 .container {
     @include clearfix;
-    @include pad(0);
+    @include pad(6em 2em);
+    @include outer-container;
 }
 
 .container-content {

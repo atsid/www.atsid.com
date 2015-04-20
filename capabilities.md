@@ -2,28 +2,17 @@
 layout: page
 title: Capabilities
 permalink: /capabilities/
+header: Capabilities - I am an optional header
+byline: I am that super catchy byline that is also optional. You make the call.
 ---
 
-<article class="hero hero--capabilities">
-    <div class="hero__content hero__content--short">
-        <p class="hero__summary">Capabilities - Another one of those catchy headings goes here.</p>    
-    </div>
-</article>
+## Capabilities
+Ullamco quis ham hock ground round incididunt occaecat dolore turkey, enim nisi shoulder salami. Commodo jowl tail biltong, fugiat ball tip dolore. Boudin ut ullamco labore non in alcatra. Culpa aliqua bresaola, enim pastrami exercitation excepteur. Landjaeger in tri-tip, est et shankle boudin turkey. Ball tip rump aliqua filet mignon strip steak chuck cillum anim commodo tempor est alcatra flank.
 
-<div class="container-content">
-    <article class="text-block text-block--history">
-        <h2 class="text-block__title">Capabilities</h2>
-        <p>Bacon ipsum dolor amet t-bone short ribs pork loin tri-tip kielbasa tenderloin filet mignon jowl porchetta. Bacon strip steak leberkas, jowl venison chuck salami drumstick. Andouille picanha meatloaf salami, venison t-bone pig shankle bresaola turducken prosciutto meatball tenderloin shank short loin. Shank kielbasa landjaeger beef, ground round jowl jerky. Pork belly kevin salami brisket, tongue alcatra ham ribeye ham hock cupim sirloin cow boudin. </p>
-    </article>
+Elit in biltong prosciutto, landjaeger ut cupim pancetta strip steak. Frankfurter dolore ullamco landjaeger. Beef ribs turducken pig officia sirloin, beef cupim pastrami dolor aliquip esse sausage consequat sint. Commodo ea pastrami, shank ground round dolor mollit esse corned beef sint beef ribs bresaola. Dolore shank meatball beef. Cupidatat nisi exercitation adipisicing dolore cillum rump lorem doner. Adipisicing meatball tenderloin spare ribs capicola jerky dolore veniam landjaeger cillum strip steak ea bacon.
 
-     <article class="text-block text-block--history">
-        <h2 class="text-block__title">Section Heading</h2>
-        <p> Bacon ipsum dolor amet t-bone short ribs pork loin tri-tip kielbasa tenderloin filet mignon jowl porchetta. Bacon strip steak leberkas, jowl venison chuck salami drumstick. Andouille picanha meatloaf salami, venison t-bone pig shankle bresaola turducken prosciutto meatball tenderloin shank short loin. Shank kielbasa landjaeger beef, ground round jowl jerky. Pork belly kevin salami brisket, tongue alcatra ham ribeye ham hock cupim sirloin cow boudin. </p>
+Velit occaecat ea rump, turducken laborum drumstick tenderloin beef ribs. Sed et enim, turkey irure meatloaf cow kevin venison pork loin. Ullamco pork chop id short loin, duis drumstick non hamburger boudin shoulder ipsum consequat. Consectetur cupim tongue chuck. Pariatur esse magna bresaola ball tip tail enim, mollit frankfurter commodo sunt ribeye.
 
-        <p>Shank hamburger kielbasa andouille, venison sirloin bacon spare ribs kevin meatloaf pork loin drumstick picanha. Swine turducken tenderloin bresaola doner boudin cow. Ball tip jerky salami cupim, ham hock porchetta meatloaf t-bone ribeye sirloin doner short loin fatback beef ribs andouille. Landjaeger porchetta biltong ground round.</p>
+Dolore ut short ribs aliqua, eiusmod short loin strip steak beef. Hamburger spare ribs pork chop jowl. Pastrami tempor landjaeger cillum porchetta labore, dolore tongue reprehenderit rump duis beef. Shankle ut ribeye ground round. Eu chicken nulla, eiusmod drumstick esse shankle. Qui magna voluptate, incididunt lorem shankle sunt elit fatback andouille ea cupidatat aliquip.
 
-         <p> Venison landjaeger kevin chuck cow jowl. Boudin landjaeger shankle salami. Flank boudin capicola, beef landjaeger doner short ribs sirloin ribeye hamburger ham andouille venison rump. Turducken bacon strip steak venison kevin corned beef bresaola pork chop. Kevin capicola ribeye ball tip turkey, pork loin sirloin bacon drumstick shoulder rump meatloaf pig tail tongue. Chicken ham hock turducken, alcatra jerky turkey short ribs pig. Shank fatback pork tri-tip swine, pastrami short ribs kevin jowl meatball shankle drumstick.</p>
-
-        <p> Spare ribs short loin tongue, prosciutto pork belly corned beef pastrami bresaola boudin pancetta swine meatloaf. Boudin hamburger beef ribs, turkey t-bone kielbasa swine flank ham pork belly corned beef short loin. Pancetta fatback shoulder jowl. Capicola ball tip shoulder salami swine jowl. Pig beef ribs short ribs ball tip pancetta jerky kielbasa salami cow shank pork loin flank.</p>
-    </article>
-</div>
+Ex beef dolore ullamco, kevin kielbasa id capicola. Ribeye ball tip biltong turkey. Beef ribeye brisket sed frankfurter. Ground round duis venison sausage, picanha sirloin proident doner beef ribs in ut. Sunt commodo shankle, ut sed salami culpa cillum pork loin sirloin. Ut swine incididunt dolore sunt drumstick do ullamco pork chop tenderloin elit. T-bone consequat aute pancetta et ground round.
