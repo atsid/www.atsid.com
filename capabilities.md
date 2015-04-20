@@ -7,12 +7,7 @@ byline: I am that super catchy byline that is also optional. You make the call.
 ---
 
 ## Capabilities
-Ullamco quis ham hock ground round incididunt occaecat dolore turkey, enim nisi shoulder salami. Commodo jowl tail biltong, fugiat ball tip dolore. Boudin ut ullamco labore non in alcatra. Culpa aliqua bresaola, enim pastrami exercitation excepteur. Landjaeger in tri-tip, est et shankle boudin turkey. Ball tip rump aliqua filet mignon strip steak chuck cillum anim commodo tempor est alcatra flank.
 
-Elit in biltong prosciutto, landjaeger ut cupim pancetta strip steak. Frankfurter dolore ullamco landjaeger. Beef ribs turducken pig officia sirloin, beef cupim pastrami dolor aliquip esse sausage consequat sint. Commodo ea pastrami, shank ground round dolor mollit esse corned beef sint beef ribs bresaola. Dolore shank meatball beef. Cupidatat nisi exercitation adipisicing dolore cillum rump lorem doner. Adipisicing meatball tenderloin spare ribs capicola jerky dolore veniam landjaeger cillum strip steak ea bacon.
+Whether it is assisting the U.S. Patent and Trademark Office in streamlining the patent examination process through improved tools for examiners, or assisting the U.S. Army Intelligence and Security Command in connecting disparate data sources, our first-class team of software developers, designers, and business analysts are experienced in collaborating with customers to understand their needs and delivering agile solutions to meet their challenges.
 
-Velit occaecat ea rump, turducken laborum drumstick tenderloin beef ribs. Sed et enim, turkey irure meatloaf cow kevin venison pork loin. Ullamco pork chop id short loin, duis drumstick non hamburger boudin shoulder ipsum consequat. Consectetur cupim tongue chuck. Pariatur esse magna bresaola ball tip tail enim, mollit frankfurter commodo sunt ribeye.
-
-Dolore ut short ribs aliqua, eiusmod short loin strip steak beef. Hamburger spare ribs pork chop jowl. Pastrami tempor landjaeger cillum porchetta labore, dolore tongue reprehenderit rump duis beef. Shankle ut ribeye ground round. Eu chicken nulla, eiusmod drumstick esse shankle. Qui magna voluptate, incididunt lorem shankle sunt elit fatback andouille ea cupidatat aliquip.
-
-Ex beef dolore ullamco, kevin kielbasa id capicola. Ribeye ball tip biltong turkey. Beef ribeye brisket sed frankfurter. Ground round duis venison sausage, picanha sirloin proident doner beef ribs in ut. Sunt commodo shankle, ut sed salami culpa cillum pork loin sirloin. Ut swine incididunt dolore sunt drumstick do ullamco pork chop tenderloin elit. T-bone consequat aute pancetta et ground round.
+Learn more about [ATS Software Developement](https://http://labs.atsid.com/www.atsid.com/capabilities/software-development.md) or [ATS Maintenance Support](https://http://labs.atsid.com/www.atsid.com/capabilities/maintenance-support.md).
