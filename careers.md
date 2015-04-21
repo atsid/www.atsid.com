@@ -33,7 +33,7 @@ We have physical offices at the following locations, but don’t let that limit 
 Interested in joining us, but not sure where to start? We've got you covered. Check out our openings to learn more about opportunities to do cool stuff that matters.
 
 
-Department | Position | Title | City | State	 
+Department | Position, Title | City | State	 
  	Systems Engineering | Software Engineer - Java (Cloud Computing) | Alexandria | VA	 
  	Systems Engineering | Software Engineer - JavaScript | Alexandria | VA	 
  	Systems Engineering | UI/UX Designer | Alexandria | VA	 
