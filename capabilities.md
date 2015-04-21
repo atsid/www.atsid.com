@@ -2,8 +2,8 @@
 layout: page
 title: Capabilities
 permalink: /capabilities/
-header: Capabilities - I am an optional header
-byline: We keep the Navy efficient, a Nuclear Plant safer and we also develop software.
+header: What do you do?
+byline: ATS does a lot. We keep the Navy efficient, a Nuclear Plant safer and we also develop software.
 ---
 
 ## Capabilities
