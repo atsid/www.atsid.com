@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Careers
-permalink: /careers/
-header: East or West Coast?
-byline: "So much more than I expected"
+title: Locations
+permalink: /locations/
+header: East or West Coast
+byline: So much more than I expected
 ---
 
 ## Locations
