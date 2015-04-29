@@ -3,7 +3,7 @@ layout: default
 ---
 <article class="hero hero--{{ page.title | downcase }}">
     <div class="hero__content hero__content--short">
-        {% if page.header %}<h2>{{ page.header }}</h2>{% endif %}
+        {% if page.header %}<h2 class="hero__title">{{ page.header }}</h2>{% endif %}
         {% if page.byline %}<p class="hero__byline">{{ page.byline }}</p>{% endif %}
     </div>
 </article>
