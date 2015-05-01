@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Maintenance Support
-permalink: /maintenance support/
+permalink: /maintenance.support/
 exclude_from_nav: true
 ---
 
