@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Careers
+title: Locations
 permalink: /careers/
 header: East or West Coast?
-byline: "So much more than I expected"
+byline: "Serveral Convenient Locations"
 ---
 
 ## Locations
