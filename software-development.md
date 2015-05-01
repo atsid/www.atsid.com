@@ -1,7 +1,11 @@
 ---
 layout: page
 title: Software Development
-permalink: /software.development/
+<<<<<<< HEAD
+permalink: /software-development/
+=======
+permalink: /software-development/
+>>>>>>> origin/gh-pages
 exclude_from_nav: true
 ---
 
@@ -12,7 +16,7 @@ Whether it is assisting the U.S. Patent and Trademark Office in streamlining the
 ### Solution Development
 We begin any solution development project with a Discovery phase, conducting User Research with your staff or potential users to discover the context in which your end users live and work and the methods and processes they use today. ATS uses these insights to collaboratively design solutions that help your users accomplish their goals simply and intuitively.
 
-![alt text](http://labs.atsid.com/www.atsid.com/images/data-diagram.png "Data to Decisions")
+!["Data to Decisions"]({{site.baseurl}}/assets/images/data.diagram.png)
 
 These insights feed an iterative development and delivery lifecycle prioritized to get useful capabilities in the hands of users as rapidly as possible. We iterate quickly through four steps engineered to maximize learning:
 Design: Through a User-Centered Design process, we develop prototype User Interfaces (UI) and review early designs with end users to rapidly identify workflows and overall User Experiences (UX) that satisfy and delight our users. We refine and improve upon designs as we learn more about the users themselves.

@@ -1,9 +1,15 @@
 ---
 layout: page
 title: Locations
+<<<<<<< HEAD
 permalink: /careers/
 header: East or West Coast?
 byline: "Serveral Convenient Locations"
+=======
+permalink: /locations/
+header: East or West Coast
+byline: So much more than I expected
+>>>>>>> origin/gh-pages
 ---
 
 ## Locations

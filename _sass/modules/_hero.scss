@@ -4,6 +4,9 @@
     $hero-background: $dark-gray;
     $hero-color: white;
 
+    background: $hero-background;
+    color: $hero-color;
+
     position: relative;
 
     .hero__content {
@@ -27,6 +30,10 @@
 
     .hero__content--short {
         padding: 15em 0 12em;
+
+        .hero__title {
+            font-size: 2em;
+        }
     }
     
     .hero__title {
@@ -47,6 +54,9 @@
     .hero__byline {
         font-weight: 300;
         font-size: 2em;
+        max-width: 25em;
+        margin: auto;
+        line-height: 1.4;
 
         // tablet view
         @include media($tablet) {
@@ -115,7 +125,6 @@
     &.hero--contact {
         background: darken($red,25%);
     }
-
 
 }
 
