@@ -1,11 +1,7 @@
 ---
 layout: page
 title: Software Development
-<<<<<<< HEAD
 permalink: /software-development/
-=======
-permalink: /software-development/
->>>>>>> origin/gh-pages
 exclude_from_nav: true
 ---
 
