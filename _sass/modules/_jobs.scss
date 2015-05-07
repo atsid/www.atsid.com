@@ -1,0 +1,122 @@
+.careers-grid {
+    margin: 0 -10px;
+    @include clearfix;
+
+    > .careers-grid__cell {
+        float: left;
+        width: 100%;
+        padding: 0 10px 20px 10px;
+    }
+
+    > .careers-grid__cell--2 {
+        float: left;
+        width: 50%;
+        padding: 0 10px 20px 10px;
+    }
+
+    .careers__image {
+        height: 100%;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        &.rect::after {
+            content: "";
+            display: block;
+            padding-top: calc(50% - 10px);
+        }
+
+        &.square::after {
+            content: "";
+            display: block;
+            padding-top: 100%;
+        }
+    }
+}
+
+.careers-photos {
+    margin: 2em 0 0 0;
+}
+
+.container__careers {
+    text-align: center;
+    h3 {
+        color: $base-header-font-color;
+        margin-top: 2em;
+        &:first-of-type {
+            margin-top: 0;
+        }
+    }
+}
+
+.jobs {
+    
+    max-width: 500px;
+    margin: 1.5em auto;
+    text-align: left;
+
+    .jobs__loading {
+        text-align: center;
+    }
+
+    .jobs__department {
+        display: none;
+        margin-top: 1.5em;
+
+        &.active {
+            display: block;
+        }
+    }
+
+    .jobs__tabs {
+        text-align: center;
+        border-bottom: 1px solid $light-gray;
+    }
+
+    .jobs__tabs__tab {
+        cursor: pointer;
+        display: inline-block;
+        text-transform: uppercase;
+        padding: 8px 12px;
+        margin: 0 6px;
+        font-weight: 700;
+        font-size: .86em;
+        color: #707070;
+
+        &:hover {
+            color: #444;
+        }
+
+        &.active {
+            color: $action-color;
+            position: relative;
+
+            &::after {
+                content: "";
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                width: 0; 
+                height: 0; 
+                border-left: 7px solid transparent;
+                border-right: 7px solid transparent;
+                border-top: 7px solid $light-gray;
+                margin-left: -7px;
+            }
+        }
+    }
+
+    .jobs__department__title {
+        font-weight: 600;
+    }
+
+    .jobs__item {
+        padding: .25em 0;
+    }
+
+    .jobs__item__location {
+        float: right;
+        color: #999;
+    }
+
+}
+
