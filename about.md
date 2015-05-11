@@ -2,11 +2,8 @@
 layout: page
 title: About
 permalink: /about/
-byline: I am that super catchy byline that is also optional. You make the call.
+byline: Our mission is to improve our clients' organization through integrated access to accurate information.
 ---
-
-## Mission
-Our mission is to improve our clients' organization through integrated access to accurate information.
 
 ## History
 ATS was founded on a commitment to service by CEO Rick Leenstra after his retirement from the U.S. Navy in 1980. Since then, ATS has continued to deliver innovative technology solutions to our private and government clients.
