@@ -179,6 +179,7 @@
         max-width: 50em;
     
         > h2 {
+            color: white;
             margin-bottom: 0.8em;
         }
 
@@ -213,8 +214,9 @@
     background-color: $dark-gray;
     h2 {
         color: #fff;
-        text-align: center;
         font-weight: 300;
         margin: 0;
+        text-align: center;
+        line-height: $base-line-height - 0.5;
     }
 }

@@ -32,11 +32,13 @@
         padding: 15em 0 12em;
 
         .hero__title {
+            color: white;
             font-size: 2em;
         }
     }
     
     .hero__title {
+        color: white;
         font-size: 3.5em;
         margin-bottom: 0.5em;
 
@@ -71,6 +73,14 @@
         }
     }
 
+     .hero__summary {
+        font-weight: 300;
+        font-size: 1.4em;
+        max-width: 38em;
+        margin: auto;
+        line-height: 1.6;
+    }
+
 
     // effects
     &.hero--tint:before {
@@ -100,10 +110,10 @@
 
      // about 
     &.hero--about {
-        $hero-image: '../assets/images/bg-about.jpg';
+        $hero-image: '../assets/images/bg-busy-sidewalk.png';
         
         @include background(url($hero-image) no-repeat fixed); 
-        @extend .hero--tint;
+        // @extend .hero--tint;
 
         background-color:  $hero-background;
         background-position: top;

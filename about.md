@@ -7,13 +7,13 @@ permalink: /about/
 <article class="hero hero--about">
     <div class="hero__content hero__content--short">
         <h2 class="hero__title">Fueled by passion. Driven to solutions. </h2>
-        <p class="hero__summary">We believe in championing unique software solutions to help your business thrive. We've done this by building a team of passionate, curious, and talented people to work with you one on one to find the best possible solution to suit your needs.</p>    
+        <p class="hero__summary">We believe in championing unique software solutions to help your business <strong>thrive</strong>. We've done this by building a team of <strong>passionate</strong>, <strong>curious</strong>, and <strong>talented</strong> people to work with you one on one to find the <strong>best possible solution</strong> to suit your needs.</p>    
     </div>
 </article>
 
 <section class="about-container">
     <article>
-        <h2>OUR MISSION</h2>
+        <h2>Our Mission</h2>
         <h4>Value our clients, put people first</h4>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat, sem id ullamcorper dapibus, mauris arcu consectetur sapien, nec rhoncus felis arcu posuere magna
