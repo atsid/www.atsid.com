@@ -189,3 +189,32 @@
 
     }
 }
+
+// - - - - - - - - - - - - - - - - - - -
+// - - About Us
+
+.about-container {
+    @include outer-container;
+    @include fill-parent();
+
+    padding: 8em 2em;
+
+    article:first-of-type {
+        @include span-columns(6);
+        @include clearfix;
+    }
+
+    article:last-of-type {
+        @include span-columns(6);
+    }
+}
+
+.about-inverse {
+    background-color: $dark-gray;
+    h2 {
+        color: #fff;
+        text-align: center;
+        font-weight: 300;
+        margin: 0;
+    }
+}
