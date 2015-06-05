@@ -236,10 +236,10 @@
         }
     }
 
-    article.history {
-        @include span-columns(12);
-        @include columns(2);
-    }
+    // article.history {
+    //     @include span-columns(6);
+    //     // @include columns(2);
+    // }
 }
 
 .about-inverse {

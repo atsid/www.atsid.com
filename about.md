@@ -41,12 +41,17 @@ permalink: /about/
 <section class="about-container">
     <h3>HISTORY</h3>
     <h2>Our long story, short.</h2>
-    <article class="history">
+    <article>
         <p>
            In 1980, ATS was founded by Rick Leenstra upon his retirement from the Navy. While in the Navy, he saw that there was no way to retrieve and store essential data. So he worked to develop CCM (Contiguous Connection Model) technology to simplify rapid information retrieval, enhance data navigation and visualization, and promote knowledge discovery. Before XML became a de facto standard, this patented technology was considered revolutionary for its time. 
        </p>
        <p>
-            Today, as a service-disabled veteran-owned business, ATS continues to build user-focused solutions for clients and ourselves. In the last 35 years, we’ve remained a trustworthy resource for the Navy as well as cultivated new relationships with the United States Patents & Trademarks Office, United States Army Intelligence and Security Command (INSCOM), and NAVSEA NSWC Crane Division. By embracing iterative methodologies, we make it our responsibility to implement the best possible product. With each day, we continue to raise the standards for ourselves.
+            Today, as a service-disabled veteran-owned business, ATS continues to build user-focused solutions for clients and ourselves. In the last 35 years, we’ve remained a trustworthy resource for the Navy as well as cultivated new relationships with the United States Patents & Trademarks Office, United States Army Intelligence and 
+        </p>
+    </article>
+    <article>
+        <p>
+            Security Command (INSCOM), and NAVSEA NSWC Crane Division. By embracing iterative methodologies, we make it our responsibility to implement the best possible product. With each day, we continue to raise the standards for ourselves.
         </p>
         <p>
             As ATS continues to grow, we look forward to working with our existing and future clients for more dynamic solutions. We are always ready for new opportunities to collaborate on something strong, maintainable, and elegant. By building solid and honest relationships, we foster work environments that push people to do their very best. Our relationships with our customers allow us to gain a deep understanding to transfer innovative solutions to areas of their business not originally envisioned. We are fueled by this passion.
