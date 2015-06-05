@@ -14,11 +14,11 @@ permalink: /about/
 <section class="about-container">
     <article>
         <h2>Our Mission</h2>
-        <h4>Value our clients, put people first</h4>
+        <h4>Value our clients, put people first.</h4>
         <p>
             Our focus is to support and understand what drives you. We do this by eliminating the background noise to discover new answers.
         </p>
-        <h4>Challenge each other to do our best</h4>
+        <h4>Challenge each other to do our best.</h4>
         <p>
             Obstacles are no match when we collaborate, learn, and have fun together - pushing each other to new and interesting frontiers.
         </p>
