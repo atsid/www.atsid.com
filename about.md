@@ -16,15 +16,15 @@ permalink: /about/
         <h2>Our Mission</h2>
         <h4>Value our clients, put people first</h4>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat, sem id ullamcorper dapibus, mauris arcu consectetur sapien, nec rhoncus felis arcu posuere magna
+            Our focus is to support and understand what drives you. We do this by eliminating the background noise to discover new answers.
         </p>
         <h4>Challenge each other to do our best</h4>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat, sem id ullamcorper dapibus, mauris arcu consectetur sapien, nec rhoncus felis arcu posuere magna
+            Obstacles are no match when we collaborate, learn, and having fun together - pushing each other to new and interesting frontiers.
         </p>
-        <h4>Build products to help people live better.</h4>
+        <h4>Build solutions to help people live better.</h4>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat, sem id ullamcorper dapibus, mauris arcu consectetur sapien, nec rhoncus felis arcu posuere magna
+            We create lasting waves that simplify your work, both today and in the future, so you can get away from your desk and back into the action.
         </p>
     </article>
     <article>
