@@ -20,7 +20,7 @@ permalink: /about/
         </p>
         <h4>Challenge each other to do our best</h4>
         <p>
-            Obstacles are no match when we collaborate, learn, and having fun together - pushing each other to new and interesting frontiers.
+            Obstacles are no match when we collaborate, learn, and have fun together - pushing each other to new and interesting frontiers.
         </p>
         <h4>Build solutions to help people live better.</h4>
         <p>
