@@ -28,7 +28,7 @@ permalink: /about/
         </p>
     </article>
     <article>
-        <img src="{{ site.baseurl }}/assets/images/couch-people.png" alt="Beware of the couch people">
+        <img src="{{ site.baseurl }}/assets/images/about-1.jpg" alt="We love our clients. Not like that crazy kind of love, but don't ever leave us...or we'll find you.">
     </article>
 </section>
 
@@ -39,7 +39,7 @@ permalink: /about/
 </section>
 
 <section class="about-container">
-    <h4>HISTORY</h4>
+    <h3>HISTORY</h3>
     <h2>Our long story, short.</h2>
     <article>
         <p>
