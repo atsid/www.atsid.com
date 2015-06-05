@@ -229,11 +229,16 @@
         @include span-columns(6);
     }
 
-    p {
+    &:first-of-type p {
         margin-bottom: 3.5em;
         &:last-of-type {
             margin-bottom: 0;
         }
+    }
+
+    article.history {
+        @include span-columns(12);
+        @include columns(2);
     }
 }
 
