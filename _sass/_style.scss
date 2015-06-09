@@ -136,6 +136,17 @@
     .join__content {
         @include span-columns(7);
         @include clearfix;
+
+        // tablet view
+        @include media($tablet) {
+            @include span-columns(8);
+            // min-height: 16em;
+        }
+
+        // mobile view
+        @include media($mobile) {
+            @include span-columns(4);
+        }
     }
 
     article:last-of-type {
@@ -143,6 +154,20 @@
         
         position: relative;
         top: -3em;
+
+        // tablet  view
+        @include media($tablet) {
+            img {
+                display: none;
+            }
+         }
+
+        // mobile view
+        @include media($mobile) {
+            img {
+                display: none;
+            }
+         }
     }
 }
 
@@ -229,17 +254,34 @@
         @include span-columns(6);
     }
 
+    article:first-of-type, article:last-of-type {
+        
+        // tablet view
+        @include media($tablet) {
+            @include span-columns(8);
+            // min-height: 16em;
+
+            img {
+                display: none;
+            }
+        }
+
+        // mobile view
+        @include media($mobile) {
+            @include span-columns(4);
+
+            img {
+                display: none;
+            }
+        }
+     }
+
     &:first-of-type p {
         margin-bottom: 3.5em;
         &:last-of-type {
             margin-bottom: 0;
         }
     }
-
-    // article.history {
-    //     @include span-columns(6);
-    //     // @include columns(2);
-    // }
 }
 
 .about-inverse {
