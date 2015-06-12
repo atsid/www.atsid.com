@@ -294,3 +294,48 @@
         line-height: $base-line-height - 0.5;
     }
 }
+
+// - - - - - - - - - - - - - - - - - - -
+// - - Capabilities
+
+.capabilities-intro {
+    @include outer-container;
+    @include fill-parent();
+    text-align: center;
+    padding: 8em 2em;
+}
+
+.capabilities-container {
+    @include outer-container;
+    @include fill-parent();
+    padding: 8em 2em;
+}
+
+.capabilities-inverse {
+    background-color: #f1f1f1;
+}
+
+.capabilities-msg {
+    @extend .capabilities-container;
+
+    article:first-of-type {
+        @include span-columns(7);
+        @include clearfix;
+    }
+
+    article:last-of-type {
+        @include span-columns(5);
+    }
+}
+
+.capabilities-software {
+    @extend .capabilities-container;
+    article:first-of-type {
+        @include span-columns(5);
+        @include clearfix;
+    }
+
+    article:last-of-type {
+        @include span-columns(7);
+    }
+}
