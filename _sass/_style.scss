@@ -326,6 +326,10 @@
     article:last-of-type {
         @include span-columns(5);
     }
+
+    img {
+        @include pad(0 0 0 6em);
+    }
 }
 
 .capabilities-software {

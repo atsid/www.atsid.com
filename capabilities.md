@@ -4,7 +4,7 @@ title: Capabilities
 permalink: /capabilities/
 
 ---
-<article class="hero hero--about">
+<article class="hero hero--capabilities">
     <div class="hero__content hero__content--short">
         <h2 class="hero__title">What does ATS do?</h2>
         <p class="hero__summary">ATS does a lot. We keep the Navy efficient, make nuclear plants safer, and develop cutting edge solutions to allow our customers to work better.</p>    
@@ -21,7 +21,7 @@ permalink: /capabilities/
 <div class="capabilities-inverse">
     <section class="capabilities-software">
         <article class="">
-            <img src="{{ site.baseurl }}/assets/images/about-1.jpg" alt="We love our clients. Not like that crazy kind of love, but don't ever leave us...or we'll find you.">
+            <img src="{{ site.baseurl }}/assets/images/icon-software-dev.png" alt="Agile Software Development">
         </article>
         <article class="">
             <h2>Agile Software Development</h2>
@@ -38,7 +38,7 @@ permalink: /capabilities/
         <button class="button--outline">Learn more</button>
     </article>
     <article>
-        <img src="{{ site.baseurl }}/assets/images/about-1.jpg" alt="We love our clients. Not like that crazy kind of love, but don't ever leave us...or we'll find you.">
+        <img src="{{ site.baseurl }}/assets/images/icon-msg.png" alt="Logistics and Maintenance Support">
     </article>
 </section>
 
