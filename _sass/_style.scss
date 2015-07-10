@@ -428,6 +428,37 @@
     padding: 8em 2em;
 }
 
+.contact-information {
+    @include clearfix;
+    margin: 0 0 5em 0;
+
+    a {
+        font-weight: 600;
+    }
+
+    > div:first-of-type {
+        @include span-columns(6);
+
+        > .mail-link {
+            > .mail-icon {
+                width: 35px;
+                height: 35px;
+                border: 2px solid $blue;
+                border-radius: 100px;
+                float: left;
+                text-align: center;
+            }
+            > a {
+                margin-left: 10px;
+            }
+        }
+    }
+
+    > div:last-of-type {
+        @include span-columns(6);
+    }
+}
+
 .contact-locations {
     > h3 {
         color: $red;
@@ -448,7 +479,7 @@
 
     > .location-list__item__photo {
         position: relative;
-        margin-bottom: 1em;
+        margin-bottom: 2em;
 
         > img {
             display: block;
