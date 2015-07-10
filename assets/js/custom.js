@@ -3,19 +3,23 @@
 {% include_relative classie.js %}
 {% include_relative jsonp.js %}
 
-function init() {
-    window.addEventListener('scroll', function(e) {
-        var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-            showOn = 100,
-            header = document.querySelector("header");
-        if (distanceY > showOn) {
-            classie.add(header, "page_nav--showing");
-        } else {
-            if (classie.has(header, "page_nav--showing")) {
-                classie.remove(header, "page_nav--showing");
-            }
+function checkAndUpdateHeader(e) {
+    var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+        showOn = 100,
+        header = document.querySelector("header");
+    if (distanceY > showOn) {
+        classie.add(header, "page_nav--showing");
+    } else {
+        if (classie.has(header, "page_nav--showing")) {
+            classie.remove(header, "page_nav--showing");
         }
-    });
+    }
+}
+
+function init() {
+    window.addEventListener('scroll', checkAndUpdateHeader);
+    window.addEventListener('resize', checkAndUpdateHeader);
+    checkAndUpdateHeader();
 
     var cont = document.getElementById('jobs');
     if (cont) {
