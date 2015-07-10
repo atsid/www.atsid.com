@@ -355,6 +355,9 @@
     background: #f1f1f1;
 }
 
+// - - - - - - - - - - - - - - - - - - -
+// - - Maintenance Support
+
 .msg-intro {
     background: #1f2022;
     margin: 0 -4em 4em -4em;
@@ -389,6 +392,13 @@
 
     > article:last-of-type {
         @include span-columns(5);
+
+        // BINGLES TO DO: Rremove once icons are ready
+        background: $light-gray;
+        margin-left: 10rem;
+        width: 10rem;
+        height: 10rem;
+        border-radius: 999rem;
     }
 }
 

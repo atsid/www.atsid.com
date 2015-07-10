@@ -6,7 +6,6 @@
 
     background: $hero-background;
     color: $hero-color;
-
     position: relative;
 
     .hero__content {
@@ -96,7 +95,6 @@
       // z-index: 1;
     }
 
-
     // homepage
     &.hero--home {
         $hero-image: '../assets/images/bg-team-office.png';
@@ -113,7 +111,7 @@
         $hero-image: '../assets/images/bg-busy-sidewalk.png';
         
         @include background(url($hero-image) no-repeat fixed); 
-        // @extend .hero--tint;
+        // @extend .hero--home;
 
         background-color:  $hero-background;
         background-position: top;
@@ -132,6 +130,27 @@
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
+   }
+
+    // MSG
+    &.hero--msg {
+        $hero-image: '../assets/images/bg-carrier.png';
+        
+        @include background(url($hero-image) no-repeat fixed); 
+        // @extend .hero--tint;
+
+        background-color:  $hero-background;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 36rem;
+
+        h2 {
+            font-weight: 300;
+        }
+        strong {
+            color: $chartreuse;
+        }
    }
 
     // careers
