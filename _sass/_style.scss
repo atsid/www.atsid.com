@@ -347,7 +347,8 @@
 .msg-container {
     @include outer-container;
     @include fill-parent();
-    margin-top: -80px;
+    margin-top: -5em;
+    margin-bottom: 6em;
     z-index: 1;
     position: relative;
     padding: 0 4em;
