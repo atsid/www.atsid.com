@@ -8,3 +8,58 @@ url: https://atsid.github.io
 
 # Build settings
 markdown: kramdown
+
+
+locations:
+  west: 
+    - name: Silverdale Corporate
+      addressLine1: 3505 NW Anderson Hill Rd., Suite 200
+      addressLine2: Silverdale, WA 98383
+      phone: 360.698.7100
+      fax: 360.698.7200
+      email: ats.silverdale@atsid.com
+      photo: /assets/images/icon-software-dev.png
+    - name: Bayshore
+      addressLine1: 3505 NW Anderson Hill Rd., Suite 200
+      addressLine2: Silverdale, WA 98383
+      phone: 360.698.7100
+      fax: 360.698.7200
+      email: ats.silverdale@atsid.com
+      photo: /assets/images/icon-software-dev.png
+  east: 
+    - name: Alexandria
+      addressLine1: 3505 NW Anderson Hill Rd., Suite 200
+      addressLine2: Silverdale, WA 98383
+      phone: 360.698.7100
+      fax: 360.698.7200
+      email: ats.silverdale@atsid.com
+      photo: /assets/images/icon-software-dev.png
+    - name: Jamieson
+      addressLine1: 3505 NW Anderson Hill Rd., Suite 200
+      addressLine2: Silverdale, WA 98383
+      phone: 360.698.7100
+      fax: 360.698.7200
+      email: ats.silverdale@atsid.com
+      photo: /assets/images/icon-software-dev.png
+    - name: Suffolk
+      addressLine1: 3505 NW Anderson Hill Rd., Suite 200
+      addressLine2: Silverdale, WA 98383
+      phone: 360.698.7100
+      fax: 360.698.7200
+      email: ats.silverdale@atsid.com
+      photo: /assets/images/icon-software-dev.png
+  other: 
+    - name: Boston
+      addressLine1: 3505 NW Anderson Hill Rd., Suite 200
+      addressLine2: Silverdale, WA 98383
+      phone: 360.698.7100
+      fax: 360.698.7200
+      email: ats.silverdale@atsid.com
+      photo: /assets/images/icon-software-dev.png
+    - name: Crane
+      addressLine1: 3505 NW Anderson Hill Rd., Suite 200
+      addressLine2: Silverdale, WA 98383
+      phone: 360.698.7100
+      fax: 360.698.7200
+      email: ats.silverdale@atsid.com
+      photo: /assets/images/icon-software-dev.png

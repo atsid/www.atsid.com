@@ -344,6 +344,10 @@
     }
 }
 
+
+// - - - - - - - - - - - - - - - - - - -
+// - - msg
+
 .msg-container {
     @include outer-container;
     @include fill-parent();
@@ -412,5 +416,95 @@
         font-size: 1.4em;
         line-height: 2;
         text-align: center;
+    }
+}
+
+// - - - - - - - - - - - - - - - - - - -
+// - - Contact
+
+.contact-container {
+    @include outer-container;
+    @include fill-parent();
+    padding: 8em 2em;
+}
+
+.contact-locations {
+    > h3 {
+        color: $red;
+        font-weight: 600;
+        font-size: 0.85em;
+        text-transform: uppercase;
+    }
+}
+
+.location-list {
+    @include clearfix;
+    margin-top: 2em;
+}
+
+.location-list__item {
+    @include span-columns(4);
+    line-height: 2;
+
+    > .location-list__item__photo {
+        position: relative;
+        margin-bottom: 1em;
+
+        > img {
+            display: block;
+            height: 200px;
+            background: #ddd;
+            border: none;
+        }
+
+        > .location-list__item__photo__hover {
+            @include transition(all 0.3s ease-in-out);
+            cursor: pointer;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            opacity: 0;
+            background: rgba(darken($blue, 20%), .5);
+            text-align: center;
+            color: #fff;
+            font-weight: 600;
+
+            .directions-icon {
+                border-radius: 100px;
+                padding: 18px;
+                width: 65px;
+                height: 65px;
+                background: $blue;
+                margin: auto;
+                margin-top: 55px;
+            }
+        }
+
+        &:hover {
+            > .location-list__item__photo__hover {
+                display: block;
+                opacity: 1;
+            }
+        }
+    }
+
+    > dl {
+        
+        > dt {
+            font-size: .8em;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #a2a2a2;
+            width: 80px;
+            float: left;
+        }
+
+        > dd {
+            font-size: .9em;
+            margin-left: 80px;
+            color: $dark-gray;
+        }
     }
 }
