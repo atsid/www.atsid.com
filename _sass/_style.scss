@@ -343,3 +343,62 @@
         @include span-columns(7);
     }
 }
+
+.msg-container {
+    @include outer-container;
+    @include fill-parent();
+    margin-top: -80px;
+    z-index: 1;
+    position: relative;
+    padding: 0 4em;
+    background: #f1f1f1;
+}
+
+.msg-intro {
+    background: #1f2022;
+    margin: 0 -4em 4em -4em;
+    padding: 3em 4em;
+    @include clearfix;
+
+    > article {
+        > h2 {
+            @include span-columns(3);
+            color: #fff;
+        }
+        > p {
+            @include span-columns(9);
+            color: #fff;
+            margin-bottom: 0;
+        }
+    }
+}
+
+.msg-section {
+    @include clearfix;
+    margin-top: 2em;
+
+    > article:first-of-type {
+        @include span-columns(7);
+
+        > h4 {
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+    }
+
+    > article:last-of-type {
+        @include span-columns(5);
+    }
+}
+
+.msg-outro {
+    margin: 0 -4em;
+    padding: 5em 8em;
+    background: #005A60;
+    color: #fff;
+    > article > p {
+        font-size: 1.4em;
+        line-height: 2;
+        text-align: center;
+    }
+}
