@@ -160,7 +160,15 @@
 
     // contact
     &.hero--contact {
-        background: darken($red,25%);
+         $hero-image: '../assets/images/bg-people-office.png';
+        
+        @include background(url($hero-image) no-repeat fixed); 
+        // @extend .hero--tint;
+
+        background-color:  $hero-background;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
 }

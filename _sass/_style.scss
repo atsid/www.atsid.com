@@ -477,13 +477,21 @@
     @include span-columns(4);
     line-height: 2;
 
+    // mobile view
+    @include media($mobile) {
+        @include span-columns(12);
+
+        img {
+            max-width: 400px;
+        }
+    }
+
     > .location-list__item__photo {
         position: relative;
         margin-bottom: 2em;
 
         > img {
             display: block;
-            height: 200px;
             background: #ddd;
             border: none;
         }
@@ -509,7 +517,7 @@
                 height: 65px;
                 background: $blue;
                 margin: auto;
-                margin-top: 55px;
+                margin-top: 70px;
             }
         }
 

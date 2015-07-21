@@ -40,7 +40,7 @@ byline: Reach out to us today!
             {% for loc in cat[1] %}
                 <div class="location-list__item">
                     <div class="location-list__item__photo">
-                        <img src=""/>
+                        <img src="{{loc.photo}}"/>
                         <div class="location-list__item__photo__hover">
                             <div class="directions-icon">
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="28" viewBox="0 0 8 14">
