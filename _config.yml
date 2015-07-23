@@ -12,41 +12,41 @@ markdown: kramdown
 
 locations:
   west: 
-    - name: Silverdale Corporate
+    - name: Silverdale - Anderson Hill (HQ)
       addressLine1: 3505 NW Anderson Hill Rd., Suite 200
       addressLine2: Silverdale, WA 98383
       phone: 360.698.7100
       fax: 360.698.7200
       email: ats.silverdale@atsid.com
       photo: ../assets/images/location-silverdale.png
-    - name: Bayshore
-      addressLine1: 3505 NW Anderson Hill Rd., Suite 200
+    - name: Silverdale - Bayshore
+      addressLine1: 9307 Bayshore Drive NW
       addressLine2: Silverdale, WA 98383
       phone: 360.698.7100
       fax: 360.698.7200
       email: ats.silverdale@atsid.com
       photo: ../assets/images/location-bayshore.png
   east: 
-    - name: Alexandria
-      addressLine1: 3505 NW Anderson Hill Rd., Suite 200
-      addressLine2: Silverdale, WA 98383
-      phone: 360.698.7100
-      fax: 360.698.7200
-      email: ats.silverdale@atsid.com
-      photo: ../assets/images/location-alexandria.png
-    - name: Jamieson
-      addressLine1: 3505 NW Anderson Hill Rd., Suite 200
-      addressLine2: Silverdale, WA 98383
-      phone: 360.698.7100
-      fax: 360.698.7200
-      email: ats.silverdale@atsid.com
+    - name: Alexandria - Jamieson 
+      addressLine1: 2051 Jamieson Ave, Suite 502
+      addressLine2: Alexandria, VA 22314
+      phone: 703.546.4920
+      fax: 757.483.5997
+      email: ats.alexandriae@atsid.com
       photo: ../assets/images/location-jamieson.png
-    - name: Suffolk
-      addressLine1: 3505 NW Anderson Hill Rd., Suite 200
-      addressLine2: Silverdale, WA 98383
-      phone: 360.698.7100
-      fax: 360.698.7200
-      email: ats.silverdale@atsid.com
+    - name: Alexandria - Walker
+      addressLine1: 6361 Walker Lane Suite 410
+      addressLine2: Alexandria, VA 22310
+      phone: 703.546.4921
+      fax: 703.546.4928
+      email: ats.alexandria@atsid.com
+      photo: ../assets/images/location-alexandria.png
+    - name: Suffolk - Harbour
+      addressLine1: 7025 Harbour View Blvd, Suite 110
+      addressLine2:  Suffolk, VA 23435
+      phone: 757.483.5959
+      fax: 757.483.5997
+      email: ats.suffolk@atsid.com
       photo: ../assets/images/location-suffolk.png
   # other: 
   #   - name: Boston

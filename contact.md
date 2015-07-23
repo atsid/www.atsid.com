@@ -16,7 +16,7 @@ byline: Reach out to us today!
     <article class="contact-information">
         <div>
             <h3>Work with us</h3>
-            <p>How can we help your company stand out from the rest? We’d love to work with you, so feel free to send us an email. We’ll get back to you shortly.
+            <p>Want to stand out from the rest? We’d love to work with you, so feel free to send us an email. We’ll get back to you shortly.
             <div class="mail-link">
                 <div class="mail-icon">
                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" viewBox="0 0 14 14">
