@@ -90,6 +90,18 @@
             margin: 0 0 0 20px;
             line-height: $base-line-height - .5;
 
+            a {
+                color: lighten($dark-gray,8%);
+                
+                &:first-of-type {
+                    margin-left: 10px;       
+                }
+
+                &:hover {
+                    color: lighten($dark-gray,40%);
+                }
+
+            }
             // mobile view
             @include media($mobile) {
                font-size: $footer-font-size - 0.25;

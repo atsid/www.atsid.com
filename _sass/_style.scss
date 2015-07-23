@@ -248,6 +248,8 @@
     article:first-of-type {
         @include span-columns(6);
         @include clearfix;
+
+        padding-right: 2%;
     }
 
     article:last-of-type {
@@ -289,6 +291,7 @@
     h2 {
         color: #fff;
         font-weight: 300;
+        font-size: 1.87em;
         margin: 0;
         text-align: center;
         line-height: $base-line-height - 0.5;
