@@ -31,11 +31,54 @@
 
             min-height: initial;
         }
+
+        &.social {
+            li {
+                display: inline-block;
+
+                &:first-of-type {
+                    display: block;
+                }
+                
+                a {
+                    @include icon;
+
+                    span {
+                        display: inline-block;
+                        text-indent: -9999px;
+                    }
+                    
+                    &:before {
+                        font-size: 28px;
+                        margin-right: 10px; 
+                    }
+
+                    &.facebook {
+                        @include icon(before, facebook-circled, false);
+                    }
+                    &.linkdin {
+                        @include icon(before, linkdin-circled, false);
+                    }
+                    &.twitter {
+                        @include icon(before, twitter-circled, false);
+                    }
+                    &.youtube {
+                        @include icon(before, youtube, false);
+                    }
+                    &.google-plus {
+                        @include icon(before, gplus, false);
+                    }
+                    &.github {
+                        @include icon(before, github-alt, false);
+                    }
+                }
+            }
+        }
     }
 
     li {
         list-style: none;
-         font-size: $footer-font-size;
+        font-size: $footer-font-size;
 
          // tablet view
         @include media($tablet) {
