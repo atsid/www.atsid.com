@@ -1,0 +1,44 @@
+@include font-face('Icons', '../assets/fonts/icons/atsid-font');
+
+// Map icon names to font unicode characters
+$icons: (
+    github: "\e000",
+    facebook: "\e001",
+    facebook-circled: "\e002",
+    twitter: "\e003",
+    twitter-circled: "\e004",
+    mail: "\e005",
+    linkdin: "\e006",
+    linkdin-circled: "\e007",
+    gplus: "\e008",
+    gplus-circled: "\e009",
+    github-alt: "\e00a",
+    youtube: "\e00b",
+);
+
+// For adding font icons to elements using CSS pseudo-elements
+// http://jaydenseric.com/blog/fun-with-sass-and-font-icons
+@mixin icon($position: before, $icon: false, $styles: true) {
+    @if $position == both {
+        $position: 'before, &:after';
+    }
+    // Either a :before or :after pseudo-element, or both, defaulting to :before
+    &:#{$position} {
+        @if $icon {
+            // A particular icon has been specified
+            content: "#{map-get($icons, $icon)}";
+        }
+        @if $styles {
+            // Supportive icon styles required
+            speak: none;
+            font-style: normal;
+            font-weight: normal;
+            font-family: 'Icons';
+        }
+        // Include any extra rules supplied for the pseudo-element
+        @content;
+    }
+}
+
+
+
