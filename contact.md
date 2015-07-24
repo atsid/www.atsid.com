@@ -33,7 +33,7 @@ byline: Reach out to us today!
         </div>
     </article>
     <article class="contact-locations">
-        <h3 id="locations">OUR HAPPY PLACE</h3>
+        <h3 id="locations">WHERE WE WORK</h3>
         <h2>Locations</h2>
         {% for cat in site.locations %}
             <div class="location-list">
