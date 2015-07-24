@@ -7,7 +7,7 @@ permalink: /capabilities/
 <article class="hero hero--capabilities">
     <div class="hero__content hero__content--short">
         <h2 class="hero__title">What does ATS do?</h2>
-        <p class="hero__summary">ATS does a lot. We keep the Navy efficient, make nuclear plants safer, and develop cutting edge solutions to allow our customers to work better.</p>    
+        <p class="hero__summary">We help overworked sailors at sea do their jobs better, make nuclear plants safer, and build solutions that simplify the workload for our customers and their users.</p>    
     </div>
 </article>
 
@@ -26,7 +26,7 @@ permalink: /capabilities/
         <article class="">
             <h2>Agile Software Development</h2>
             <p>We make tools that provide insight through better understanding of your data. This Agile solution development cycle provides a fast and efficient means of creating a tight feedback loop between your users and our team so that we can continuously improve the solution while providing real business utility to your users as early as possible. We accomplish this through a five step process: Discovery, Design, Development, Delivery, Data.</p>
-            <button class="button--outline">Learn more</button>
+            <a href="{{ site.baseurl }}/software-development" class="button button--outline">Learn more</a>
         </article>
     </section>
 </div>
@@ -35,7 +35,7 @@ permalink: /capabilities/
     <article class="">
         <h2>Logistics and Maintenance Support</h2>
         <p>We develop solutions to create a connected view of interdependent, yet disparate datasets, to fix data problems, identify failing parts, and designing custom dashboards to keep your finger on the pulse of the system.  This creates a robust and informative stream of data to help you and your team make important logistical, configuration, and product lifecycle decisions that cause the least amount of disruption possible to on-going systems and business activities.</p>
-        <button class="button--outline">Learn more</button>
+        <a href="{{ site.baseurl }}/maintenance-support" class="button button--outline">Learn more</a>
     </article>
     <article>
         <img src="{{ site.baseurl }}/assets/images/icon-msg.png" alt="Logistics and Maintenance Support">
