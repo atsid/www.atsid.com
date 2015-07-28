@@ -158,6 +158,11 @@
         background: teal;
     }
 
+    // contract vehicles
+    &.hero--contract-vehicles {
+        background: darkslateblue;
+    }
+
     // contact
     &.hero--contact {
          $hero-image: '../assets/images/bg-people-office.png';

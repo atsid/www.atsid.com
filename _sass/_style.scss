@@ -550,3 +550,27 @@
         }
     }
 }
+
+// - - - - - - - - - - - - - - - - - - -
+// - - Contract Vehicles
+
+
+
+// - - - - - - - - - - - - - - - - - - -
+// - - Global
+
+// TODO: FIND A HOME FOR THESE STYLES
+.inverse-band {
+    background-color: #f1f1f1;
+
+    > section {
+        @include outer-container;
+        @include fill-parent();
+        padding: 8em 2em;
+    }
+}
+
+.contract-vehicle-info {
+
+}
+
