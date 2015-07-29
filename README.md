@@ -1,6 +1,5 @@
-# http://atsid.github.io/www.atsid.com
+# http://www.atsid.com
 
-Clone project and switch to `gh-pages` branch
 ```
 git clone https://github.com/atsid/www.atsid.com.git
 ```
