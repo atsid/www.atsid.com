@@ -4,7 +4,6 @@ title: Applied Technical Systems
 description: Applied Technical Systems
 
 baseurl: /www.atsid.com
-url: https://atsid.github.io
 
 # Build settings
 markdown: kramdown
