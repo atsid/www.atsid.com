@@ -2,15 +2,14 @@
 
 title: Applied Technical Systems
 description: Applied Technical Systems
-
 baseurl: /www.atsid.com
+url: https://www.atsid.com
 
 # Build settings
 markdown: kramdown
 
-
 locations:
-  west: 
+  west:
     - name: Silverdale - Anderson Hill (HQ)
       addressLine1: 3505 NW Anderson Hill Rd., Suite 200
       addressLine2: Silverdale, WA 98383
@@ -25,8 +24,8 @@ locations:
       fax: 360.698.7200
       email: ats.silverdale@atsid.com
       photo: ../assets/images/location-bayshore.png
-  east: 
-    - name: Alexandria - Jamieson 
+  east:
+    - name: Alexandria - Jamieson
       addressLine1: 2051 Jamieson Ave, Suite 502
       addressLine2: Alexandria, VA 22314
       phone: 703.546.4920
@@ -47,7 +46,7 @@ locations:
       fax: 757.483.5997
       email: ats.suffolk@atsid.com
       photo: ../assets/images/location-suffolk.png
-  # other: 
+  # other:
   #   - name: Boston
   #     addressLine1: 3505 NW Anderson Hill Rd., Suite 200
   #     addressLine2: Silverdale, WA 98383

@@ -1,0 +1,23 @@
+# Amazon 3 id and secret are stored in an environment variable to prevent
+# publication.
+s3_id: <%= ENV['S3_ID'] %>
+s3_secret: <%= ENV['S3_SECRET'] %>
+
+# Amazon s3 bucket name.
+s3_bucket: <%= ENV['S3_BUCKET'] %>
+
+# Concurrency level for uploads. Decrease if errors are occurring.
+concurrency_level: 5
+
+## gzip active and file extensions
+gzip: true
+gzip:
+  - .html
+  - .css
+  - .md
+  - .js
+
+max_age:
+  "assets/*": 6000
+  "styles/*": 300
+  "*": 300
