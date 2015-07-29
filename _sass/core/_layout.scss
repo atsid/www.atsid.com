@@ -1,0 +1,15 @@
+// global layout classes - grid, height, width, padding, margin, etc.
+
+.container {
+    @include clearfix;
+    @include pad(6em 2em);
+    @include outer-container;
+}
+
+.container-content {
+    @include outer-container;
+    margin-top: 4em;
+}
+
+
+

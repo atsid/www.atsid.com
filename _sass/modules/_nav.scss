@@ -1,0 +1,138 @@
+.page_nav {
+    $dark-gray: #333 !default;
+    $navigation-padding: 1em;
+    $navigation-background: transparent;
+    $navigation-background-showing: rgba(23, 23, 23, 0.9);
+    $navigation-color: white;
+    $navigation-color-hover: transparentize(white, 0.3);
+    $navigation-height: 90px;
+    $navigation-showing-height: 60px;
+    $navigation-active-link-color: transparentize(white, 0.5);
+
+    @include transition(all 0.3s ease-in-out);
+
+    background-color: $navigation-background;
+    border-bottom: 1px solid darken($navigation-background, 10);
+    height: $navigation-height;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+
+    > .container {
+        @include outer-container;
+        padding: 0 2em;
+    }
+
+    .logo {
+        @include transition(all 0.3s ease-in-out);
+
+        float: left;
+        line-height: $navigation-height;
+        padding: 0;
+        position: absolute;
+
+        img {
+            @include transition(all 0.3s ease-in-out);
+
+            vertical-align: middle;
+        }
+    }
+
+    // Nav menu
+
+    nav {
+        float: right;
+        height: $navigation-height;
+        z-index: 9999999;
+    }
+
+    .nav__menu {
+        -webkit-transform-style: preserve-3d; // stop webkit flicker
+        clear: both;
+        display: inline;
+        margin: 0 auto;
+        overflow: visible;
+        padding: 0;
+        width: 100%;
+        z-index: 9999;
+    }
+
+
+    // Nav items
+
+    .nav__link {
+        @include transition(all 0.3s ease-in-out);
+
+        display: inline;
+        line-height: $navigation-height;
+        overflow: hidden;
+        margin-left: 2.5em;
+        text-align: right;
+        text-decoration: none;
+        width: auto;
+        z-index: 9999;
+
+        &:last-of-type {
+            padding-right: 0;
+        }
+
+        // mobile view
+        @include media($mobile) {
+            margin-left: 1em;
+        }
+    }
+
+    .nav__link--active {
+        border-bottom: 2px solid $navigation-active-link-color;
+        padding-bottom: 0.2em;
+        a {
+            color: $navigation-active-link-color;
+        }
+    }
+
+    a {
+        color: $navigation-color;
+        display: inline-block;
+        font-weight: 700;
+        font-size: 0.85em;
+        text-decoration: none;
+        text-transform: uppercase;
+
+        &:focus, &:hover {
+            color: $navigation-color-hover;
+        }
+
+        // mobile view
+        @include media($mobile) {
+            font-size: 0.75em;
+        }
+    }
+
+    // styles for showing the nav on scroll
+    &.page_nav--showing {
+        background: $navigation-background-showing;
+        height: $navigation-showing-height;
+
+        .logo {
+            @include transition(all 0.3s ease-in-out);
+             line-height: $navigation-showing-height;
+             // max-width: 5.5em;
+        }
+
+        nav {
+            height: $navigation-showing-height;
+        }
+
+        .nav__link {
+            line-height: $navigation-showing-height;
+        }
+        .nav__link--active {
+            padding-bottom: 0;
+        }
+    }
+}
+
+
+

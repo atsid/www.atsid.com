@@ -1,0 +1,18 @@
+// needed, otherwise visual grid does not respond to column changes
+@import "neat/neat-helpers"; 
+
+// - - - - - - - - - - - - - - - - - - -
+// - - visual grid overlay
+
+// overall grid width
+$max-width: em(1140);
+
+// visual grid settings
+$visual-grid: false;
+$visual-grid-color: deeppink;
+$visual-grid-index: front;
+$visual-grid-opacity: 0.1;
+
+// breakpoints & grid columns
+$tablet: new-breakpoint(max-width 760px 8);
+$mobile: new-breakpoint(max-width 480px 4);

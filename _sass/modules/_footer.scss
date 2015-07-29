@@ -1,0 +1,155 @@
+.footer__nav {
+    $footer-background: #242527;
+    $footer-color: white;
+    $footer-font-size: 0.9em;
+    $footer-link-color: transparentize($footer-color, 0.6);
+    $footer-disclaimer-background: darken($footer-background,3%);
+    $footer-disclaimer-color: transparentize($footer-color, 0.6);
+
+    background: $footer-background;
+
+    > .container {
+        @include outer-container;
+        padding: 3em 2em;
+    }
+
+    ul {
+
+        @include span-columns(2.4);
+        @include pad(0 0 1em);
+
+        // tablet view
+        @include media($tablet) {
+            @include span-columns(3.8);
+
+            min-height: 16em;
+        }
+
+        // mobile view
+        @include media($mobile) {
+            @include span-columns(4);
+
+            min-height: initial;
+        }
+
+        &.social {
+            li {
+                display: inline-block;
+
+                &:first-of-type {
+                    display: block;
+                }
+                
+                a {
+                    @include icon;
+
+                    span {
+                        display: inline-block;
+                        text-indent: -9999px;
+                    }
+                    
+                    &:before {
+                        font-size: 28px;
+                        margin-right: 10px; 
+                    }
+
+                    &.facebook {
+                        @include icon(before, facebook-circled, false);
+                    }
+                    &.linkdin {
+                        @include icon(before, linkdin-circled, false);
+                    }
+                    &.twitter {
+                        @include icon(before, twitter-circled, false);
+                    }
+                    &.youtube {
+                        @include icon(before, youtube, false);
+                    }
+                    &.google-plus {
+                        @include icon(before, gplus, false);
+                    }
+                    &.github {
+                        @include icon(before, github-alt, false);
+                    }
+                }
+            }
+        }
+    }
+
+    li {
+        list-style: none;
+        font-size: $footer-font-size;
+
+         // tablet view
+        @include media($tablet) {
+            @include pad(1em 0 0);
+
+            line-height: $base-line-height - 0.75;
+        }
+    }
+
+    li a {
+        color: $footer-link-color;
+
+        &:focus,
+        &:hover {
+            color: transparentize($footer-color, 0);
+        }
+    }
+
+    li h3 {
+        color: $footer-color;
+        font-size: $footer-font-size;
+        font-weight: 700;
+        margin-bottom: 0.6em;
+        text-transform: uppercase;
+    }  
+
+    .footer__disclaimer {
+        background: $footer-disclaimer-background;
+        text-align: center;
+        > .container {
+            padding: 1em 2em;
+        }
+        
+        .logo img {
+            @include grayscale-element(100%);
+            @include transition(all 0.3s ease-in-out);
+
+            opacity: 0.15;
+            vertical-align: middle;
+            width: 4em;
+
+             &:hover {
+                @include grayscale-element(0);
+                opacity: 1;
+            }
+        }
+
+        p {
+            color: lighten($dark-gray,8%);
+            display: inline-block;
+            font-size: $footer-font-size - 0.1;
+            margin: 0 0 0 20px;
+            line-height: $base-line-height - .5;
+
+            a {
+                color: lighten($dark-gray,8%);
+                
+                &:first-of-type {
+                    margin-left: 10px;       
+                }
+
+                &:hover {
+                    color: lighten($dark-gray,40%);
+                }
+
+            }
+            // mobile view
+            @include media($mobile) {
+               font-size: $footer-font-size - 0.25;
+               margin: 0;
+            }
+        }
+    }
+}

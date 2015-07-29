@@ -1,0 +1,59 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+// ========================
+// Libs
+// ========================
+// Add css frameworks and libraries here. Load variable overrides BEFORE neat.
+
+@import "libs/normalize";
+@import "libs/bourbon/bourbon";
+@import "libs/library-variable-overrides";
+@import "libs/neat/neat";
+
+// ========================
+// Base
+// ========================
+
+@import "core/typography";
+@import "core/variables";
+@import "core/base";
+@import "core/utilities";
+@import "core/layout";
+@import "core/icons";
+
+// ========================
+// Modules
+// ========================
+// add new modules to the modules/_modules.scss file and they'll get pulled in here.
+
+@import "modules/modules";
+
+// ========================
+// Generic
+// ========================
+// site & page-specifc
+
+@import "_style.scss";
+
+// ========================
+// Inbox
+// ========================
+// the inbox allows developers, and those not actively working on the project
+// to quickly add styles that are easily seen by the maintainer of the file.
+
+// ========================
+// Oh, what a shame
+// ========================
+// need to add a quick fix, hack, or questionable technique?  add it here, fix it later.
+
+// ========================
+// To Do's
+// ========================
+
+// Identify & create re-useable content bits
+// Fix image mapping - ATS logo would be neat to re-draw in SVG
+// BEM-ify classes & cleanup

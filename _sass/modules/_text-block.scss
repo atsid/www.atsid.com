@@ -1,0 +1,39 @@
+.text-block {
+    
+    .text-block__title {
+        color: darken($base-font-color,20%);
+        line-height: 1em;
+        margin-bottom: 0.5em;
+    }
+
+    .text-block__sub-title {
+        color: $red;
+        font-weight: 600;
+        font-size: 0.85em;
+        text-transform: uppercase;
+    }
+
+    // history
+     &.text-block--history {
+       @include pad(2em);
+     }
+    
+    // divisions
+     &.text-block--divisions {
+
+        padding: 0;
+
+       .text-block__sub-title {
+            color: #FFD329;
+       }
+
+       p {
+            font-size: 1.4em;
+            max-width: 22em;
+       }
+     }
+
+     &.text-block--join {
+        @include outer-container;
+     }
+}

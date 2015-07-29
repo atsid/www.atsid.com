@@ -1,0 +1,32 @@
+// - - - - - - - - - - - - - - - - - - -
+// - - placeholder extends
+
+
+// - - - - - - - - - - - - - - - - - - -
+// - - mixins
+
+// grayscale
+@mixin grayscale-element($value) {
+    -webkit-filter: #{"grayscale(#{$value})"};
+    -moz-filter: #{"grayscale(#{$value})"};
+    filter:#{"grayscale(#{$value})"};
+}
+
+// - - - - - - - - - - - - - - - - - - -
+// - - functions
+
+
+// Headings
+$start: 2.5em; 
+
+@each $h in h1, h2, h3, h4, h5, h6 {
+
+#{$h} { 
+  font-size: $start;
+  }
+  $start: $start - 0.5;
+}
+
+
+// - - - - - - - - - - - - - - - - - - -
+// - - utilities

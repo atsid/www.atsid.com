@@ -1,0 +1,647 @@
+// - - - - - - - - - - - - - - - - - - -
+// - - Intro
+
+.intro {
+    @include outer-container;
+    @include fill-parent();
+
+    padding: 8em 2em;
+
+    .intro__content {
+        @include span-columns(7);
+        @include clearfix;
+
+        // tablet view
+        @include media($tablet) {
+            @include span-columns(8);
+
+            margin-bottom: 2em;
+        }
+
+        // mobile view
+        @include media($mobile) {
+            @include span-columns(4);
+        }
+    }
+
+    .intro__stats {
+        @include span-columns(4);
+        @include shift(1);
+        @include pad(1em);
+        @include omega;
+        
+        min-height: 20em;
+        background: lighten($light-gray,5%);
+
+        // tablet view
+        @include media($tablet) {
+            @include span-columns(8);
+            @include shift(0);
+        }
+
+        // mobile view
+        @include media($mobile) {
+            @include span-columns(4);
+        }
+    }
+}
+
+
+// - - - - - - - - - - - - - - - - - - -
+// - - Divisions
+
+.divisions {
+    @include fill-parent();
+    @include clearfix;
+
+    background-color: #131F2D;
+    
+    .software, .systems {
+        @include span-columns(6.135);
+        @include pad(10em 4em);
+        margin: 0;
+
+        color: white;
+
+        > * {
+            z-index: 1;
+            position: relative;
+        }
+
+        &:before {
+            @include transition(all 0.3s ease-in-out);
+
+            content: '';
+            display: block;
+            position: absolute;
+            background-color: rgba(21, 24, 26, 0.85);
+            width: 100%;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+        }
+
+        &:hover:before {
+            background-color: rgba(16,27,38,0.55);
+        }
+
+        // mobile & tablet view
+        @include media($tablet) {
+            @include fill-parent;
+        }
+    }
+
+    .software {
+        $bg-image: '../assets/images/bg-programmer.png';
+
+        @include background(url($bg-image) no-repeat center center scroll);
+        @include omega;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;  
+    }
+
+    .systems {
+        $bg-image: '../assets/images/bg-ship-deck.png';
+
+        @include background(url($bg-image) no-repeat center center scroll);
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;  
+    }
+        
+    button {
+        color: white;
+        border-color: white;
+
+        &:hover {
+            background-color: white;
+            color: $dark-gray;
+        }
+    }
+}
+
+// - - - - - - - - - - - - - - - - - - -
+// - - Join Us
+
+.join {
+    @include outer-container;
+    @include fill-parent();
+
+    padding: 8em 2em;
+
+    .join__content {
+        @include span-columns(7);
+        @include clearfix;
+
+        // tablet view
+        @include media($tablet) {
+            @include span-columns(8);
+            // min-height: 16em;
+        }
+
+        // mobile view
+        @include media($mobile) {
+            @include span-columns(4);
+        }
+    }
+
+    article:last-of-type {
+        @include span-columns(5);
+        
+        position: relative;
+        top: -3em;
+
+        // tablet  view
+        @include media($tablet) {
+            img {
+                display: none;
+            }
+         }
+
+        // mobile view
+        @include media($mobile) {
+            img {
+                display: none;
+            }
+         }
+    }
+}
+
+// - - - - - - - - - - - - - - - - - - -
+// - - Contact Us
+.convo {
+
+    $convo-background: #001234;
+    $convo-image: '../assets/images/bg-conversation.png';
+
+    @include background(url($convo-image) no-repeat center center scroll);
+
+    background-position: 0 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $teal;
+    color: white;
+    padding: 5em 0;
+    text-align: center;
+
+    button {
+        color: white;
+        border-color: white;
+
+        &:hover {
+            background-color: white;
+            color: $teal;
+        }
+    }
+
+    .convo__content {
+        @include outer-container;
+
+        max-width: 50em;
+    
+        > h2 {
+            color: white;
+            margin-bottom: 0.6em;
+        }
+
+        > p {
+            font-size: 1.3em;
+            margin-bottom: 1.5em;
+        }
+
+    }
+}
+
+// - - - - - - - - - - - - - - - - - - -
+// - - About Us
+
+.about-container {
+    @include outer-container;
+    @include fill-parent();
+
+    padding: 8em 2em;
+
+    h3 {
+        color: $red;
+        font-weight: 600;
+        font-size: 0.85em;
+        text-transform: uppercase;
+    }
+
+    h4 {
+        font-weight: 600;
+        margin-bottom: 0.6em;
+
+        &:first-of-type {
+            margin-top: 3em;
+        }
+    }
+
+    img {
+        margin: 1em 0 0 5em;
+    }
+
+    article:first-of-type {
+        @include span-columns(6);
+        @include clearfix;
+
+        padding-right: 2%;
+    }
+
+    article:last-of-type {
+        @include span-columns(6);
+    }
+
+    article:first-of-type, article:last-of-type {
+        
+        // tablet view
+        @include media($tablet) {
+            @include span-columns(8);
+            // min-height: 16em;
+
+            img {
+                display: none;
+            }
+        }
+
+        // mobile view
+        @include media($mobile) {
+            @include span-columns(4);
+
+            img {
+                display: none;
+            }
+        }
+     }
+
+    &:first-of-type p {
+        margin-bottom: 3.5em;
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.about-inverse {
+    background-color: $dark-gray;
+    h2 {
+        color: #fff;
+        font-weight: 300;
+        font-size: 1.87em;
+        margin: 0;
+        text-align: center;
+        line-height: $base-line-height - 0.5;
+    }
+}
+
+// - - - - - - - - - - - - - - - - - - -
+// - - Capabilities
+
+.capabilities-intro {
+    @include outer-container;
+    @include fill-parent();
+    text-align: center;
+    padding: 8em 2em;
+}
+
+.capabilities-container {
+    @include outer-container;
+    @include fill-parent();
+    padding: 8em 2em;
+}
+
+.capabilities-inverse {
+    background-color: #f1f1f1;
+}
+
+.capabilities-msg {
+    @extend .capabilities-container;
+
+    article:first-of-type {
+        @include span-columns(7);
+        @include clearfix;
+    }
+
+    article:last-of-type {
+        @include span-columns(5);
+    }
+
+    img {
+        @include pad(0 0 0 6em);
+    }
+}
+
+.capabilities-software {
+    @extend .capabilities-container;
+    article:first-of-type {
+        @include span-columns(5);
+        @include clearfix;
+    }
+
+    article:last-of-type {
+        @include span-columns(7);
+    }
+}
+
+
+// - - - - - - - - - - - - - - - - - - -
+// - - Maintenance Support
+
+.msg-container {
+    @include outer-container;
+    @include fill-parent();
+    margin-top: -5em;
+    margin-bottom: 6em;
+    z-index: 1;
+    position: relative;
+    padding: 0 4em;
+    background: #f1f1f1;
+}
+
+.msg-intro {
+    background: #1f2022;
+    margin: 0 -4em 4em -4em;
+    padding: 3em 4em;
+    @include clearfix;
+
+    > article {
+        > h2 {
+            @include span-columns(3);
+            color: #fff;
+        }
+        > p {
+            @include span-columns(9);
+            color: #fff;
+            margin-bottom: 0;
+            padding-top: 0.6em;
+        }
+    }
+}
+
+.msg-section {
+    @include clearfix;
+    margin-top: 2em;
+
+    > article:first-of-type {
+        @include span-columns(7);
+
+        > h4 {
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+    }
+
+    > article:last-of-type {
+        @include span-columns(5);
+
+        // BINGLES TO DO: Rremove once icons are ready
+        background: $light-gray;
+        margin-left: 10rem;
+        width: 10rem;
+        height: 10rem;
+        border-radius: 999rem;
+    }
+}
+
+.msg-outro {
+    margin: 0 -4em;
+    padding: 5em 8em;
+    background: #005A60;
+    color: #fff;
+    > article > p {
+        font-size: 1.4em;
+        line-height: 2;
+        text-align: center;
+    }
+}
+
+// - - - - - - - - - - - - - - - - - - -
+// - - Software Development
+
+.software-container {
+    @include outer-container;
+    @include fill-parent();
+    margin-top: -5em;
+    margin-bottom: 6em;
+    z-index: 1;
+    position: relative;
+    padding: 0 4em;
+    background: #f1f1f1;
+}
+
+.software-intro {
+    background: #1f2022;
+    margin: 0 -4em 4em -4em;
+    padding: 3em 4em;
+    @include clearfix;
+
+    > article {
+        > h2 {
+            @include span-columns(3);
+            color: #fff;
+        }
+        > p {
+            @include span-columns(9);
+            color: #fff;
+            margin-bottom: 0;
+            padding-top: 0.6em;
+        }
+    }
+}
+
+.software-section {
+    @include clearfix;
+    margin-top: 2em;
+
+    > article:first-of-type {
+        @include span-columns(7);
+
+        > h4 {
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+    }
+
+    > article:last-of-type {
+        @include span-columns(5);
+
+        // BINGLES TO DO: Rremove once icons are ready
+        background: $light-gray;
+        margin-left: 10rem;
+        width: 10rem;
+        height: 10rem;
+        border-radius: 999rem;
+    }
+}
+
+.software-outro {
+    margin: 0 -4em;
+    padding: 5em 8em;
+    background: #124094;
+    color: #fff;
+    > article > p {
+        font-size: 1.4em;
+        line-height: 2;
+        text-align: center;
+    }
+}
+
+// - - - - - - - - - - - - - - - - - - -
+// - - Contact
+
+.contact-container {
+    @include outer-container;
+    @include fill-parent();
+    padding: 8em 2em;
+}
+
+.contact-information {
+    @include clearfix;
+    margin: 0 0 5em 0;
+
+    a {
+        font-weight: 600;
+    }
+
+    > div:first-of-type {
+        @include span-columns(6);
+
+        > .mail-link {
+            > .mail-icon {
+                width: 35px;
+                height: 35px;
+                border: 2px solid $blue;
+                border-radius: 100px;
+                float: left;
+                text-align: center;
+            }
+            > a {
+                margin-left: 10px;
+            }
+        }
+    }
+
+    > div:last-of-type {
+        @include span-columns(6);
+    }
+}
+
+.contact-locations {
+    > h3 {
+        color: $red;
+        font-weight: 600;
+        font-size: 0.85em;
+        text-transform: uppercase;
+    }
+}
+
+// - - - - - - - - - - - - - - - - - - -
+// - - Location
+
+.location-list {
+    @include clearfix;
+    margin-top: 2em;
+}
+
+.location-list__item {
+    @include span-columns(4);
+    line-height: 2;
+
+    // mobile view
+    @include media($mobile) {
+        @include span-columns(12);
+
+        img {
+            max-width: 400px;
+        }
+    }
+
+    > .location-list__item__photo {
+        position: relative;
+        margin-bottom: 2em;
+
+        > img {
+            display: block;
+            background: #ddd;
+            border: none;
+        }
+
+        > .location-list__item__photo__hover {
+            @include transition(all 0.3s ease-in-out);
+            cursor: pointer;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            opacity: 0;
+            background: rgba(darken($blue, 20%), .5);
+            text-align: center;
+            color: #fff;
+            font-weight: 600;
+
+            .directions-icon {
+                border-radius: 100px;
+                padding: 18px;
+                width: 65px;
+                height: 65px;
+                background: $blue;
+                margin: auto;
+                margin-top: 70px;
+            }
+        }
+
+        &:hover {
+            > .location-list__item__photo__hover {
+                display: block;
+                opacity: 1;
+            }
+        }
+    }
+
+    > dl {
+        
+        > dt {
+            font-size: .8em;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #a2a2a2;
+            width: 80px;
+            float: left;
+        }
+
+        > dd {
+            font-size: .9em;
+            margin-left: 80px;
+            color: $dark-gray;
+        }
+    }
+}
+
+// - - - - - - - - - - - - - - - - - - -
+// - - Contract Vehicles
+
+
+
+// - - - - - - - - - - - - - - - - - - -
+// - - Global
+
+// TODO: FIND A HOME FOR THESE STYLES
+.inverse-band {
+    background-color: #f1f1f1;
+
+    > section {
+        @include outer-container;
+        @include fill-parent();
+        padding: 8em 2em;
+    }
+}
+
+.contract-vehicle-info {
+
+}
+
