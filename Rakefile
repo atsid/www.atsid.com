@@ -21,10 +21,10 @@ end
 
 desc "Generate and publish site to atsid.com on Amazon S3."
 task :publish => [:build] do
-  system 'S3_BUCKET=atsid.com bundle exec s3_website push'
+  system "CLOUDFRONT_DISTRIBUTION_ID=#{ENV['PROD_CF_DIST_ID']} S3_BUCKET=atsid.com bundle exec s3_website push"
 end
 
 desc "Generate and publish site to stage.atsid.com on S3."
 task :stage => [:build] do
-  system 'S3_BUCKET=stage.atsid.com bundle exec s3_website push'
+  system "CLOUDFRONT_DISTRIBUTION_ID=#{ENV['STAGE_CF_DIST_ID']} S3_BUCKET=stage.atsid.com bundle exec s3_website push"
 end
