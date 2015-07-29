@@ -1,23 +1,77 @@
 ---
-layout: page
+layout: default
 title: Software Development
 permalink: /software-development/
 exclude_from_nav: true
 ---
 
-## Agile Software Delivery
+<article class="hero hero--software">
+    <div class="hero__content hero__content--short">
+        <h2 class="hero__title">Discover. Design. Develop. Deliver. Data. <strong>Repeat.</strong></h2>
+    </div>
+</article>
 
-Whether it is assisting the U.S. Patent and Trademark Office in streamlining the patent examination process through improved tools for examiners, or assisting the U.S. Army Intelligence and Security Command in connecting disparate data sources, our first-class team of software developers, designers, and business analysts are experienced in collaborating with customers to understand their needs and delivering agile solutions to meet their challenges.
 
-### Solution Development
-We begin any solution development project with a Discovery phase, conducting User Research with your staff or potential users to discover the context in which your end users live and work and the methods and processes they use today. ATS uses these insights to collaboratively design solutions that help your users accomplish their goals simply and intuitively.
+<div class="software-container">
+	<section class="software-intro">
+	    <article>
+	        <h2>Our process</h2>
+	        <p>This Agile solution development cycle provides a fast and efficient means of creating a tight feedback loop between your users and our team so that we can continuously improve the solution while providing real business utility to people as early as possible. We accomplish this through a five step process.</p>
+	    </article>
+	</section>
+    <section class="software-section">
+        <article>
+            <h4 style="color: #E79C41;">Discover</h4>
+            <p>We begin any project with a discovery phase. We conduct user research with your staff or potential customers to discover the context in which they live, work, and the methods and processes they use today. We use these insights to collaboratively design solutions that help people accomplish their goals, simply and intuitively.</p>
+        </article>
+        <article>
+            <!-- <img src="{{ site.baseurl }}/assets/images/icon-software-dev.png" alt="Agile Software Development"> -->
+        </article>
+    </section>
 
-!["Data to Decisions"]({{site.baseurl}}/assets/images/data.diagram.png)
+	<section class="software-section">
+	    <article>
+	        <h4 style="color: #4066AD;">Design</h4>
+	        <p>Through a human-centered design process, we develop prototypes and review early designs with the appropriate people to rapidly identify workflows and overall user experiences (UX).  We refine and improve upon designs as we learn more about the users themselves.</p>
+	    </article>
+	    <article>
+	        <!-- <img src="{{ site.baseurl }}/assets/images/icon-msg.png" alt="Logistics and Maintenance Support"> -->
+	    </article>
+	</section>
 
-These insights feed an iterative development and delivery lifecycle prioritized to get useful capabilities in the hands of users as rapidly as possible. We iterate quickly through four steps engineered to maximize learning:
-Design: Through a User-Centered Design process, we develop prototype User Interfaces (UI) and review early designs with end users to rapidly identify workflows and overall User Experiences (UX) that satisfy and delight our users. We refine and improve upon designs as we learn more about the users themselves.
-Development: We develop software using modern web technologies and toolkits that allow us to grow and evolve the capabilities of an application over time with a focus on developing high-quality software. We concentrate on loosely coupled designs built atop open standards to prevent vendor lock-in and maximize the system's ability to change and scale with user demand.
-Delivery: Recognizing that our job isn't done until the users can interact with what we've built, we follow a Continuous Delivery process to constantly build, test, and deploy our software into production environments whenever we're confident that it satisfies our standards and provides utility to users. We embrace the values of DevOps, where all team members are committed to delivering working software to our users.
-Data Analysis: Driven by Lean thinking, we gather data on how users actually react to every new feature so that we can fold that understanding back into future iterations and continuously improve the application. We conduct usability reviews, analyze system performance, and track other business metrics to understand the impact of our software on user behavior and your organization's goals.
+	<section class="software-section">
+	    <article>
+	        <h4 style="color: #489FB0;">Develop</h4>
+	        <p>We develop software using modern web technologies and toolkits that allow us to grow and evolve the capabilities of an application over time with a focus on developing high-quality software. We concentrate on loosely coupled designs built atop open standards to prevent vendor lock-in and maximize the system’s ability to change and scale with user demand.</p>
+	    </article>
+	    <article>
+	        <!-- <img src="{{ site.baseurl }}/assets/images/icon-msg.png" alt="Logistics and Maintenance Support"> -->
+	    </article>
+	</section>
 
-This Agile solution development cycle provides a fast and efficient means of creating a tight feedback loop between your users and our team so that we can continuously improve the solution while providing real business utility to your users as early as possible. 
+	<section class="software-section">
+	    <article>
+	        <h4 style="color: #CF7F80;">Deliver</h4>
+	        <p>Recognizing that our job isn’t done until real users can interact with what we’ve built, we follow a continuous delivery process to constantly build, test, and deploy our software into production environments whenever we’re confident that it satisfies our standards and provides utility to users. We embrace the values of DevOps, where all team members are committed to delivering working software.</p>
+	    </article>
+	    <article>
+	        <!-- <img src="{{ site.baseurl }}/assets/images/icon-msg.png" alt="Logistics and Maintenance Support"> -->
+	    </article>
+	</section>
+
+	<section class="software-section">
+	    <article>
+	        <h4 style="color: #ADC245;">Data</h4>
+	        <p>Driven by Lean thinking, we gather data on how users actually react to every new feature so that we can fold that understanding back into future iterations and continuously improve the application. We conduct usability reviews, analyze system performance, and track other business metrics to understand the impact of our software on user behavior and your organization’s goals.</p>
+	    </article>
+	    <article>
+	        <!-- <img src="{{ site.baseurl }}/assets/images/icon-msg.png" alt="Logistics and Maintenance Support"> -->
+	    </article>
+	</section>
+
+	<section class="software-outro">
+		<article>
+			<p>ATS uses these steps to iterate quickly and maximize learning and development. The agile development and delivery lifecycle is prioritized to get useful capabilities in the hands of users as rapidly as possible. </p>
+		</article>
+	</section>
+</div>
