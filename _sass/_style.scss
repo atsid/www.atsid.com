@@ -31,7 +31,6 @@
         @include omega;
         
         min-height: 20em;
-        background: lighten($light-gray,5%);
 
         // tablet view
         @include media($tablet) {
@@ -43,6 +42,17 @@
         @include media($mobile) {
             @include span-columns(4);
         }
+
+        ul {
+            li {
+                list-style-type: none;
+            }
+        }   
+
+        h2 {
+            margin: 0;
+        }     
+
     }
 }
 
@@ -641,7 +651,17 @@
     }
 }
 
-.contract-vehicle-info {
+.terms {
+    ul {
+        margin: 0;
+        padding:0;
+        li {
+            list-style-type: none;
 
+            &:nth-child(4) {
+                margin-top: 1rem;
+            }
+        }
+    }
 }
 
