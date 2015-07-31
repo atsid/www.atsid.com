@@ -123,6 +123,11 @@
                 @include grayscale-element(0);
                 opacity: 1;
             }
+
+            // mobile view
+            @include media($mobile) {
+                display: block;
+            }
         }
     
         p {
@@ -136,7 +141,12 @@
                 color: lighten($dark-gray,8%);
                 
                 &:first-of-type {
-                    margin-left: 10px;       
+                    margin-left: 10px;  
+                
+                    // mobile view
+                    @include media($mobile) {
+                        margin: 0;
+                    }
                 }
 
                 &:hover {
@@ -153,6 +163,13 @@
             &:last-of-type {
                 float: right;
                 margin-top: 8px;
+
+                // mobile view
+                @include media($mobile) {
+                    float: none;
+                    display: block;
+                    margin: 0;
+                }
             }
         }
     }
