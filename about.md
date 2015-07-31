@@ -37,7 +37,7 @@ permalink: /about/
     </article>
 </section>
 
-<section class="about-container">
+<section id="history" class="about-container">
     <h3>HISTORY</h3>
     <h2>Our long story, short.</h2>
     <article>

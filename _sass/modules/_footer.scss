@@ -49,7 +49,7 @@
                     }
                     
                     &:before {
-                        font-size: 28px;
+                        font-size: 25px;
                         margin-right: 10px; 
                     }
 
@@ -107,7 +107,6 @@
 
     .footer__disclaimer {
         background: $footer-disclaimer-background;
-        text-align: center;
         > .container {
             padding: 1em 2em;
         }
@@ -125,7 +124,7 @@
                 opacity: 1;
             }
         }
-
+    
         p {
             color: lighten($dark-gray,8%);
             display: inline-block;
@@ -149,6 +148,11 @@
             @include media($mobile) {
                font-size: $footer-font-size - 0.25;
                margin: 0;
+            }
+
+            &:last-of-type {
+                float: right;
+                margin-top: 8px;
             }
         }
     }

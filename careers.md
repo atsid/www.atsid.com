@@ -28,6 +28,6 @@ byline: "So much more than I expected"
         </div>
     </div>
 </div>
-<h3>Current opportunities</h3>
+<h3 id="opportunities">Current Opportunities</h3>
 <div id="jobs" class="jobs"><p class="jobs__loading">Loading jobs...</p></div>
 <p>Not seeing the position you’re looking for? We still want to hear from you!<br>Email us at <a href="mailto:jobs@atsid.com">jobs@atsid.com</a>.</p>

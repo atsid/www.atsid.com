@@ -32,8 +32,8 @@ byline: Reach out to us today!
             <p>You can get in touch with our sales team by calling any of our offices as well as through email: <a href="mailto:sales@atsid.com">sales@atsid.com</a></p>
         </div>
     </article>
-    <article class="contact-locations">
-        <h3 id="locations">WHERE WE WORK</h3>
+    <article id="locations" class="contact-locations">
+        <h3>WHERE WE WORK</h3>
         <h2>Locations</h2>
         {% for cat in site.locations %}
             <div class="location-list">
