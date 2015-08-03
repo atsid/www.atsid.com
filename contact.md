@@ -39,7 +39,7 @@ byline: Reach out to us today!
             <div class="location-list">
             {% for loc in cat[1] %}
                 <div class="location-list__item">
-                    <div class="location-list__item__photo">
+                    <a class="location-list__item__photo" target="_blank" href="{{loc.link}}">
                         <img src="{{loc.photo}}"/>
                         <div class="location-list__item__photo__hover">
                             <div class="directions-icon">
@@ -49,7 +49,7 @@ byline: Reach out to us today!
                             </div>
                             <div>Get Directions</div>
                         </div>
-                    </div>
+                    </a>
                     <h4>{{loc.name}}</h4>
                     <dl>
                         <dt>ADDRESS</dt>
