@@ -44,8 +44,21 @@
         }
 
         ul {
+            padding: 0;
             li {
                 list-style-type: none;
+                margin-bottom: 20px;
+            }
+
+            svg:not(:root) {
+                margin: 5px 15px 20px 0;
+                float: left;
+            }
+
+            small {
+                font-weight: 600;
+                text-transform: uppercase;
+                opacity: 0.5;
             }
         }   
 
@@ -635,6 +648,7 @@
 
 // - - - - - - - - - - - - - - - - - - -
 // - - Contract Vehicles
+
 
 
 
