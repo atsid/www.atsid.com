@@ -97,7 +97,7 @@
 
     // homepage
     &.hero--home {
-        $hero-image: '../assets/images/bg-team-office.png';
+        $hero-image: '../assets/images/bg-individual-office.png';
         
         @include background(url($hero-image) no-repeat center center fixed); 
 
@@ -121,7 +121,7 @@
 
     // capabilities
     &.hero--capabilities {
-        $hero-image: '../assets/images/bg-naval-operator.png';
+        $hero-image: '../assets/images/bg-naval-crew.png';
         
         @include background(url($hero-image) no-repeat fixed); 
         // @extend .hero--tint;
