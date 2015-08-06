@@ -108,7 +108,7 @@
 
      // about 
     &.hero--about {
-        $hero-image: '../assets/images/bg-busy-sidewalk.png';
+        $hero-image: '../assets/images/bg-street-view.png';
         
         @include background(url($hero-image) no-repeat fixed); 
         // @extend .hero--home;
@@ -181,7 +181,17 @@
 
     // contract vehicles
     &.hero--contract-vehicles {
-        background: darkslateblue;
+        $hero-image: '../assets/images/bg-american-flag.png';
+        
+        @include background(url($hero-image) no-repeat fixed); 
+        // @extend .hero--tint;
+
+        background-color:  $hero-background;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        
     }
 
     // contact
