@@ -58,7 +58,7 @@ byline: Reach out to us today!
                             <div>{{loc.addressLine2}}</div>
                         </dd>
                         <dt>PHONE</dt>
-                        <dd>{{loc.phone}}</dd>
+                        <dd><a href="tel:{{loc.phone}}">{{loc.phone}}</a></dd>
                         <dt>FAX</dt>
                         <dd>{{loc.fax}}</dd>
                         <dt>EMAIL</dt>
