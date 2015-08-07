@@ -152,7 +152,7 @@
 
    // Software
     &.hero--software {
-        $hero-image: '../assets/images/bg-carrier.png';
+        $hero-image: '../assets/images/bg-software-dev.png';
         
         @include background(url($hero-image) no-repeat fixed); 
         // @extend .hero--tint;

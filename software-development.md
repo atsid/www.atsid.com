@@ -25,7 +25,7 @@ exclude_from_nav: true
             <p>We begin any project with a discovery phase. We conduct user research with your staff or potential customers to discover the context in which they live, work, and the methods and processes they use today. We use these insights to collaboratively design solutions that help people accomplish their goals, simply and intuitively.</p>
         </article>
         <article>
-            <!-- <img src="{{ site.baseurl }}/assets/images/icon-software-dev.png" alt="Agile Software Development"> -->
+            <img src="{{ site.baseurl }}/assets/images/icon-discover.png" alt="Agile Software Development">
         </article>
     </section>
 
@@ -35,7 +35,7 @@ exclude_from_nav: true
 	        <p>Through a human-centered design process, we develop prototypes and review early designs with the appropriate people to rapidly identify workflows and overall user experiences (UX).  We refine and improve upon designs as we learn more about the users themselves.</p>
 	    </article>
 	    <article>
-	        <!-- <img src="{{ site.baseurl }}/assets/images/icon-msg.png" alt="Logistics and Maintenance Support"> -->
+	        <img src="{{ site.baseurl }}/assets/images/icon-design.png" alt="Logistics and Maintenance Support">
 	    </article>
 	</section>
 
@@ -45,7 +45,7 @@ exclude_from_nav: true
 	        <p>We develop software using modern web technologies and toolkits that allow us to grow and evolve the capabilities of an application over time with a focus on developing high-quality software. We concentrate on loosely coupled designs built atop open standards to prevent vendor lock-in and maximize the system’s ability to change and scale with user demand.</p>
 	    </article>
 	    <article>
-	        <!-- <img src="{{ site.baseurl }}/assets/images/icon-msg.png" alt="Logistics and Maintenance Support"> -->
+	        <img src="{{ site.baseurl }}/assets/images/icon-develop.png" alt="Logistics and Maintenance Support">
 	    </article>
 	</section>
 
@@ -55,7 +55,7 @@ exclude_from_nav: true
 	        <p>Recognizing that our job isn’t done until real users can interact with what we’ve built, we follow a continuous delivery process to constantly build, test, and deploy our software into production environments whenever we’re confident that it satisfies our standards and provides utility to users. We embrace the values of DevOps, where all team members are committed to delivering working software.</p>
 	    </article>
 	    <article>
-	        <!-- <img src="{{ site.baseurl }}/assets/images/icon-msg.png" alt="Logistics and Maintenance Support"> -->
+	        <img src="{{ site.baseurl }}/assets/images/icon-deliver.png" alt="Logistics and Maintenance Support">
 	    </article>
 	</section>
 
@@ -65,7 +65,7 @@ exclude_from_nav: true
 	        <p>Driven by Lean thinking, we gather data on how users actually react to every new feature so that we can fold that understanding back into future iterations and continuously improve the application. We conduct usability reviews, analyze system performance, and track other business metrics to understand the impact of our software on user behavior and your organization’s goals.</p>
 	    </article>
 	    <article>
-	        <!-- <img src="{{ site.baseurl }}/assets/images/icon-msg.png" alt="Logistics and Maintenance Support"> -->
+	        <img src="{{ site.baseurl }}/assets/images/icon-data.png" alt="Logistics and Maintenance Support">
 	    </article>
 	</section>
 
