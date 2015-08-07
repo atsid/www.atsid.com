@@ -409,6 +409,7 @@
 .msg-section {
     @include clearfix;
     margin-top: 2em;
+    min-height: 14em;
 
     > article:first-of-type {
         @include span-columns(7);
@@ -422,17 +423,14 @@
     > article:last-of-type {
         @include span-columns(5);
 
-        // BINGLES TO DO: Rremove once icons are ready
-        background: $light-gray;
-        margin-left: 10rem;
-        width: 10rem;
-        height: 10rem;
-        border-radius: 999rem;
+        img {
+            margin-left: 4em;
+        }
     }
 }
 
 .msg-outro {
-    margin: 0 -4em;
+    margin: 4em -4em 0;
     padding: 5em 8em;
     background: #005A60;
     color: #fff;
