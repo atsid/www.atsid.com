@@ -42,7 +42,8 @@
         @include media($mobile) {
             @include span-columns(4);
         }
-
+        
+        // Employee Statistics
         ul {
             padding: 0;
             li {
@@ -649,7 +650,19 @@
 // - - - - - - - - - - - - - - - - - - -
 // - - Contract Vehicles
 
+.contract-vehicles-section {
+    @include outer-container;
+    @include fill-parent();
+    padding: 4em 2em;
 
+    > article:first-of-type {
+        @include span-columns(3);
+    }
+
+    > article:last-of-type {
+        @include span-columns(9);
+    }
+}
 
 
 // - - - - - - - - - - - - - - - - - - -
