@@ -49,13 +49,17 @@ exclude_from_nav: true
                 <dt>Zones</dt>
                 <dd>1, 2, 3, 4, 5, 6, 7</dd>
             </dl>
-            <a href="{{ site.baseurl }}/software-development" class="button button--outline">Learn more</a>
+            <ul>
+                <li><a href="#">SeaPort­e Government Contacts</a></li>
+                <li><a href="#">Quality Assurance Program</a></li>
+                <li><a href="#">ATS SeaPort­e Team</a></li>
+            </ul>
         </article>
     </section>
     
     <section class="contract-vehicles-section">
         <article>
-            <img src="{{ site.baseurl }}/assets/images/logo-gsa.png" alt="GSA Logo">
+         <img src="{{ site.baseurl }}/assets/images/logo-gsa.png" alt="GSA Logo">
         </article>
         <article>
             <h2>GSA</h2>
@@ -90,7 +94,6 @@ exclude_from_nav: true
                 <dt>Zones</dt>
                 <dd>1, 2, 3, 4, 5, 6, 7</dd>
             </dl>
-            <a href="{{ site.baseurl }}/software-development" class="button button--outline">Learn more</a>
         </article>
     </section>
 </div>

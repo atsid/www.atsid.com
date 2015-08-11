@@ -15,7 +15,7 @@
 
         p {
 
-            font-size: $base-font-size + 0.25;
+            font-size: $base-font-size + 0.2;
             font-weight: 300;
         }
         // tablet view
@@ -665,6 +665,31 @@
     > article:last-of-type {
         @include span-columns(9);
     }
+
+    article dl {
+        margin-bottom: 2em;
+    }
+
+    dt, dd {
+        display: inline-block;
+        width: 33%;
+        margin: 0;
+    }
+
+    dt {
+        font-weight: 600;
+    }
+
+    ul {
+        padding: 0;
+        list-style-type: none;
+
+        li {
+            display: inline-block;
+            margin-right: 1rem;
+        }
+    }
+
 }
 
 
