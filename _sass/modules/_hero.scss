@@ -190,7 +190,7 @@
 
     // contact
     &.hero--contact {
-         $hero-image: '../assets/images/bg-people-office.png';
+        $hero-image: '../assets/images/bg-people-office.png';
         
         @include background(url($hero-image) no-repeat fixed); 
         // @extend .hero--tint;
@@ -199,6 +199,28 @@
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    // not found   
+    &.hero--not-found {
+        a {
+            color: #fff;
+            font-weight: 600;
+            text-decoration: underline;
+        }
+
+        //TODO: generic inverse button
+        .button {
+            color: white;
+            text-decoration: none;
+            border-color: white;
+            margin-top: 4em;
+
+            &:hover {
+                background-color: white;
+                color: $dark-gray;
+            }
+        }
     }
 
 }
