@@ -23,7 +23,7 @@
 
         // mobile view
         @include media($mobile) {
-             padding: 10em 0;
+             padding: $mobile-padding-large;
         }
     }
 
@@ -228,6 +228,5 @@
             }
         }
     }
-
 }
 

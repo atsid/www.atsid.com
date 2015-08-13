@@ -30,8 +30,12 @@
             @include span-columns(4);
         }
     }
-}
 
+    // .intro - mobile view
+    @include media($mobile) {
+        padding: $mobile-padding;
+    }
+}
 
 // - - - - - - - - - - - - - - - - - - -
 // - - Divisions
@@ -75,6 +79,8 @@
         // mobile & tablet view
         @include media($tablet) {
             @include fill-parent;
+
+            padding: $mobile-padding;
         }
     }
 
@@ -155,6 +161,10 @@
             }
          }
     }
+    // .join - mobile view
+    @include media($mobile) {
+        padding: $mobile-padding;
+    }
 }
 
 // - - - - - - - - - - - - - - - - - - -
@@ -198,7 +208,10 @@
             font-size: 1.3em;
             margin-bottom: 1.5em;
         }
-
+    }
+    // .convo - mobile view
+    @include media($mobile) {
+        padding: $mobile-padding;
     }
 }
 
@@ -332,7 +345,6 @@
         @include span-columns(7);
     }
 }
-
 
 // - - - - - - - - - - - - - - - - - - -
 // - - Maintenance Support
@@ -654,8 +666,6 @@
         display: inline-block;
         vertical-align: middle;
     }
-
-
 }
 
 // - - - - - - - - - - - - - - - - - - -
