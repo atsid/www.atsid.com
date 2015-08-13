@@ -30,51 +30,6 @@
             @include span-columns(4);
         }
     }
-
-    // .intro__stats {
-    //     @include span-columns(4);
-    //     @include shift(1);
-    //     @include pad(1em);
-    //     @include omega;
-        
-    //     min-height: 20em;
-
-    //     // tablet view
-    //     @include media($tablet) {
-    //         @include span-columns(8);
-    //         @include shift(0);
-    //     }
-
-    //     // mobile view
-    //     @include media($mobile) {
-    //         @include span-columns(4);
-    //     }
-        
-    //     // Employee Statistics
-    //     ul {
-    //         padding: 0;
-    //         li {
-    //             list-style-type: none;
-    //             margin-bottom: 20px;
-    //         }
-
-    //         svg:not(:root) {
-    //             margin: 5px 15px 20px 0;
-    //             float: left;
-    //         }
-
-    //         small {
-    //             font-weight: 600;
-    //             text-transform: uppercase;
-    //             opacity: 0.5;
-    //         }
-    //     }   
-
-    //     h2 {
-    //         margin: 0;
-    //     }     
-
-    // }
 }
 
 
@@ -547,7 +502,7 @@
                 text-align: center;
             }
             > a {
-                margin-left: 10px;
+                margin-left: 0.8em;
             }
         }
     }
@@ -685,8 +640,13 @@
         list-style-type: none;
 
         li {
-            display: inline-block;
-            margin-right: 1rem;
+            display: block;
+            margin-bottom: 1.5rem;
+            
+            svg:not(:root) {
+                vertical-align: middle;
+                margin-right: 0.5em;
+            }
         }
     }
 
