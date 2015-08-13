@@ -33,6 +33,16 @@
         .hero__title {
             color: white;
             font-size: 2em;
+
+            // mobile view
+            @include media($mobile) {
+                 font-size: $mobile-hero-title-size;
+            }
+        }
+
+        // mobile view
+        @include media($mobile) {
+             padding: $mobile-padding-large;
         }
     }
     
@@ -148,6 +158,11 @@
         h2 {
             font-weight: 300;
         }
+
+        // mobile view
+        @include media($mobile) {
+             min-height: initial;
+        }
    }
 
    // Software
@@ -165,6 +180,11 @@
 
         h2 {
             font-weight: 300;
+        }
+
+        // mobile view
+        @include media($mobile) {
+             min-height: initial;
         }
    }
 
