@@ -50,9 +50,18 @@ exclude_from_nav: true
                 <dd>1, 2, 3, 4, 5, 6, 7</dd>
             </dl>
             <ul>
-                <li class="contracts"><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="49.968" height="44.971" viewBox="0 0 480 432"><image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAtCAMAAADbYcjNAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABsFBMVEUAAAAARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawAAABPerMqAAAAjnRSTlMAWuP04iFQ0c/T8grz+xX1zs0IrV6uDcObicRkA+ZBGSM47AwPyFsH5FmfnEhGRDHQgAS/0kJmbCZDT94/GyqkBf2obWJ0AtZKg4onqe5JYBJFMLK6Bky5EKVhyTM0TsGnkI6+zC97o0dnkb1jdU1SGq8s6Ddvly6TVLE637YRblwtx8vcs1/6tLsocvbbsm7nwgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAIeSURBVEjHlZVpW9NQEIWPKEpVbBUQFUFkccFeQLTRitUKEYp1w0oVF9xQi+KOK+77en6zuUnIk9usnQ/pzLl9M8+ZZlJgWR2rY/mKeoTESnJVgxoJcvWaEGRt4zqPlkwyFYJwvUfawKZmttSEbGQrNnFzMNLggySALWyrCTG0re3sqBHBNrKzRgTb2dUdF+lhr/m5w+csANnJXVaym00xEfRxT1oI0T8wyL0xkaF9zuO2PyYCZDQzDtiu4iDOafwuzmmMLgezwhWHOOwuxeGcBznSy4g4mleR+mMcGdXcoetKebyVqTEFGWcBETHBE26kyJNRBHCKbuQ0zwBns5OGz3PwZkJkhoCSgqSpAwXL5vkplK3sgpORF4EWBRHU5GXa8Dlt7H6mKtO0S/nqLjZSlvll4oqVJYirVmaGLzIj82vEgCyB6zKbCUMmecMwepO30GEhJYlITeQCkIxldLbHmMYSctvS7gR2uWsYFUul3UVqWjHQS9ldAiMSibCvOaVpelbOTgtDKpxzynvmIO4b/uYCkDTn5Z/HA7t86AzikaNV//oFNgM5vWiXj/U2w3MFbg14oiBP2Rf9JD9TENRxIYp4zhcK8pJ8VVaWPduvlK/fcHhK3f3Ft1G7/+695w2zOO/e9Q9sV3b/4yf5nYj32Gc/MRVCdHPQD/kS2uWrj9iYzAcTC/zmo37nj5+lgPhF/va705+/wSP9V/EB/gP+zxtPL0BwvAAAAABJRU5ErkJggg==" width="480" height="432"/></svg> SeaPort­e Government Contacts</a></li>
-                <li class="quality"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="49.968" height="44.971" viewBox="0 0 480 432"><image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAtCAMAAADbYcjNAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABsFBMVEUAAAAARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawAAABPerMqAAAAjnRSTlMAWuP04iFQ0c/T8grz+xX1zs0IrV6uDcObicRkA+ZBGSM47AwPyFsH5FmfnEhGRDHQgAS/0kJmbCZDT94/GyqkBf2obWJ0AtZKg4onqe5JYBJFMLK6Bky5EKVhyTM0TsGnkI6+zC97o0dnkb1jdU1SGq8s6Ddvly6TVLE637YRblwtx8vcs1/6tLsocvbbsm7nwgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAIeSURBVEjHlZVpW9NQEIWPKEpVbBUQFUFkccFeQLTRitUKEYp1w0oVF9xQi+KOK+77en6zuUnIk9usnQ/pzLl9M8+ZZlJgWR2rY/mKeoTESnJVgxoJcvWaEGRt4zqPlkwyFYJwvUfawKZmttSEbGQrNnFzMNLggySALWyrCTG0re3sqBHBNrKzRgTb2dUdF+lhr/m5w+csANnJXVaym00xEfRxT1oI0T8wyL0xkaF9zuO2PyYCZDQzDtiu4iDOafwuzmmMLgezwhWHOOwuxeGcBznSy4g4mleR+mMcGdXcoetKebyVqTEFGWcBETHBE26kyJNRBHCKbuQ0zwBns5OGz3PwZkJkhoCSgqSpAwXL5vkplK3sgpORF4EWBRHU5GXa8Dlt7H6mKtO0S/nqLjZSlvll4oqVJYirVmaGLzIj82vEgCyB6zKbCUMmecMwepO30GEhJYlITeQCkIxldLbHmMYSctvS7gR2uWsYFUul3UVqWjHQS9ldAiMSibCvOaVpelbOTgtDKpxzynvmIO4b/uYCkDTn5Z/HA7t86AzikaNV//oFNgM5vWiXj/U2w3MFbg14oiBP2Rf9JD9TENRxIYp4zhcK8pJ8VVaWPduvlK/fcHhK3f3Ft1G7/+695w2zOO/e9Q9sV3b/4yf5nYj32Gc/MRVCdHPQD/kS2uWrj9iYzAcTC/zmo37nj5+lgPhF/va705+/wSP9V/EB/gP+zxtPL0BwvAAAAABJRU5ErkJggg==" width="480" height="432"/></svg> Quality Assurance Program</a></li>
-                <li class="team"><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="49.968" height="44.971" viewBox="0 0 480 432"><image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAtCAMAAADbYcjNAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABsFBMVEUAAAAARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawAAABPerMqAAAAjnRSTlMAWuP04iFQ0c/T8grz+xX1zs0IrV6uDcObicRkA+ZBGSM47AwPyFsH5FmfnEhGRDHQgAS/0kJmbCZDT94/GyqkBf2obWJ0AtZKg4onqe5JYBJFMLK6Bky5EKVhyTM0TsGnkI6+zC97o0dnkb1jdU1SGq8s6Ddvly6TVLE637YRblwtx8vcs1/6tLsocvbbsm7nwgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAIeSURBVEjHlZVpW9NQEIWPKEpVbBUQFUFkccFeQLTRitUKEYp1w0oVF9xQi+KOK+77en6zuUnIk9usnQ/pzLl9M8+ZZlJgWR2rY/mKeoTESnJVgxoJcvWaEGRt4zqPlkwyFYJwvUfawKZmttSEbGQrNnFzMNLggySALWyrCTG0re3sqBHBNrKzRgTb2dUdF+lhr/m5w+csANnJXVaym00xEfRxT1oI0T8wyL0xkaF9zuO2PyYCZDQzDtiu4iDOafwuzmmMLgezwhWHOOwuxeGcBznSy4g4mleR+mMcGdXcoetKebyVqTEFGWcBETHBE26kyJNRBHCKbuQ0zwBns5OGz3PwZkJkhoCSgqSpAwXL5vkplK3sgpORF4EWBRHU5GXa8Dlt7H6mKtO0S/nqLjZSlvll4oqVJYirVmaGLzIj82vEgCyB6zKbCUMmecMwepO30GEhJYlITeQCkIxldLbHmMYSctvS7gR2uWsYFUul3UVqWjHQS9ldAiMSibCvOaVpelbOTgtDKpxzynvmIO4b/uYCkDTn5Z/HA7t86AzikaNV//oFNgM5vWiXj/U2w3MFbg14oiBP2Rf9JD9TENRxIYp4zhcK8pJ8VVaWPduvlK/fcHhK3f3Ft1G7/+695w2zOO/e9Q9sV3b/4yf5nYj32Gc/MRVCdHPQD/kS2uWrj9iYzAcTC/zmo37nj5+lgPhF/va705+/wSP9V/EB/gP+zxtPL0BwvAAAAABJRU5ErkJggg==" width="480" height="432"/></svg> ATS SeaPort­e Team</a></li>
+                <li class="contracts"> 
+                    <a href="{{ site.baseurl }}/assets/files/SeaPorte-Government-Contacts.pdf" download="SeaPort­e Government Contacts.pdf">SeaPort­e Government Contacts</a>
+                    <span class="badge">PDF</span>
+                </li>
+                <li class="quality"> 
+                    <a href="{{ site.baseurl }}/assets/files/SeaPorte-Quality-Assurance-Program.pdf" download="SeaPort­e Quaity Assurance Program.pdf">Quality Assurance Program</a>
+                    <span class="badge">PDF</span>
+                </li>
+                <li class="team"> 
+                    <a href="{{ site.baseurl }}/assets/files/ATS-SeaPorte-Team.pdf" download="ATS SeaPort­e Team.pdf">ATS SeaPort­e Team</a>
+                    <span class="badge">PDF</span>
+                </li>
             </ul>
         </article>
     </section>
@@ -63,39 +72,32 @@ exclude_from_nav: true
         </article>
         <article>
             <h2>GSA</h2>
-            <p>The Navy’s electronic platform for acquiring support services in 22 functional areas including Engineering, Financial Management, and Program Management.
+            <p> IT schedule 70 is the largest and most widely used acquisition vehicle in the Federal Government.  Schedule 70 is an IDIQ multiple award schedule, providing direct access to products and services from over 5,000 certified industry partners.
             </p>
             <dl>
                 <dt>Contract Name</dt>
-                <dd>SeaPort Enhanced</dd>
+                <dd>GSA Schedule 70 (S70)</dd>
 
                 <dt>Contract Number</dt>
-                <dd>N00178-06-D-4684</dd>
+                <dd>GS-35F-0535W</dd>
 
-                <dt>Contract Term</dt>
-                <dd>6/1/2006 - 4/4/2016</dd>
+                <dt>Contract Expiration Date</dt>
+                <dd>July 13, 2020</dd>
 
                 <dt>Zones</dt>
                 <dd>1, 2, 3, 4, 5, 6, 7</dd>
 
-                <dt>Award Task Order</dt>
-                <dd>N00178-06-D-4685-FC01</dd>
+                <dt>Eligibility</dt>
+                <dd>All Federal Agencies</dd>
+
+                <dt>Type of TOs</dt>
+                <dd>FFP, T&amp;M</dd>
+
+                <dt>Special Item Number(s)</dt>
+                <dd>132-51 - IT Services</dd>
+
             </dl>
-            <dl>
-                <dt>Contract Name</dt>
-                <dd>SeaPort Enhanced</dd>
-
-                <dt>Contract Number</dt>
-                <dd>N00178-14-D-7619</dd>
-
-                <dt>Contract Term</dt>
-                <dd>11/19/2013 - 4/4/2019</dd>
-
-                <dt>Zones</dt>
-                <dd>1, 2, 3, 4, 5, 6, 7</dd>
-            </dl>
+            <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.ebuy.gsa.gov%2Fadvantage%2Febuy%2Fstart_page.do&sa=D&sntz=1&usg=AFQjCNGGCxk9Ne2uOAEcO-DaH7OwhoGIFQ" target="_blank"> Order via the GSA eBuy System <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="15" height="15" viewBox="0 0 15 15"><image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAMAAAAMCGV4AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAdVBMVEUAAAAARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawAAABj8aOjAAAAJXRSTlMAINRZP8/eiIeGMSOEftMu211FkmZgA20anhxTMAVnaIH86sFEyhvq3QAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAABtSURBVAjXbcztDoIwEETRAVSKlA9RBBVaQOf9X1E2WGgM98/kZJNFEFKKcJA54sRYKZWckeosJ0ENV8FyduJ4oa5mq5VX3DYLkdY/3xuhtLjlQ+b5cveulzHeP8n+2ex48FwT42TN2pvo6Pf5AkqJDIyvgXkaAAAAAElFTkSuQmCC" width="15" height="15"/></svg></a>
         </article>
     </section>
 </div>
-
-
