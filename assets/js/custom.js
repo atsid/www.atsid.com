@@ -16,11 +16,8 @@ function checkAndUpdateHeader(e) {
     }
 }
 
-function init() {
-    window.addEventListener('scroll', checkAndUpdateHeader);
-    window.addEventListener('resize', checkAndUpdateHeader);
-    checkAndUpdateHeader();
-
+// fetch jobs from kiminolabs api if the page is the jobs page
+function initJobs() {
     var cont = document.getElementById('jobs');
     if (cont) {
         window.jsonp("https://www.kimonolabs.com/api/4ud3yvpu?apikey=oKUBrbrOQm581EwTE55JxONqwZAuSDqu", function(err, response) {
@@ -96,4 +93,29 @@ function init() {
         });
     }
 }
+
+function initMenu() {
+    var opened = false;
+
+    var btn = document.getElementById("nav-toggle-menu");
+    var nav = document.getElementsByTagName("nav")[0];
+
+    btn.addEventListener("click", function () {
+        if (!opened) {
+            classie.add(nav, 'nav--active');
+        } else {
+            classie.remove(nav, 'nav--active');
+        }
+        opened = !opened;
+    });
+}
+
+function init() {
+    window.addEventListener('scroll', checkAndUpdateHeader);
+    window.addEventListener('resize', checkAndUpdateHeader);
+    checkAndUpdateHeader();
+    initJobs();
+    initMenu();
+}
+
 window.onload = init();
