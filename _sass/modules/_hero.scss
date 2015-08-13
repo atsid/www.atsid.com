@@ -108,7 +108,7 @@
 
      // about 
     &.hero--about {
-        $hero-image: '../assets/images/bg-street-view.png';
+        $hero-image: '../assets/images/hero-about.png';
         
         @include background(url($hero-image) no-repeat fixed); 
         // @extend .hero--home;
@@ -170,7 +170,15 @@
 
     // careers
     &.hero--careers {
-        background: teal;
+        $hero-image: '../assets/images/hero-career.png';
+        
+        @include background(url($hero-image) no-repeat fixed); 
+        // @extend .hero--tint;
+
+        background-color:  $hero-background;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     // contract vehicles
@@ -184,13 +192,11 @@
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
-
-        
     }
 
     // contact
     &.hero--contact {
-        $hero-image: '../assets/images/bg-people-office.png';
+        $hero-image: '../assets/images/hero-contact.png';
         
         @include background(url($hero-image) no-repeat fixed); 
         // @extend .hero--tint;
