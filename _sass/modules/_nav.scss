@@ -12,8 +12,7 @@
     @include transition(all 0.3s ease-in-out);
 
     background-color: $navigation-background;
-    border-bottom: 1px solid darken($navigation-background, 10);
-    height: $navigation-height;
+    min-height: $navigation-height;
     padding: 0;
     position: fixed;
     top: 0;
@@ -44,7 +43,7 @@
 
     nav {
         float: right;
-        height: $navigation-height;
+        min-height: $navigation-height;
         z-index: 9999999;
     }
 
@@ -113,7 +112,7 @@
     // styles for showing the nav on scroll
     &.page_nav--showing {
         background: $navigation-background-showing;
-        height: $navigation-showing-height;
+        min-height: $navigation-showing-height;
 
         .logo {
             @include transition(all 0.3s ease-in-out);
@@ -122,7 +121,7 @@
         }
 
         nav {
-            height: $navigation-showing-height;
+            min-height: $navigation-showing-height;
         }
 
         .nav__link {
@@ -130,6 +129,83 @@
         }
         .nav__link--active {
             padding-bottom: 0;
+        }
+    }
+
+    .nav__toggle-menu {
+        display: none;
+        margin-top: 14px;
+        background: none;
+        border: none;
+        float: right;
+
+        &:hover {
+            background: rgba(255,255,255,.1);
+        }
+    }
+
+    @include media($tablet) {
+        nav {
+            float: none;
+        }
+
+        .nav__toggle-menu {
+            display: inline-block;
+            z-index: 99999;
+            position: relative;
+            height: 35px;
+            width: 35px;
+
+            > .nav__toggle-menu__ic-open, 
+            > .nav__toggle-menu__ic-close {
+                @include transition(opacity 0.3s ease-in-out);
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: -7px;
+                margin-left: -6px;
+            }
+
+            > .nav__toggle-menu__ic-close {
+                opacity: 0;
+            }
+        }
+
+        .nav--active .nav__menu {
+            left: 0;
+            opacity: 1;
+        }
+
+        .nav--active {
+            .nav__toggle-menu__ic-open {
+                opacity: 0;
+            }
+            .nav__toggle-menu__ic-close {
+                opacity: 1;
+            }
+        }
+
+        .nav__menu {
+            padding-top: $navigation-showing-height;
+            opacity: 0;
+            background: rgba(0,0,0,.9);
+            position: fixed;
+            top: 0;
+            left: 100%;
+            right: 0;
+            bottom: 0;
+            overflow: hidden;
+            @include transition(all 0.3s ease-in-out);
+
+            > li {
+                display: block;
+                text-align: center;
+
+                &.nav__link--active {
+                    border: none;
+                    padding: 0;
+                }
+            }
         }
     }
 }

@@ -1,7 +1,15 @@
 <div class="container">
     <a href="{{ site.baseurl }}/" class="logo"> <img src="{{ site.baseurl }}/assets/images/ats-logo-sml.png" alt="ATS Logo"></a>
     <nav>
-        <ul class="nav__menu">
+        <button class="nav__toggle-menu" id="nav-toggle-menu">
+            <svg class="nav__toggle-menu__ic-open" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 14 14">
+                <path d="M12 10.5v1q0 0.203-0.148 0.352t-0.352 0.148h-11q-0.203 0-0.352-0.148t-0.148-0.352v-1q0-0.203 0.148-0.352t0.352-0.148h11q0.203 0 0.352 0.148t0.148 0.352zM12 6.5v1q0 0.203-0.148 0.352t-0.352 0.148h-11q-0.203 0-0.352-0.148t-0.148-0.352v-1q0-0.203 0.148-0.352t0.352-0.148h11q0.203 0 0.352 0.148t0.148 0.352zM12 2.5v1q0 0.203-0.148 0.352t-0.352 0.148h-11q-0.203 0-0.352-0.148t-0.148-0.352v-1q0-0.203 0.148-0.352t0.352-0.148h11q0.203 0 0.352 0.148t0.148 0.352z" fill="#fff"></path>
+            </svg>
+            <svg class="nav__toggle-menu__ic-close" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="11" height="14" viewBox="0 0 11 14">
+                <path d="M10.141 10.328q0 0.312-0.219 0.531l-1.062 1.062q-0.219 0.219-0.531 0.219t-0.531-0.219l-2.297-2.297-2.297 2.297q-0.219 0.219-0.531 0.219t-0.531-0.219l-1.062-1.062q-0.219-0.219-0.219-0.531t0.219-0.531l2.297-2.297-2.297-2.297q-0.219-0.219-0.219-0.531t0.219-0.531l1.062-1.062q0.219-0.219 0.531-0.219t0.531 0.219l2.297 2.297 2.297-2.297q0.219-0.219 0.531-0.219t0.531 0.219l1.062 1.062q0.219 0.219 0.219 0.531t-0.219 0.531l-2.297 2.297 2.297 2.297q0.219 0.219 0.219 0.531z" fill="#fff"></path>
+            </svg>
+        </button>
+        <ul class="nav__menu" id="nav-menu">
             {% for p in site.pages %}
                 {% unless p.exclude_from_nav %}
                     {% if p.title %}
