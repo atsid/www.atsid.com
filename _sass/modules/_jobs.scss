@@ -50,7 +50,6 @@
 
 .jobs {
     
-    max-width: 500px;
     margin: 1.5em auto;
     text-align: left;
 
@@ -107,6 +106,11 @@
 
     .jobs__department__title {
         font-weight: 600;
+    }
+
+    .jobs__list {
+        max-width: 500px;
+        margin: 30px auto;
     }
 
     .jobs__item {
