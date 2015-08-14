@@ -58,7 +58,7 @@
 
         // mobile view
         @include media($mobile) {
-             font-size: 1.5em;
+             font-size: $mobile-hero-title-size;
         }
     }
 
@@ -76,7 +76,7 @@
 
         // mobile view
         @include media($mobile) {
-             font-size: 1.2em;
+             font-size: $mobile-hero-byline-size;
              font-weight: 400;
              padding: 0 1em;
         }
@@ -88,6 +88,11 @@
         max-width: 38em;
         margin: auto;
         line-height: 1.7;
+
+        // mobile view
+        @include media($mobile) {
+             font-size: $mobile-hero-byline-size;
+        }
     }
 
 
