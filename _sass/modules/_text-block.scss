@@ -4,6 +4,12 @@
         color: darken($base-font-color,20%);
         line-height: 1em;
         margin-bottom: 0.5em;
+
+        @include media($mobile) {
+            font-size: $mobile-title-size;
+            line-height: $mobile-title-line-height;
+        }
+
     }
 
     .text-block__sub-title {

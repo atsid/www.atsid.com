@@ -27,7 +27,7 @@ permalink: /about/
         </p>
     </article>
     <article>
-        <img src="{{ site.baseurl }}/assets/images/about-1.jpg" alt="We love our clients. Not like that crazy kind of love, but don't ever leave us...or we'll find you.">
+        <img src="{{ site.baseurl }}/assets/images/mission-illustrated.png" alt="We love our clients. Not like that crazy kind of love, but don't ever leave us...or we'll find you.">
     </article>
 </section>
 
