@@ -555,6 +555,10 @@
     @include outer-container;
     @include fill-parent();
     padding: 8em 2em;
+
+    @include media($mobile) {
+        @include pad($mobile-padding);
+    }
 }
 
 .contact-information {
@@ -586,6 +590,17 @@
     > div:last-of-type {
         @include span-columns(6);
     }
+
+     @include media($mobile) {
+        margin-bottom: 1em;
+
+        > div:first-of-type, > div:last-of-type {
+            @include span-columns(4);
+
+            margin-bottom: 1em;
+        }
+    }
+
 }
 
 .contact-locations {
@@ -611,11 +626,7 @@
 
     // mobile view
     @include media($mobile) {
-        @include span-columns(12);
-
-        img {
-            max-width: 400px;
-        }
+        @include span-columns(4);
     }
 
     > .location-list__item__photo {
@@ -729,6 +740,28 @@
     svg {
         display: inline-block;
         vertical-align: middle;
+    }
+
+    @include media($mobile) {
+        @include pad($mobile-padding);
+
+        article:last-of-type {
+            @include span-columns(4);
+        }
+
+        article:first-of-type {
+            display: none;
+        }
+
+        dl {
+            font-size: $base-font-size - 0.2;
+            line-height: $mobile-line-height;
+        }
+
+        dt,dd {
+            width: 45%;
+            vertical-align: top;
+        }
     }
 }
 
