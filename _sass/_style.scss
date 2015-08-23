@@ -202,6 +202,10 @@
         > h2 {
             color: white;
             margin-bottom: 0.6em;
+
+             @include media($mobile) {
+                font-size: $mobile-title-size;
+            }
         }
 
         > p {
@@ -283,6 +287,21 @@
             margin-bottom: 0;
         }
     }
+
+    @include media($mobile) {
+        padding: $mobile-padding;
+
+        h2 {
+            font-size: $mobile-title-size;
+            margin-bottom: 0.5em;
+        }
+
+        h4:first-of-type {
+            margin-top: 2em;
+        }
+
+    }
+
 }
 
 .about-inverse {
@@ -294,6 +313,10 @@
         margin: 0;
         text-align: center;
         line-height: $base-line-height - 0.5;
+
+        @include media($mobile) {
+            font-size: $mobile-title-size;
+        }
     }
 }
 
