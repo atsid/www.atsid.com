@@ -121,6 +121,17 @@
         float: right;
         color: #999;
     }
+}
 
+
+@include media($mobile) {
+     .careers-grid__cell--2 {
+        display: none;
+
+        &:first-of-type {
+            display: block;
+            width: 100%;
+        }
+     }
 }
 

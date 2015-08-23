@@ -345,10 +345,6 @@
 
     @include media($mobile) {
         @include pad($mobile-padding);
-
-        h3 {
-           // font-size: $mobile-title-size; 
-        }
     }
 }
 
@@ -388,6 +384,29 @@
 
     article:last-of-type {
         @include span-columns(7);
+    }
+}
+
+ @include media($mobile) {
+
+    h2 {
+        font-size: $mobile-title-size;
+    }
+
+    .capabilities-software, .capabilities-msg  {
+        @include pad($mobile-padding);
+
+        article:first-of-type, article:last-of-type {
+            @include span-columns(4);
+            @include clearfix;
+
+            float: none;
+        }
+
+        img {
+            display: none;
+            margin-bottom: 1rem;
+        }
     }
 }
 

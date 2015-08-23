@@ -4,6 +4,10 @@
     @include clearfix;
     @include pad(6em 2em);
     @include outer-container;
+
+    @include media($mobile) {
+         padding: $mobile-padding;
+    }
 }
 
 .container-content {
