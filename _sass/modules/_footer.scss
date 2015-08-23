@@ -13,7 +13,7 @@
         padding: 3em 2em;
 
         @include media($mobile) {
-           padding: $mobile-padding $mobile-padding - 1;
+           padding: $mobile-padding 0 $mobile-padding $mobile-padding;
         }
     }
 

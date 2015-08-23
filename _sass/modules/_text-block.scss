@@ -36,6 +36,10 @@
        p {
             font-size: 1.4em;
             max-width: 22em;
+                
+            @include media($mobile) {
+                font-size: $mobile-title-size - 0.5;
+            }
        }
      }
 

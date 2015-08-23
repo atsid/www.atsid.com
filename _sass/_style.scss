@@ -14,9 +14,16 @@
         text-align: center;
 
         p {
-
             font-size: $base-font-size + 0.2;
             font-weight: 300;
+
+            @include media($mobile) {
+                font-size: $mobile-subtitle-size;
+
+                strong {
+                    display: none;
+                }
+            }
         }
         // tablet view
         @include media($tablet) {
@@ -211,6 +218,10 @@
         > p {
             font-size: 1.3em;
             margin-bottom: 1.5em;
+
+            @include media($mobile) {
+                font-size: $mobile-subtitle-size;
+            }
         }
     }
     // .convo - mobile view
@@ -286,6 +297,9 @@
         &:last-of-type {
             margin-bottom: 0;
         }
+        @include media($mobile) {
+            margin-bottom: 2em;
+        }
     }
 
     @include media($mobile) {
@@ -315,7 +329,7 @@
         line-height: $base-line-height - 0.5;
 
         @include media($mobile) {
-            font-size: $mobile-title-size;
+            font-size: $mobile-subtitle-size;
         }
     }
 }
@@ -328,6 +342,14 @@
     @include fill-parent();
     text-align: center;
     padding: 8em 2em;
+
+    @include media($mobile) {
+        @include pad($mobile-padding);
+
+        h3 {
+           // font-size: $mobile-title-size; 
+        }
+    }
 }
 
 .capabilities-container {
