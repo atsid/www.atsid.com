@@ -130,7 +130,7 @@
     @include outer-container;
     @include fill-parent();
 
-    padding: 8em 2em;
+    padding: 8em 2em 4em;
 
     .join__content {
         @include span-columns(7);
@@ -153,6 +153,10 @@
         
         position: relative;
         top: -3em;
+
+        img {
+            padding: 0 0 0 4em;
+        }
 
         // tablet  view
         @include media($tablet) {
