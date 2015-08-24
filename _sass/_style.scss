@@ -479,6 +479,47 @@
     }
 }
 
+// Mobile
+@include media($mobile) {
+    .msg-container {
+        @include pad(0 $mobile-padding);
+        margin: 0;
+    }
+    .msg-intro {
+        @include pad($mobile-padding);
+        margin: 0 -2em 4em -2em;
+         > article > h2, > article > p {
+            @include span-columns(4);
+            margin-bottom: 0.5em;
+        }
+    }
+    .msg-section {
+        > article:first-of-type, > article:last-of-type {
+            @include span-columns(4);
+            float: none;
+
+            img {
+                margin: 0;
+            }
+
+            > h4 {
+                font-size: $mobile-title-size;
+            }
+        }
+    }
+    .msg-outro {
+        @include pad($mobile-padding);
+        margin: 4em -2em 0;
+
+        > article > p {
+            font-size: $mobile-subtitle-size;
+        }
+    }
+}
+
+
+
+
 // - - - - - - - - - - - - - - - - - - -
 // - - Software Development
 
@@ -545,6 +586,44 @@
         font-size: 1.4em;
         line-height: 2;
         text-align: center;
+    }
+}
+
+// Mobile
+@include media($mobile) {
+    .software-container {
+        @include pad(0 $mobile-padding);
+        margin: 0;
+    }
+    .software-intro {
+        @include pad($mobile-padding);
+        margin: 0 -2em 4em -2em;
+         > article > h2, > article > p {
+            @include span-columns(4);
+            margin-bottom: 0.5em;
+        }
+    }
+    .software-section {
+        > article:first-of-type, > article:last-of-type {
+            @include span-columns(4);
+            float: none;
+
+            img {
+                margin: 0;
+            }
+
+            > h4 {
+                font-size: $mobile-title-size;
+            }
+        }
+    }
+    .software-outro {
+        @include pad($mobile-padding);
+        margin: 4em -2em 0;
+
+        > article > p {
+            font-size: $mobile-subtitle-size;
+        }
     }
 }
 
