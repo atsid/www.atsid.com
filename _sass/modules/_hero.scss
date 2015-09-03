@@ -136,7 +136,7 @@
 
     // capabilities
     &.hero--capabilities {
-        $hero-image: '../assets/images/bg-naval-crew.png';
+        $hero-image: '../assets/images/hero-capabilities.png';
         
         @include background(url($hero-image) no-repeat fixed); 
         // @extend .hero--tint;
@@ -149,7 +149,7 @@
 
     // MSG
     &.hero--msg {
-        $hero-image: '../assets/images/bg-carrier.png';
+        $hero-image: '../assets/images/hero-maintenance.png';
         
         @include background(url($hero-image) no-repeat fixed); 
         // @extend .hero--tint;
@@ -172,7 +172,7 @@
 
    // Software
     &.hero--software {
-        $hero-image: '../assets/images/bg-software-dev.png';
+        $hero-image: '../assets/images/hero-software.png';
         
         @include background(url($hero-image) no-repeat fixed); 
         // @extend .hero--tint;
@@ -208,7 +208,7 @@
 
     // contract vehicles
     &.hero--contract-vehicles {
-        $hero-image: '../assets/images/bg-american-flag.png';
+        $hero-image: '../assets/images/hero-contract-vehicles.png';
         
         @include background(url($hero-image) no-repeat fixed); 
         // @extend .hero--tint;
