@@ -92,7 +92,7 @@
         @include media($tablet) {
             @include fill-parent;
 
-            padding: $mobile-padding;
+            padding: $mobile-padding + 4 $mobile-padding;
         }
     }
 
