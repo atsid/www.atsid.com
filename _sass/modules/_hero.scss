@@ -260,6 +260,10 @@
     // tablet view
     @include media($tablet) {
          background-attachment: scroll !important;
-    }    
+    }   
+    // tablet view - landscape orientation
+    @media(min-width: 1024px) and (orientation: landscape) {
+         background-attachment: scroll !important;
+    } 
 }
 
