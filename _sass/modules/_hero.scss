@@ -119,10 +119,6 @@
         background-color:  $hero-background;
         background-position: top;
         background-size: cover;
-
-         @include media($mobile) {
-            background-attachment: scroll;
-        }
     }
 
      // about 
@@ -136,10 +132,6 @@
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
-
-        @include media($mobile) {
-            background-attachment: scroll;
-        }
     }
 
     // capabilities
@@ -153,10 +145,6 @@
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
-
-        @include media($mobile) {
-            background-attachment: scroll;
-        }
    }
 
     // MSG
@@ -264,6 +252,14 @@
                 color: $dark-gray;
             }
         }
+    }
+    // mobile view
+    @include media($mobile) {
+         background-attachment: scroll !important;
+    }
+    // tablet view
+    @include media($tablet) {
+         background-attachment: scroll !important;
     }
 }
 
