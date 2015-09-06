@@ -8,13 +8,22 @@
     padding: 8em 2em;
 
     .intro__content {
-        @include span-columns(12);
+        @include span-columns(10);
+        @include shift(1);
         @include clearfix;
 
         text-align: center;
 
-        p {
+        strong {
+            display: block;
             font-size: $base-font-size + 0.2;
+            font-weight: 800;
+            margin-bottom: 0.5em;
+        }
+
+        p {
+            font-size: $base-font-size + 0.1;
+            line-height: $base-line-height + 0.05;
             font-weight: 300;
 
             @include media($mobile) {
@@ -67,7 +76,7 @@
 
         &:before {
             @include transition(all 0.3s ease-in-out);
-
+            
             content: '';
             display: block;
             position: absolute;
@@ -76,11 +85,11 @@
             top: 0;
             bottom: 0;
             right: 0;
-            left: 0;
+            left: 0;    
         }
 
         &:hover:before {
-            background-color: rgba(16,27,38,0.55);
+            background-color: rgba(16,27,38,0.75);
         }
 
         // mobile & tablet view

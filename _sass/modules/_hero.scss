@@ -119,6 +119,10 @@
         background-color:  $hero-background;
         background-position: top;
         background-size: cover;
+
+         @include media($mobile) {
+            background-attachment: fixed;
+        }
     }
 
      // about 
@@ -132,6 +136,10 @@
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
+
+        @include media($mobile) {
+            background-attachment: fixed;
+        }
     }
 
     // capabilities
@@ -145,6 +153,10 @@
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
+
+        @include media($mobile) {
+            background-attachment: fixed;
+        }
    }
 
     // MSG

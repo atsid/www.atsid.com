@@ -1,8 +1,6 @@
 .text-block {
     
     .text-block__title {
-        color: darken($base-font-color,20%);
-        line-height: 1em;
         margin-bottom: 0.5em;
 
         @include media($mobile) {
