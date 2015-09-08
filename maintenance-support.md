@@ -25,7 +25,7 @@ exclude_from_nav: true
             <p>We bring disparate datasets together to develop a sustainable maintenance solution that improves supportability by identifying and fixing data problems; reduces delay-time by fixing part support problems by identifying parts that are about to fail or are failing; ensuring new parts are available when needed; and designing custom dashboards to monitor failure data to allow you to keep your finger on the pulse of the system.</p>
         </article>
         <article>
-            <img src="{{ site.baseurl }}/assets/images/icon-support.png" alt="Agile Software Development">
+            <img src="{{ site.baseurl }}/assets/images/icon-support.png" alt="Agile Software Development" alt="Maintenance and Support Analysis Infographic">
         </article>
     </section>
 
@@ -35,7 +35,7 @@ exclude_from_nav: true
 	        <p>Through configuration management audits, validation, and verification, our Configuration Data Analysts and Specialists work with you to define user requirements to configure a product or item in such a way to ensure it works appropriately for its entire life cycle.  From initial configuration identification, to configuration control, followed by configuration accounting and auditing, we implement solutions for any product or item.  By doing so, the product or item is configured correctly, remains reliable, and empowers you and your team to make rapid corrections to issues when they arise.</p>
 	    </article>
 	    <article>
-	        <img src="{{ site.baseurl }}/assets/images/icon-data-manage.png" alt="Logistics and Maintenance Support">
+	        <img src="{{ site.baseurl }}/assets/images/icon-data-manage.png" alt="Logistics and Maintenance Support" alt="Configuration Data Management Infographic">
 	    </article>
 	</section>
 
@@ -57,7 +57,7 @@ exclude_from_nav: true
 			</p>
 	    </article>
 	    <article>
-	        <img src="{{ site.baseurl }}/assets/images/icon-lifecycle.png" alt="Logistics and Maintenance Support">
+	        <img src="{{ site.baseurl }}/assets/images/icon-lifecycle.png" alt="Product Lifecycle Management Infographic">
 	    </article>
 	</section>
 
@@ -67,7 +67,7 @@ exclude_from_nav: true
 	        <p>Our ability to bring a comprehensive approach to the integration of numerous logistics streams of any systems engineering effort can improve the support and maintenance of any systems lifecycle.  When give access to interdependent data sources, ATS works within the process and knows where to find the “quirks” in the data and how it relates to other data sources.  In doing so, we use well known and trusted procedures to ensure we are openly communicating with your technicians and staff in developing a final solution with the least amount of disruption to on-going systems and business activities.</p>
 	    </article>
 	    <article>
-	        <img src="{{ site.baseurl }}/assets/images/icon-logistic-support.png" alt="Logistics and Maintenance Support">
+	        <img src="{{ site.baseurl }}/assets/images/icon-logistic-support.png" alt="Integrated Logistics Support Infographic">
 	    </article>
 	</section>
 
