@@ -92,7 +92,7 @@
         @include media($tablet) {
             @include fill-parent;
 
-            padding: $mobile-padding + 4 $mobile-padding;
+            padding: $mobile-padding + 3 $mobile-padding;
         }
     }
 
@@ -178,7 +178,7 @@
     }
     // .join - mobile view
     @include media($mobile) {
-        padding: $mobile-padding;
+        padding: $mobile-padding + 2 $mobile-padding;
     }
 }
 
@@ -234,7 +234,7 @@
     }
     // .convo - mobile view
     @include media($mobile) {
-        padding: $mobile-padding;
+        padding: $mobile-padding + 2 $mobile-padding;
     }
 }
 

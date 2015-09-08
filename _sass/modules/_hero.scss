@@ -58,7 +58,7 @@
 
         // mobile view
         @include media($mobile) {
-             font-size: $mobile-title-size;
+             font-size: $mobile-title-size - 0.3;
         }
     }
 
