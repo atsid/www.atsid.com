@@ -84,9 +84,6 @@ exclude_from_nav: true
                 <dt>Contract Expiration Date</dt>
                 <dd>July 13, 2020</dd>
 
-                <dt>Zones</dt>
-                <dd>1, 2, 3, 4, 5, 6, 7</dd>
-
                 <dt>Eligibility</dt>
                 <dd>All Federal Agencies</dd>
 
@@ -97,7 +94,15 @@ exclude_from_nav: true
                 <dd>132-51 - IT Services</dd>
 
             </dl>
-            <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.ebuy.gsa.gov%2Fadvantage%2Febuy%2Fstart_page.do&sa=D&sntz=1&usg=AFQjCNGGCxk9Ne2uOAEcO-DaH7OwhoGIFQ" target="_blank"> Order via the GSA eBuy System <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="15" height="15" viewBox="0 0 15 15"><image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAMAAAAMCGV4AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAdVBMVEUAAAAARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawAAABj8aOjAAAAJXRSTlMAINRZP8/eiIeGMSOEftMu211FkmZgA20anhxTMAVnaIH86sFEyhvq3QAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAABtSURBVAjXbcztDoIwEETRAVSKlA9RBBVaQOf9X1E2WGgM98/kZJNFEFKKcJA54sRYKZWckeosJ0ENV8FyduJ4oa5mq5VX3DYLkdY/3xuhtLjlQ+b5cveulzHeP8n+2ex48FwT42TN2pvo6Pf5AkqJDIyvgXkaAAAAAElFTkSuQmCC" width="15" height="15"/></svg></a>
+             <ul>
+                <li class="contracts"> 
+                    <a href="{{ site.baseurl }}/assets/files/GSAPriceList.pdf" download="GSA Schedule 70 Price List PDF">GSA Schedule 70 Price List</a>
+                    <span class="badge">PDF</span>
+                </li>
+                <li class="quality"> 
+                     <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.ebuy.gsa.gov%2Fadvantage%2Febuy%2Fstart_page.do&sa=D&sntz=1&usg=AFQjCNGGCxk9Ne2uOAEcO-DaH7OwhoGIFQ" target="_blank"> Order via the GSA eBuy System <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="15" height="15" viewBox="0 0 15 15"><image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAMAAAAMCGV4AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAdVBMVEUAAAAARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawARawAAABj8aOjAAAAJXRSTlMAINRZP8/eiIeGMSOEftMu211FkmZgA20anhxTMAVnaIH86sFEyhvq3QAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAABtSURBVAjXbcztDoIwEETRAVSKlA9RBBVaQOf9X1E2WGgM98/kZJNFEFKKcJA54sRYKZWckeosJ0ENV8FyduJ4oa5mq5VX3DYLkdY/3xuhtLjlQ+b5cveulzHeP8n+2ex48FwT42TN2pvo6Pf5AkqJDIyvgXkaAAAAAElFTkSuQmCC" width="15" height="15"/></svg></a>
+                </li>
+            </ul>
         </article>
     </section>
 </div>
