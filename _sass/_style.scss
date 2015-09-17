@@ -646,6 +646,20 @@
     @include media($mobile) {
         @include pad($mobile-padding);
     }
+
+    .mail-link {
+        > .mail-icon {
+            width: 35px;
+            height: 35px;
+            border: 2px solid $blue;
+            border-radius: 100px;
+            float: left;
+            text-align: center;
+        }
+        > a {
+            margin-left: 0.8em;
+        }
+    }
 }
 
 .contact-information {
@@ -658,20 +672,6 @@
 
     > div:first-of-type {
         @include span-columns(6);
-
-        > .mail-link {
-            > .mail-icon {
-                width: 35px;
-                height: 35px;
-                border: 2px solid $blue;
-                border-radius: 100px;
-                float: left;
-                text-align: center;
-            }
-            > a {
-                margin-left: 0.8em;
-            }
-        }
     }
 
     > div:last-of-type {
