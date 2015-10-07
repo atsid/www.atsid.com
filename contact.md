@@ -8,7 +8,7 @@ byline: Reach out to us today!
 <article class="hero hero--contact">
     <div class="hero__content hero__content--short">
         <h2 class="hero__title">How can we help you?</h2>
-        <p class="hero__summary">Whether you'd like to know more about what we do, need help with your project, or would like to partner with us - <strong>we'd love to hear from you!</strong>.</p>    
+        <p class="hero__summary">Whether you'd like to know more about what we do, need help with your project, or would like to partner with us &mdash; <strong>we'd love to hear from you!</strong></p>    
     </div>
 </article>
 
