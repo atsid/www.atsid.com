@@ -11,6 +11,10 @@
     > .container {
         @include outer-container;
         padding: 3em 2em;
+
+        @include media($mobile) {
+           padding: $mobile-padding 0 $mobile-padding $mobile-padding;
+        }
     }
 
     ul {
@@ -27,9 +31,18 @@
 
         // mobile view
         @include media($mobile) {
-            @include span-columns(4);
+            @include span-columns(2);
+            @include pad(0);
 
             min-height: initial;
+
+            &:nth-child(even) {
+                margin-right: 0;
+            }
+
+            &.social {
+                width: 100%;
+            }
         }
 
         &.social {
@@ -46,6 +59,10 @@
                     span {
                         display: inline-block;
                         text-indent: -9999px;
+                    }
+
+                    &:hover {
+                        text-decoration: none;
                     }
                     
                     &:before {

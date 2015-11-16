@@ -8,20 +8,32 @@
     padding: 8em 2em;
 
     .intro__content {
-        @include span-columns(12);
+        @include span-columns(10);
+        @include shift(1);
         @include clearfix;
 
         text-align: center;
 
-        p {
-
+        strong {
+            display: block;
             font-size: $base-font-size + 0.2;
+            font-weight: 800;
+            margin-bottom: 0.5em;
+        }
+
+        p {
+            font-size: $base-font-size + 0.1;
+            line-height: $base-line-height + 0.05;
             font-weight: 300;
+
+            @include media($mobile) {
+                font-size: $mobile-subtitle-size;
+            }
         }
         // tablet view
         @include media($tablet) {
             @include span-columns(8);
-
+            @include shift(0);
             margin-bottom: 2em;
         }
 
@@ -69,18 +81,18 @@
             top: 0;
             bottom: 0;
             right: 0;
-            left: 0;
+            left: 0;    
         }
 
         &:hover:before {
-            background-color: rgba(16,27,38,0.55);
+            background-color: rgba(16,27,38,0.75);
         }
 
         // mobile & tablet view
         @include media($tablet) {
             @include fill-parent;
 
-            padding: $mobile-padding;
+            padding: $mobile-padding + 3 $mobile-padding;
         }
     }
 
@@ -123,7 +135,7 @@
     @include outer-container;
     @include fill-parent();
 
-    padding: 8em 2em;
+    padding: 8em 2em 4em;
 
     .join__content {
         @include span-columns(7);
@@ -132,7 +144,6 @@
         // tablet view
         @include media($tablet) {
             @include span-columns(8);
-            // min-height: 16em;
         }
 
         // mobile view
@@ -146,6 +157,10 @@
         
         position: relative;
         top: -3em;
+
+        img {
+            padding: 0 0 0 4em;
+        }
 
         // tablet  view
         @include media($tablet) {
@@ -163,7 +178,7 @@
     }
     // .join - mobile view
     @include media($mobile) {
-        padding: $mobile-padding;
+        padding: $mobile-padding + 2 $mobile-padding;
     }
 }
 
@@ -172,9 +187,9 @@
 .convo {
 
     $convo-background: #001234;
-    $convo-image: '../assets/images/bg-conversation.png';
+    // $convo-image: '../assets/images/bg-conversation.png';
 
-    @include background(url($convo-image) no-repeat center center scroll);
+    // @include background(url($convo-image) no-repeat center center scroll);
 
     background-position: 0 35%;
     background-repeat: no-repeat;
@@ -202,16 +217,24 @@
         > h2 {
             color: white;
             margin-bottom: 0.6em;
+
+             @include media($mobile) {
+                font-size: $mobile-title-size;
+            }
         }
 
         > p {
             font-size: 1.3em;
             margin-bottom: 1.5em;
+
+            @include media($mobile) {
+                font-size: $mobile-subtitle-size;
+            }
         }
     }
     // .convo - mobile view
     @include media($mobile) {
-        padding: $mobile-padding;
+        padding: $mobile-padding + 2 $mobile-padding;
     }
 }
 
@@ -241,7 +264,7 @@
     }
 
     img {
-        margin: 1em 0 0 5em;
+        padding: 1em 0 0 5em;
     }
 
     article:first-of-type {
@@ -282,7 +305,25 @@
         &:last-of-type {
             margin-bottom: 0;
         }
+        @include media($mobile) {
+            margin-bottom: 2em;
+        }
     }
+
+    @include media($mobile) {
+        padding: $mobile-padding;
+
+        h2 {
+            font-size: $mobile-title-size;
+            margin-bottom: 0.5em;
+        }
+
+        h4:first-of-type {
+            margin-top: 2em;
+        }
+
+    }
+
 }
 
 .about-inverse {
@@ -294,6 +335,10 @@
         margin: 0;
         text-align: center;
         line-height: $base-line-height - 0.5;
+
+        @include media($mobile) {
+            font-size: $mobile-subtitle-size + 0.2;
+        }
     }
 }
 
@@ -305,6 +350,10 @@
     @include fill-parent();
     text-align: center;
     padding: 8em 2em;
+
+    @include media($mobile) {
+        @include pad($mobile-padding);
+    }
 }
 
 .capabilities-container {
@@ -343,6 +392,29 @@
 
     article:last-of-type {
         @include span-columns(7);
+    }
+}
+
+ @include media($mobile) {
+
+    h2 {
+        font-size: $mobile-title-size;
+    }
+
+    .capabilities-software, .capabilities-msg  {
+        @include pad($mobile-padding);
+
+        article:first-of-type, article:last-of-type {
+            @include span-columns(4);
+            @include clearfix;
+
+            float: none;
+        }
+
+        img {
+            display: none;
+            margin-bottom: 1rem;
+        }
     }
 }
 
@@ -415,6 +487,47 @@
     }
 }
 
+// Mobile
+@include media($mobile) {
+    .msg-container {
+        @include pad(0 $mobile-padding);
+        margin: 0;
+    }
+    .msg-intro {
+        @include pad($mobile-padding);
+        margin: 0 -2em 4em -2em;
+         > article > h2, > article > p {
+            @include span-columns(4);
+            margin-bottom: 0.5em;
+        }
+    }
+    .msg-section {
+        > article:first-of-type, > article:last-of-type {
+            @include span-columns(4);
+            float: none;
+
+            img {
+                margin: 0;
+            }
+
+            > h4 {
+                font-size: $mobile-title-size;
+            }
+        }
+    }
+    .msg-outro {
+        @include pad($mobile-padding);
+        margin: 4em -2em 0;
+
+        > article > p {
+            font-size: $mobile-subtitle-size;
+        }
+    }
+}
+
+
+
+
 // - - - - - - - - - - - - - - - - - - -
 // - - Software Development
 
@@ -484,6 +597,44 @@
     }
 }
 
+// Mobile
+@include media($mobile) {
+    .software-container {
+        @include pad(0 $mobile-padding);
+        margin: 0;
+    }
+    .software-intro {
+        @include pad($mobile-padding);
+        margin: 0 -2em 4em -2em;
+         > article > h2, > article > p {
+            @include span-columns(4);
+            margin-bottom: 0.5em;
+        }
+    }
+    .software-section {
+        > article:first-of-type, > article:last-of-type {
+            @include span-columns(4);
+            float: none;
+
+            img {
+                margin: 0;
+            }
+
+            > h4 {
+                font-size: $mobile-title-size;
+            }
+        }
+    }
+    .software-outro {
+        @include pad($mobile-padding);
+        margin: 4em -2em 0;
+
+        > article > p {
+            font-size: $mobile-subtitle-size;
+        }
+    }
+}
+
 // - - - - - - - - - - - - - - - - - - -
 // - - Contact
 
@@ -491,6 +642,24 @@
     @include outer-container;
     @include fill-parent();
     padding: 8em 2em;
+
+    @include media($mobile) {
+        @include pad($mobile-padding);
+    }
+
+    .mail-link {
+        > .mail-icon {
+            width: 35px;
+            height: 35px;
+            border: 2px solid $blue;
+            border-radius: 100px;
+            float: left;
+            text-align: center;
+        }
+        > a {
+            margin-left: 0.8em;
+        }
+    }
 }
 
 .contact-information {
@@ -503,25 +672,22 @@
 
     > div:first-of-type {
         @include span-columns(6);
-
-        > .mail-link {
-            > .mail-icon {
-                width: 35px;
-                height: 35px;
-                border: 2px solid $blue;
-                border-radius: 100px;
-                float: left;
-                text-align: center;
-            }
-            > a {
-                margin-left: 0.8em;
-            }
-        }
     }
 
     > div:last-of-type {
         @include span-columns(6);
     }
+
+     @include media($mobile) {
+        margin-bottom: 1em;
+
+        > div:first-of-type, > div:last-of-type {
+            @include span-columns(4);
+
+            margin-bottom: 1em;
+        }
+    }
+
 }
 
 .contact-locations {
@@ -547,11 +713,7 @@
 
     // mobile view
     @include media($mobile) {
-        @include span-columns(12);
-
-        img {
-            max-width: 400px;
-        }
+        @include span-columns(4);
     }
 
     > .location-list__item__photo {
@@ -635,6 +797,7 @@
 
     article dl {
         margin-bottom: 2em;
+        width: 100%;
     }
 
     dt, dd {
@@ -665,6 +828,28 @@
     svg {
         display: inline-block;
         vertical-align: middle;
+    }
+
+    @include media($mobile) {
+        @include pad($mobile-padding);
+
+        article:last-of-type {
+            @include span-columns(4);
+        }
+
+        article:first-of-type {
+            display: none;
+        }
+
+        dl {
+            font-size: $base-font-size - 0.2;
+            line-height: $mobile-line-height;
+        }
+
+        dt,dd {
+            width: 45%;
+            vertical-align: top;
+        }
     }
 }
 
@@ -713,6 +898,3 @@
     color: $blue;
     border: 2px solid $blue;
 }
-
-
-

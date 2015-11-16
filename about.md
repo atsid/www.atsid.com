@@ -27,7 +27,7 @@ permalink: /about/
         </p>
     </article>
     <article>
-        <img src="{{ site.baseurl }}/assets/images/about-1.jpg" alt="We love our clients. Not like that crazy kind of love, but don't ever leave us...or we'll find you.">
+        <img src="{{ site.baseurl }}/assets/images/mission-illustrated.png" alt="our mission infographic">
     </article>
 </section>
 
@@ -45,12 +45,12 @@ permalink: /about/
            In 1980, ATS was founded by a Navy veteran, who, throughout his Navy career, realized the need for a hierarchical, self-describing, data modeling and storage technology. So he worked to develop CCM (Contiguous Connection Model) technology to simplify rapid information retrieval, enhance data navigation and visualization, and promote knowledge discovery. Before XML became a de facto standard, this patented technology was revolutionary for its time.
        </p>
        <p>
-            Today, as a service-disabled veteran-owned business, ATS continues to build user-focused solutions for customers and ourselves. In the last 35 years, we’ve remained a trustworthy resource for the Navy as well as cultivated new relationships with the United States Patent & Trademark Office, and United States  
+            Today ATS continues to build user-focused solutions for customers and ourselves. In the last 35 years, we’ve remained a trustworthy resource for the Navy as well as cultivated new relationships with the United States Patent & Trademark Office, and United States Army Intelligence and Security Command (INSCOM).  
         </p>
     </article>
     <article>
         <p>
-            Army Intelligence and Security Command (INSCOM). By embracing iterative methodologies, we make it our responsibility to implement the best possible product. With each day, we continue to raise the standards for ourselves.
+           By embracing iterative methodologies, we make it our responsibility to implement the best possible product. With each day, we continue to raise the standards for ourselves.
         </p>
         <p>
             As ATS continues to grow, we look forward to working with our existing and future customers for more dynamic solutions. We are always ready for new opportunities to collaborate on solutions that are robust, maintainable, and elegant. By nurturing a culture that attracts exceptional talent, encourages innovation, we foster work environments that push people to do their very best. Working closely with our customers we are able to transfer innovative solutions to areas of their business not originally envisioned.

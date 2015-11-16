@@ -15,7 +15,6 @@ h3,
 h4,
 h5,
 h6 {
-    color: $dark-gray;
     font-family: $heading-font-family;
     font-size: $base-font-size;
     line-height: $heading-line-height;
@@ -34,7 +33,7 @@ a {
     &:active,
     &:focus,
     &:hover {
-        color: darken($action-color, 15%);
+        text-decoration: underline;
     }
 
     &:active,
@@ -61,7 +60,7 @@ picture {
 
 article >  {
     h1, h2, h3, h4, h5, h6 {
-         color: darken($base-font-color,20%);
+         // color: darken($base-font-color,20%);
     }
 }
 
@@ -83,3 +82,12 @@ blockquote:before {
 blockquote p {
   display: inline;
 }
+
+
+// Mobile
+@include media($mobile) {
+    h2 {
+        font-size: $mobile-title-size;
+    }
+}
+

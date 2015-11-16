@@ -12,7 +12,7 @@ $heading-line-height: 1.2;
 // other sizes
 $base-border-radius: 3px;
 $base-spacing: $base-line-height * 1;
-$normal-spacing: $base-spacing / 1;
+$normal-spacing: $base-spacing / 2;
 $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
@@ -28,7 +28,7 @@ $chartreuse: #f0ff00;
 // font colors
 $base-background-color: #fff;
 $base-header-font-color: $dark-gray;
-$base-font-color: $medium-gray;
+$base-font-color: #4a4a4a; 
 $action-color: $blue;
 
 // border
@@ -44,8 +44,12 @@ $navigation-height: 90px;
 $navigation-showing-height: 60px;
 
 // mobile
-$mobile-padding: 4em 2em;
-$mobile-padding-large:  6em 2em;
+$mobile-padding: 2em;
+$mobile-padding-large: 6em 2em 4em;
 
-$mobile-hero-title-size: 1.5em;
-$mobile-hero-byline-size: 1.2em;
+$mobile-title-size: 1.5em;
+$mobile-subtitle-size: 1em;
+$mobile-byline-size: 1em;
+
+$mobile-title-line-height: 1.2em;
+$mobile-line-height: 1.8em;

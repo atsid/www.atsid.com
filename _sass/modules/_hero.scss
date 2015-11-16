@@ -36,7 +36,7 @@
 
             // mobile view
             @include media($mobile) {
-                 font-size: $mobile-hero-title-size;
+                 font-size: $mobile-title-size;
             }
         }
 
@@ -58,7 +58,7 @@
 
         // mobile view
         @include media($mobile) {
-             font-size: $mobile-hero-title-size;
+             font-size: $mobile-title-size - 0.3;
         }
     }
 
@@ -76,7 +76,7 @@
 
         // mobile view
         @include media($mobile) {
-             font-size: $mobile-hero-byline-size;
+             font-size: $mobile-byline-size;
              font-weight: 400;
              padding: 0 1em;
         }
@@ -91,7 +91,7 @@
 
         // mobile view
         @include media($mobile) {
-             font-size: $mobile-hero-byline-size;
+             font-size: $mobile-byline-size;
         }
     }
 
@@ -112,7 +112,7 @@
 
     // homepage
     &.hero--home {
-        $hero-image: '../assets/images/bg-individual-office.png';
+        $hero-image: '../assets/images/hero-home.png';
         
         @include background(url($hero-image) no-repeat center center fixed); 
 
@@ -136,7 +136,7 @@
 
     // capabilities
     &.hero--capabilities {
-        $hero-image: '../assets/images/bg-naval-crew.png';
+        $hero-image: '../assets/images/hero-capabilities.png';
         
         @include background(url($hero-image) no-repeat fixed); 
         // @extend .hero--tint;
@@ -149,7 +149,7 @@
 
     // MSG
     &.hero--msg {
-        $hero-image: '../assets/images/bg-carrier.png';
+        $hero-image: '../assets/images/hero-maintenance.png';
         
         @include background(url($hero-image) no-repeat fixed); 
         // @extend .hero--tint;
@@ -172,7 +172,7 @@
 
    // Software
     &.hero--software {
-        $hero-image: '../assets/images/bg-software-dev.png';
+        $hero-image: '../assets/images/hero-software.png';
         
         @include background(url($hero-image) no-repeat fixed); 
         // @extend .hero--tint;
@@ -208,7 +208,7 @@
 
     // contract vehicles
     &.hero--contract-vehicles {
-        $hero-image: '../assets/images/bg-american-flag.png';
+        $hero-image: '../assets/images/hero-contract-vehicles.png';
         
         @include background(url($hero-image) no-repeat fixed); 
         // @extend .hero--tint;
@@ -253,5 +253,17 @@
             }
         }
     }
+    // mobile view
+    @include media($mobile) {
+         background-attachment: scroll !important;
+    }
+    // tablet view
+    @include media($tablet) {
+         background-attachment: scroll !important;
+    }   
+    // tablet view - landscape orientation
+    @media(min-width: 1024px) and (orientation: landscape) {
+         background-attachment: scroll !important;
+    } 
 }
 

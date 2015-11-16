@@ -50,7 +50,6 @@
 
 .jobs {
     
-    max-width: 500px;
     margin: 1.5em auto;
     text-align: left;
 
@@ -109,6 +108,11 @@
         font-weight: 600;
     }
 
+    .jobs__list {
+        max-width: 500px;
+        margin: 30px auto;
+    }
+
     .jobs__item {
         padding: .25em 0;
     }
@@ -117,6 +121,23 @@
         float: right;
         color: #999;
     }
+}
 
+
+@include media($mobile) {
+     .careers-grid__cell--2 {
+        display: none;
+
+        &:first-of-type {
+            display: block;
+            width: 100%;
+        }
+     }
+
+    .jobs .jobs__item {
+        padding: .5em 0;
+        font-size: 14px;
+        line-height: 18px;
+    }
 }
 
