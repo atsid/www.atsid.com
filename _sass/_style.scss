@@ -342,6 +342,51 @@
     }
 }
 
+
+// - - - - - - - - - - - - - - - - - - -
+// - - Blog
+
+.blog {
+    @include outer-container;
+    @include fill-parent();
+
+    padding: 8em 2em;
+
+    h3 {
+        color: $red;
+        font-weight: 600;
+        font-size: 0.85em;
+        text-transform: uppercase;
+    }
+
+    img {
+        padding: 1em 0 0 5em;
+    }
+
+    article {
+        margin-bottom: 3.5em;
+        @include media($mobile) {
+            margin-bottom: 2em;
+        }
+    }
+
+    @include media($mobile) {
+        padding: $mobile-padding;
+
+        h2 {
+            font-size: $mobile-title-size;
+            margin-bottom: 0.5em;
+        }
+
+    }
+
+}
+
+.blog-title {
+    //blog titles are clickable links for convenience, but want to use the normal header color since there is also a link button
+    color: $base-font-color;
+}
+
 // - - - - - - - - - - - - - - - - - - -
 // - - Capabilities
 

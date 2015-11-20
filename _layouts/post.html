@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<article class="hero hero--{{ page.title | downcase }}">
+  <div class="hero__content hero__content--short">
+    {% if page.header %}<h2 class="hero__title">{{ page.header }}</h2>{% endif %}
+    {% if page.byline %}<p class="hero__byline">{{ page.byline }}</p>{% endif %}
+  </div>
+</article>
+
+<div class="container">
+  <div class="container__{{ page.title | downcase }}">
+
+    <div class="post">
+
+      <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+      </header>
+
+      <article class="post-content">
+        {{ content }}
+
+        {{ if page.platform }}
+        <div class="original">
+          <a href="{{ page.original }}">Read the whole post at {{ page.platform }}</a>
+        </div>
+        {{ endif }}
+
+      </article>
+
+    </div>
+
+  </div>
+</div>
+
+
