@@ -3,6 +3,17 @@ layout: default
 title: Software Development
 permalink: /software-development/
 exclude_from_nav: true
+redirect_from:
+  - /data-analytics-intelligence-community
+  - /solutions/it-solutions/
+  - /solutions/it-solutions/crew-atlas
+  - /solutions/it-solutions/crew-quiz
+  - /solutions/it-solutions/data-analytics-software-solutions
+  - /solutions/it-solutions/data-analytics/arcus-concept-search
+  - /solutions/it-solutions/it-expertise-credentials
+  - /solutions/it-solutions/it-services
+  - /solutions/it-solutions/software-development
+
 ---
 
 <article class="hero hero--software">

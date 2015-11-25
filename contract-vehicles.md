@@ -3,6 +3,18 @@ layout: default
 title: Contract Vehicles
 permalink: /contract-vehicles/
 exclude_from_nav: true
+redirect_from: 
+  - /contracts-and-partnerships/clients-and-partners
+  - /contracts-and-partnerships/contract-vehicles/
+  - /contracts-and-partnerships/contract-vehicles/gsa-schedule-70
+  - /contracts-and-partnerships/contract-vehicles/seaport-e/
+  - /contracts-and-partnerships/contract-vehicles/seaport-e/ats-seaport-e-team
+  - /contracts-and-partnerships/contract-vehicles/seaport-e/awarded-task-orders-tos
+  - /contracts-and-partnerships/contract-vehicles/seaport-e/quality-assurance-program
+  - /contracts-and-partnerships/contract-vehicles/seaport-e/seaport-e-government-contacts
+  - /contracts-and-partnerships/contract-vehicles/seaport-e/technical-instructions
+  - /contracts-partnerships
+
 ---
 <article class="hero hero--contract-vehicles">
     <div class="hero__content hero__content--short">

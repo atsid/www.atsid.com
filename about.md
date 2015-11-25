@@ -2,6 +2,45 @@
 layout: default
 title: About
 permalink: /about/
+redirect_from:
+  - /meet-ats/
+  - /meet-ats/leadership
+  - /meet-ats/patents
+  - /news/
+  - /news/applied-technical-systems-awarded-13-million-seaport-e-task-order-life-cycle-management-support
+  - /news/applied-technical-systems-hire-15-people-kitsap-county.html
+  - /news/applied-technical-systems-selected-us-forest-service-4-year-5-million-it-professional-services
+  - /news/applied-technical-systems-sponsors-conference.html
+  - /news/ats-awarded-national-software-development-contract.html
+  - /news/ats-awarded-software-development-contract-trademarks-next-generation.html
+  - /news/ats-hires-new-president-and-coo.html
+  - /news/ats-positioned-growth-opens-two-new-offices.html
+  - /news/ats-reports-record-growth.html
+  - /news/ats-unveils-new-website.html
+  - /news/ats-vp-re-elected-sdvosb-council-board-directors.html
+  - /news/ats-wins-award-supporting-archimedes-global-216b-inscom-idiq-contract.html
+  - /news/ats-wins-new-navy-contract.html
+  - /news/ats-wins-sbir-award-data-decision-tools.html
+  - /news/employer-spotlight-applied-technical-systems-inc.html
+  - /news/expansion-continues-kitsap-county.html
+  - /news/federal-business-development-executive-ed-hallda-joins-applied-technical-systems.html
+  - /news/local-companies-raise-money-navy-seal-foundation.html
+  - /news/local-companies-raise-more-18000-navy-seal-foundation.html
+  - /news/new-it-contract-requires-additional-software-engineers.html
+  - /news/sbir-award-ats-develop-scalable-secure-associative-database.html
+  - /news/silverdale-company-lands-65-million-navy-contract.html
+  - /news/silverdale-company-streamlining-patent-process.html
+  - /news/silverdale-tech-companies-get-big-federal-contracts.html
+  - /news/teens-forgo-flipping-burgers-more-fruitful-summer-work.html
+  - /news/us-patent-awarded-ats-its-relational-generating-graph-analysis-engine.html
+  - /news/us-patent-awarded-local-company.html
+  - /news/us-patent-trademark-office-awards-ats-two-new-next-generation-software-development-initiatives
+  - /news/utility-graduates-e-learning.html
+  - /news/washington-state-attorney-generals-office-awards-contract-applied-technical-systems-data-mining
+  - /news/worldwide-tech-company-has-local-roots.html
+  - /youre-invited
+  - /history
+
 ---
 <article class="hero hero--about">
     <div class="hero__content hero__content--short">

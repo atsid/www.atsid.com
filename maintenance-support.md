@@ -3,6 +3,19 @@ layout: default
 title: Maintenance Support
 permalink: /maintenance-support/
 exclude_from_nav: true
+redirect_from: 
+  - /maintenance-support-us-navy
+  - /solutions/lifecycle-support-solutions/
+  - /solutions/lifecycle-support-solutions/configuration-data-management
+  - /solutions/lifecycle-support-solutions/ils-support-training/
+  - /solutions/lifecycle-support-solutions/ils-support-training/ils-systems-support
+  - /solutions/lifecycle-support-solutions/ils-support-training/ils-training-services
+  - /solutions/lifecycle-support-solutions/lifecycle-support-expertise-credentials
+  - /solutions/lifecycle-support-solutions/maintenance-and-supportability-analysis-0
+  - /solutions/lifecycle-support-solutions/maintenancesupportability-analysis/maintenancesupportability
+  - /solutions/lifecycle-support-solutions/msat-explained
+  - /solutions/lifecycle-support-solutions/product-lifecycle-management
+
 ---
 
 <article class="hero hero--msg">
