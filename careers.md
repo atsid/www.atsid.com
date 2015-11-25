@@ -4,6 +4,18 @@ title: Careers
 permalink: /careers/
 header: Working for ATS
 byline: "So much more than I expected"
+redirect_from:
+  - /applying-ats
+  - /block/applied-technical-systems-looking-best-and-brightest-join-its-growing-team
+  - /careers/benefits
+  - /careers/employee-testimonials
+  - /careers/jobs
+  - /careers/our-culture
+  - /company/careers/index.html
+  - /company/careers/index.html/internships
+  - /company/careers/index.html/working-ats
+  - /working-ats
+
 ---
 
 <h3>Join us!</h3>
