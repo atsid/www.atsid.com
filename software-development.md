@@ -22,7 +22,7 @@ exclude_from_nav: true
     <section class="software-section">
         <article>
             <h4 style="color: #E79C41;">Discovery</h4>
-            <p>We begin any project with a discovery phase. We conduct user research with your staff or potential customers to discover the context in which they live, work, and the methods and processes they use today. We use these insights to collaboratively design solutions that help people accomplish their goals, simply and intuitively.</p>
+            <p>We begin any project with a discovery phase. We conduct user research with your staff to discover the context in which they live, work, and the methods and processes they use today. We use these insights to collaboratively design solutions that help people accomplish their goals, simply and intuitively.</p>
         </article>
         <article>
             <img src="{{ site.baseurl }}/assets/images/icon-discover.png" alt="Agile Software Development" alt="Discover Infographic">
@@ -32,7 +32,7 @@ exclude_from_nav: true
 	<section class="software-section">
 	    <article>
 	        <h4 style="color: #4066AD;">Design</h4>
-	        <p>Through a human-centered design process, we develop prototypes and review early designs with the appropriate people to rapidly identify workflows and overall user experiences (UX).  We refine and improve upon designs as we learn more about the users themselves.</p>
+	        <p>Through a human-centered design process, we develop prototypes and review early designs with your staff to rapidly identify workflows and overall user experiences (UX).  We refine and improve upon designs as we learn more about the users themselves.</p>
 	    </article>
 	    <article>
 	        <img src="{{ site.baseurl }}/assets/images/icon-design.png" alt="Logistics and Maintenance Support" alt="Design Infographic">
