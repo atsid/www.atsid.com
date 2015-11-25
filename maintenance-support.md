@@ -7,7 +7,7 @@ redirect_from:
   - /maintenance-support-us-navy
   - /solutions/lifecycle-support-solutions/
   - /solutions/lifecycle-support-solutions/configuration-data-management
-  - /solutions/lifecycle-support-solutions/ils-support-training
+  - /solutions/lifecycle-support-solutions/ils-support-training/
   - /solutions/lifecycle-support-solutions/ils-support-training/ils-systems-support
   - /solutions/lifecycle-support-solutions/ils-support-training/ils-training-services
   - /solutions/lifecycle-support-solutions/lifecycle-support-expertise-credentials

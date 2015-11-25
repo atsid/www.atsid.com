@@ -11,7 +11,7 @@ redirect_from:
   - /careers/employee-testimonials
   - /careers/jobs
   - /careers/our-culture
-  - /company/careers/index.html
+  - /company/careers/index.html/
   - /company/careers/index.html/internships
   - /company/careers/index.html/working-ats
   - /working-ats

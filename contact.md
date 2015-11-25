@@ -6,7 +6,7 @@ byline: Reach out to us today!
 redirect_from:
   - /contact-us
   - /form-success
-  - /meet-ats/meetings-events
+  - /meet-ats/meetings-events/
   - /meet-ats/meetings-events/15th-annual-decision-makers-breakfast
   - /meet-ats/meetings-events/afcea-fall-intelligence-symposium
   - /meet-ats/meetings-events/ats-alexandria-office-open-house-and-reception-invitation
