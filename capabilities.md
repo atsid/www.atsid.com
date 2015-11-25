@@ -3,7 +3,7 @@ layout: default
 title: Capabilities
 permalink: /capabilities/
 redirect_from:
-  - /solutions
+  - /solutions/
   - /solutions/case-studies
   - /solutions/case-study/data-analytics-intelligence-community.html
   - /solutions/case-study/maintenance-support-us-navy.html

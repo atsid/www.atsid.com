@@ -5,7 +5,7 @@ permalink: /software-development/
 exclude_from_nav: true
 redirect_from:
   - /data-analytics-intelligence-community
-  - /solutions/it-solutions
+  - /solutions/it-solutions/
   - /solutions/it-solutions/crew-atlas
   - /solutions/it-solutions/crew-quiz
   - /solutions/it-solutions/data-analytics-software-solutions

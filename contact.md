@@ -30,7 +30,7 @@ redirect_from:
   - /meet-ats/meetings-events/veterans-business-conference
   - /meet-ats/meetings-events/whaling-days-silverdale-rotary-duck-race
   - /meet-ats/meetings-events/wsta-western-washington-summit-2012
-  - /locations
+  - /locations/
   - /locations/alexandria
   - /locations/bayshore-0
   - /locations/jamieson-0

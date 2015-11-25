@@ -3,10 +3,10 @@ layout: default
 title: About
 permalink: /about/
 redirect_from:
-  - /meet-ats
+  - /meet-ats/
   - /meet-ats/leadership
   - /meet-ats/patents
-  - /news
+  - /news/
   - /news/applied-technical-systems-awarded-13-million-seaport-e-task-order-life-cycle-management-support
   - /news/applied-technical-systems-hire-15-people-kitsap-county.html
   - /news/applied-technical-systems-selected-us-forest-service-4-year-5-million-it-professional-services
