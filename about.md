@@ -6,7 +6,7 @@ permalink: /about/
 <article class="hero hero--about">
     <div class="hero__content hero__content--short">
         <h2 class="hero__title">Fueled by passion. Driven to solutions. </h2>
-        <p class="hero__summary">We deliver a combination of modern technologies, process improvements, and the right personnel to help your business thrive. We’ve done this by building a team of <strong>passionate</strong>, <strong>curious</strong>, and <strong>talented</strong> people to work with you one on one to <br /> find the best possible solution to suit your needs.</p>    
+        <p class="hero__summary">We deliver a combination of modern technologies, process improvements, and the right personnel to help your business thrive. We’ve done this by building a team of <strong>passionate</strong>, <strong>curious</strong>, and <strong>talented</strong> people to work with you one-on-one to <br /> find the best possible solution to suit your needs.</p>    
     </div>
 </article>
 
@@ -44,16 +44,16 @@ permalink: /about/
         <p>
            In 1980, ATS was founded by a Navy veteran who, throughout his Navy career, realized the need to integrate and organize data from multiple independent sources. So he worked to develop the CCM (Contiguous Connection Model) technology to simplify rapid information retrieval, enhance data navigation and visualization, and promote knowledge discovery. Before XML became a <em>de facto</em> standard, this patented technology was revolutionary for its time.
        </p>
-       <p>
+       <p>  
             Today, ATS continues to deliver user-focused solutions for customers and ourselves. In the last 35 years, we’ve remained a trustworthy resource for the Navy and have cultivated new relationships with the United States Patent & Trademark Office and United States Army Intelligence and Security Command (INSCOM).  
         </p>
     </article>
     <article>
         <p>
-           By using iterative methodologies, we quickly deliver useful tools and actionable insights and then work to continuously improve them. With each day, we continue to raise the standards for ourselves.
+           By using iterative methodologies, we quickly deliver useful tools and actionable insights and then work to continuously improve them. With each day, we continue to raise our standards.
         </p>
         <p>
-            As ATS continues to grow, we look forward to working with our existing and future customers to become more data-driven. We are always ready for new opportunities to collaborate on solutions that are robust, maintainable, and elegant. By nurturing a culture that attracts exceptional talent, encourages innovation, we foster work environments that push people to do their very best. Working closely with our customers we are able to transfer innovative solutions to areas of their business not originally envisioned.
+            As ATS continues to grow, we look forward to working with our existing and future customers to become more data-driven in their decision-making. We are always ready for new opportunities to collaborate on elegant solutions to some of the most complex problems you may face. By nurturing a culture that attracts exceptional talent and encourages innovation, we foster work environments that push people to do their very best. Working closely with our customers, we are able to transfer innovative solutions to areas of their business they never thought of.
         </p>
     </article>
 </section>

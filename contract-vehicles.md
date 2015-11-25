@@ -7,7 +7,7 @@ exclude_from_nav: true
 <article class="hero hero--contract-vehicles">
     <div class="hero__content hero__content--short">
         <h2 class="hero__title">Federal Contract Vehicles</h2>
-        <p class="hero__summary">ATS has several government­wide acquisition contract vehicles, which are indefinite delivery/indefinite quantity (IDIQ) task order contracts. These flexible contracting arrangements enable ATS to expedite delivery of our services and systems across the federal government.</p>
+        <p class="hero__summary">ATS has several government-wide acquisition contract vehicles, which are indefinite delivery/indefinite quantity (IDIQ) task order contracts. These flexible contracting arrangements enable ATS to expedite delivery of our services and systems across the federal government.</p>
     </div>
 </article>
 
