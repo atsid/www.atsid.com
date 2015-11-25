@@ -71,7 +71,7 @@ exclude_from_nav: true
 
 	<section class="software-outro">
 		<article>
-			<p>ATS uses these steps to iterate quickly and maximize learning and development. The Agile development and delivery lifecycle is prioritized to get useful capabilities in the hands of users as rapidly as possible. </p>
+			<p>ATS uses these steps to iterate quickly and maximize learning. The Agile development and delivery lifecycle is prioritized to get useful capabilities in the hands of users as rapidly as possible. </p>
 		</article>
 	</section>
 </div>
