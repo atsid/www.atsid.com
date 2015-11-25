@@ -6,7 +6,7 @@ permalink: /about/
 <article class="hero hero--about">
     <div class="hero__content hero__content--short">
         <h2 class="hero__title">Fueled by passion. Driven to solutions. </h2>
-        <p class="hero__summary">We believe in championing technology, process improvement, and the right personnel to help your business thrive. We’ve done this by building a team of <strong>passionate</strong>, <strong>curious</strong>, and <strong>talented</strong> people to work with you one on one to <br /> find the best possible solution to suit your needs.</p>    
+        <p class="hero__summary">We deliver a combination of modern technologies, process improvements, and the right personnel to help your business thrive. We’ve done this by building a team of <strong>passionate</strong>, <strong>curious</strong>, and <strong>talented</strong> people to work with you one on one to <br /> find the best possible solution to suit your needs.</p>    
     </div>
 </article>
 
@@ -19,11 +19,11 @@ permalink: /about/
         </p>
         <h4>Challenge each other to do our best.</h4>
         <p>
-            Obstacles are no match when we collaborate, learn, and have fun together - pushing each other to new and interesting frontiers. 
+            Obstacles are no match when we collaborate, learn, and have fun together &mdash; pushing each other to new and interesting frontiers. 
         </p>
         <h4>Build solutions to help people live better.</h4>
         <p>
-            We create lasting impacts that simplify your work, both today and in the future, so you focus on the next big idea.
+            We create lasting impact that simplifies your work, both today and in the future, so you can focus on the next big idea.
         </p>
     </article>
     <article>
@@ -42,18 +42,18 @@ permalink: /about/
     <h2>Our long story, short.</h2>
     <article>
         <p>
-           In 1980, ATS was founded by a Navy veteran, who, throughout his Navy career, realized the need for a hierarchical, self-describing, data modeling and storage technology. So he worked to develop CCM (Contiguous Connection Model) technology to simplify rapid information retrieval, enhance data navigation and visualization, and promote knowledge discovery. Before XML became a de facto standard, this patented technology was revolutionary for its time.
+           In 1980, ATS was founded by a Navy veteran who, throughout his Navy career, realized the need to integrate and organize data from multiple independent sources. So he worked to develop the CCM (Contiguous Connection Model) technology to simplify rapid information retrieval, enhance data navigation and visualization, and promote knowledge discovery. Before XML became a <em>de facto</em> standard, this patented technology was revolutionary for its time.
        </p>
        <p>
-            Today ATS continues to build user-focused solutions for customers and ourselves. In the last 35 years, we’ve remained a trustworthy resource for the Navy as well as cultivated new relationships with the United States Patent & Trademark Office, and United States Army Intelligence and Security Command (INSCOM).  
+            Today, ATS continues to deliver user-focused solutions for customers and ourselves. In the last 35 years, we’ve remained a trustworthy resource for the Navy and have cultivated new relationships with the United States Patent & Trademark Office and United States Army Intelligence and Security Command (INSCOM).  
         </p>
     </article>
     <article>
         <p>
-           By embracing iterative methodologies, we make it our responsibility to implement the best possible product. With each day, we continue to raise the standards for ourselves.
+           By using iterative methodologies, we quickly deliver useful tools and actionable insights and then work to continuously improve them. With each day, we continue to raise the standards for ourselves.
         </p>
         <p>
-            As ATS continues to grow, we look forward to working with our existing and future customers for more dynamic solutions. We are always ready for new opportunities to collaborate on solutions that are robust, maintainable, and elegant. By nurturing a culture that attracts exceptional talent, encourages innovation, we foster work environments that push people to do their very best. Working closely with our customers we are able to transfer innovative solutions to areas of their business not originally envisioned.
+            As ATS continues to grow, we look forward to working with our existing and future customers to become more data-driven. We are always ready for new opportunities to collaborate on solutions that are robust, maintainable, and elegant. By nurturing a culture that attracts exceptional talent, encourages innovation, we foster work environments that push people to do their very best. Working closely with our customers we are able to transfer innovative solutions to areas of their business not originally envisioned.
         </p>
     </article>
 </section>
