@@ -3,11 +3,22 @@ layout: default
 title: Software Development
 permalink: /software-development/
 exclude_from_nav: true
+redirect_from:
+  - /data-analytics-intelligence-community
+  - /solutions/it-solutions/
+  - /solutions/it-solutions/crew-atlas
+  - /solutions/it-solutions/crew-quiz
+  - /solutions/it-solutions/data-analytics-software-solutions
+  - /solutions/it-solutions/data-analytics/arcus-concept-search
+  - /solutions/it-solutions/it-expertise-credentials
+  - /solutions/it-solutions/it-services
+  - /solutions/it-solutions/software-development
+
 ---
 
 <article class="hero hero--software">
     <div class="hero__content hero__content--short">
-        <h2 class="hero__title">Discover. Design. Develop. Deliver. Data. <strong>Repeat.</strong></h2>
+        <h2 class="hero__title">Discovery, Design, Development, Delivery, Data. <strong>Repeat.</strong></h2>
     </div>
 </article>
 
@@ -16,13 +27,13 @@ exclude_from_nav: true
 	<section class="software-intro">
 	    <article>
 	        <h2>Our process</h2>
-	        <p>This Agile solution development cycle provides a fast and efficient means of creating a tight feedback loop between your users and our team so that we can continuously improve the solution while providing real business utility to people as early as possible. We accomplish this through a five step process.</p>
+	        <p>Our Agile solution delivery cycle provides a fast and efficient means of creating a tight feedback loop between your users and our team so that we can continuously improve the solution while providing real business utility to people as early as possible. We accomplish this through a five step process.</p>
 	    </article>
 	</section>
     <section class="software-section">
         <article>
-            <h4 style="color: #E79C41;">Discover</h4>
-            <p>We begin any project with a discovery phase. We conduct user research with your staff or potential customers to discover the context in which they live, work, and the methods and processes they use today. We use these insights to collaboratively design solutions that help people accomplish their goals, simply and intuitively.</p>
+            <h4 style="color: #E79C41;">Discovery</h4>
+            <p>We begin any project with a discovery phase. We conduct user research with your staff to discover the context in which they live, work, and the methods and processes they use today. We use these insights to collaboratively design solutions that help people accomplish their goals, simply and intuitively.</p>
         </article>
         <article>
             <img src="{{ site.baseurl }}/assets/images/icon-discover.png" alt="Agile Software Development" alt="Discover Infographic">
@@ -32,7 +43,7 @@ exclude_from_nav: true
 	<section class="software-section">
 	    <article>
 	        <h4 style="color: #4066AD;">Design</h4>
-	        <p>Through a human-centered design process, we develop prototypes and review early designs with the appropriate people to rapidly identify workflows and overall user experiences (UX).  We refine and improve upon designs as we learn more about the users themselves.</p>
+	        <p>Through a human-centered design process, we develop prototypes and review early designs with your staff to rapidly identify workflows and overall user experiences (UX).  We refine and improve upon designs as we learn more about the users themselves.</p>
 	    </article>
 	    <article>
 	        <img src="{{ site.baseurl }}/assets/images/icon-design.png" alt="Logistics and Maintenance Support" alt="Design Infographic">
@@ -41,7 +52,7 @@ exclude_from_nav: true
 
 	<section class="software-section">
 	    <article>
-	        <h4 style="color: #489FB0;">Develop</h4>
+	        <h4 style="color: #489FB0;">Development</h4>
 	        <p>We develop software using modern web technologies and toolkits that allow us to grow and evolve the capabilities of an application over time with a focus on developing high-quality software. We concentrate on loosely coupled designs built atop open standards to prevent vendor lock-in and maximize the system’s ability to change and scale with user demand.</p>
 	    </article>
 	    <article>
@@ -51,7 +62,7 @@ exclude_from_nav: true
 
 	<section class="software-section">
 	    <article>
-	        <h4 style="color: #CF7F80;">Deliver</h4>
+	        <h4 style="color: #CF7F80;">Delivery</h4>
 	        <p>Recognizing that our job isn’t done until real users can interact with what we’ve built, we follow a continuous delivery process to constantly build, test, and deploy our software into production environments whenever we’re confident that it satisfies our standards and provides utility to users. We embrace the values of DevOps, where all team members are committed to delivering working software.</p>
 	    </article>
 	    <article>
@@ -71,7 +82,7 @@ exclude_from_nav: true
 
 	<section class="software-outro">
 		<article>
-			<p>ATS uses these steps to iterate quickly and maximize learning and development. The agile development and delivery lifecycle is prioritized to get useful capabilities in the hands of users as rapidly as possible. </p>
+			<p>ATS uses these steps to iterate quickly and maximize learning. The Agile development and delivery lifecycle is prioritized to get useful capabilities in the hands of users as rapidly as possible. </p>
 		</article>
 	</section>
 </div>

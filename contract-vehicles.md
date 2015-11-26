@@ -3,11 +3,23 @@ layout: default
 title: Contract Vehicles
 permalink: /contract-vehicles/
 exclude_from_nav: true
+redirect_from: 
+  - /contracts-and-partnerships/clients-and-partners
+  - /contracts-and-partnerships/contract-vehicles/
+  - /contracts-and-partnerships/contract-vehicles/gsa-schedule-70
+  - /contracts-and-partnerships/contract-vehicles/seaport-e/
+  - /contracts-and-partnerships/contract-vehicles/seaport-e/ats-seaport-e-team
+  - /contracts-and-partnerships/contract-vehicles/seaport-e/awarded-task-orders-tos
+  - /contracts-and-partnerships/contract-vehicles/seaport-e/quality-assurance-program
+  - /contracts-and-partnerships/contract-vehicles/seaport-e/seaport-e-government-contacts
+  - /contracts-and-partnerships/contract-vehicles/seaport-e/technical-instructions
+  - /contracts-partnerships
+
 ---
 <article class="hero hero--contract-vehicles">
     <div class="hero__content hero__content--short">
         <h2 class="hero__title">Federal Contract Vehicles</h2>
-        <p class="hero__summary">ATS has several government­wide acquisition contract vehicles, which are indefinite delivery/indefinite quantity (IDIQ) task order contracts. These flexible contracting arrangements enable ATS to expedite delivery of our services and systems across the federal government.</p>
+        <p class="hero__summary">ATS has several government-wide acquisition contract vehicles, which are indefinite delivery/indefinite quantity (IDIQ) task order contracts. These flexible contracting arrangements enable ATS to expedite delivery of our services and systems across the federal government.</p>
     </div>
 </article>
 
@@ -21,33 +33,54 @@ exclude_from_nav: true
             <p>The Navy’s electronic platform for acquiring support services in 22 functional areas including Engineering, Financial Management, and Program Management.
             </p>
             <dl>
-                <dt>Contract Name</dt>
-                <dd>SeaPort Enhanced</dd>
-
                 <dt>Contract Number</dt>
                 <dd>N00178-06-D-4684</dd>
 
-                <dt>Contract Term</dt>
-                <dd>6/1/2006 - 4/4/2016</dd>
+                <dt>Issued By</dt>
+                <dd>NSWC, Dahlgren Division</dd>
+
+                <dt>Contract Expiration Date</dt>
+                <dd>04 April 2016</dd>
+
+                <dt>Active</dt>
+                <dd>No (see contract N00178-14-D-7619)</dd>
 
                 <dt>Zones</dt>
-                <dd>1, 2, 3, 4, 5, 6, 7</dd>
+                <dd>1, 2, 3, 4, 5, 6 and 7</dd>
 
-                <dt>Award Task Order</dt>
-                <dd>N00178-06-D-4685-FC01</dd>
+                <dt>Program Ceiling</dt>
+                <dd>Base Period = $27 Billion<br>Award Term 1 = $35.8 Billion<br>Award Term 2 = $40 Billion</dd>
+
+                <dt>Types of Orders</dt>
+                <dd>CPFF, CPAF, FFP, FPIF</dd>
+
+                <dt>Awarded Task Orders</dt>
+                <dd>FC01<br>Solicitation #: N00024-09-R-3295<br>Customer: NSWC Crane Division<br>Zone: 5<br>Award Date: 25 June 2009<br>Expiration Date: 10 March 2016</dd>
             </dl>
             <dl>
-                <dt>Contract Name</dt>
-                <dd>SeaPort Enhanced</dd>
-
                 <dt>Contract Number</dt>
                 <dd>N00178-14-D-7619</dd>
 
-                <dt>Contract Term</dt>
-                <dd>11/19/2013 - 4/4/2019</dd>
+                <dt>Issued By</dt>
+                <dd>NSWC, Dahlgren Division</dd>
+
+                <dt>Contract Expiration Date</dt>
+                <dd>04 April 2019</dd>
+
+                <dt>Active</dt>
+                <dd>Yes</dd>
 
                 <dt>Zones</dt>
-                <dd>1, 2, 3, 4, 5, 6, 7</dd>
+                <dd>1, 2, 3, 4, 5, 6 and 7</dd>
+
+                <dt>Program Ceiling</dt>
+                <dd>Base Period = $1.3 Billion<br>Award Term 1 = $6.6 Billion</dd>
+
+                <dt>Types of Orders</dt>
+                <dd>CPFF, CPAF, FFP, FPIF</dd>
+
+                <dt>Awarded Task Orders</dt>
+                <dd>None</dd>
             </dl>
             <ul>
                 <li class="contracts"> 

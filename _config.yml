@@ -4,6 +4,8 @@ title: Applied Technical Systems
 description: Applied Technical Systems
 baseurl: /www.atsid.com
 url: https://www.atsid.com
+gems:
+  - jekyll-redirect-from
 
 # Build settings
 markdown: kramdown
