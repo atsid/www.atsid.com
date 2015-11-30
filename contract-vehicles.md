@@ -2,7 +2,6 @@
 layout: default
 title: Contract Vehicles
 permalink: /contract-vehicles/
-exclude_from_nav: true
 ---
 <article class="hero hero--contract-vehicles">
     <div class="hero__content hero__content--short">

@@ -2,7 +2,6 @@
 layout: default
 title: Software Development
 permalink: /software-development/
-exclude_from_nav: true
 ---
 
 <article class="hero hero--software">

@@ -3,6 +3,7 @@ layout: default
 title: Contact
 permalink: /contact/
 byline: Reach out to us today!
+nav_order: 50
 ---
 
 <article class="hero hero--contact">

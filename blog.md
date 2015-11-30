@@ -2,7 +2,7 @@
 layout: default
 title: Blog
 permalink: /blog/
-exclude_from_nav: true
+nav_order: 40
 ---
 <article class="hero hero--blog">
     <div class="hero__content hero__content--short">

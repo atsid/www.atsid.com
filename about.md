@@ -2,6 +2,7 @@
 layout: default
 title: About
 permalink: /about/
+nav_order: 10
 ---
 <article class="hero hero--about">
     <div class="hero__content hero__content--short">

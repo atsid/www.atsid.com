@@ -2,7 +2,6 @@
 layout: default
 title: Maintenance Support
 permalink: /maintenance-support/
-exclude_from_nav: true
 ---
 
 <article class="hero hero--msg">

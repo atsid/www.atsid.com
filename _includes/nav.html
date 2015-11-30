@@ -10,12 +10,13 @@
             </svg>
         </button>
         <ul class="nav__menu" id="nav-menu">
-            {% for p in site.pages %}
-                {% unless p.exclude_from_nav %}
+            {% assign pages = site.pages | sort: "nav_order", "last"  %}
+            {% for p in pages %}
+                {% if p.nav_order %}
                     {% if p.title %}
                     <li class="nav__link {% if page.title == p.title %}nav__link--active{% endif %} "><a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></li>
                     {% endif %}
-                {% endunless %}
+                {% endif %}
             {% endfor %}
         </ul>
     </nav>

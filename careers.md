@@ -4,6 +4,7 @@ title: Careers
 permalink: /careers/
 header: Working for ATS
 byline: "So much more than I expected"
+nav_order: 30
 ---
 
 <h3>Join us!</h3>

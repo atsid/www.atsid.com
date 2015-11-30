@@ -2,7 +2,7 @@
 layout: default
 title: Capabilities
 permalink: /capabilities/
-
+nav_order: 20
 ---
 <article class="hero hero--capabilities">
     <div class="hero__content hero__content--short">

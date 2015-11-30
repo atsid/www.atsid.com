@@ -2,7 +2,6 @@
 layout: default
 title: Privacy Policy
 permalink: /privacy/
-exclude_from_nav: true
 ---
 <article class="hero hero__content--short">
     <div class="hero__content hero__content--short">
