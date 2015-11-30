@@ -232,6 +232,26 @@
         background-size: cover;
     }
 
+    &.hero--blog {
+      $hero-image: '../assets/images/hero-contact.png';
+
+      @include background(url($hero-image) no-repeat fixed);
+      // @extend .hero--tint;
+
+      background-color:  $hero-background;
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    // contact
+    &.hero--blog-post {
+      height: 180px;
+      background-color:  $hero-background;
+      background-position: top;
+      background-repeat: no-repeat;
+    }
+
     // not found   
     &.hero--not-found {
         a {
