@@ -15,7 +15,7 @@ exclude_from_nav: true
     {% for post in site.posts %}
     <article>
         <h2><a class="blog-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}</p>
         <p>{{ post.description }}</p>
         <a href="{{ post.url | prepend: site.baseurl }}" class="button button--outline">Read More</a>
     </article>
