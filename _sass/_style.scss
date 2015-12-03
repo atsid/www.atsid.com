@@ -351,12 +351,9 @@
     @include fill-parent();
 
     padding: 8em 2em;
-
-    h3 {
-        color: $red;
-        font-weight: 600;
-        font-size: 0.85em;
-        text-transform: uppercase;
+    
+    h2 {
+        margin-bottom: 0.35em;
     }
 
     img {
@@ -364,9 +361,11 @@
     }
 
     article {
-        margin-bottom: 3.5em;
+        margin: 0 auto 6em;
+        max-width: 40em;
+
         @include media($mobile) {
-            margin-bottom: 2em;
+            margin-bottom: 4em;
         }
     }
 
@@ -377,14 +376,33 @@
             font-size: $mobile-title-size;
             margin-bottom: 0.5em;
         }
-
     }
+}
 
+// Styles to be shared among the blog roll and posts
+.post-meta {
+    color: lighten($medium-gray,20%);
+    padding-bottom: 1em;
+    border-bottom: 1px solid $light-gray;
 }
 
 .blog-title {
-    //blog titles are clickable links for convenience, but want to use the normal header color since there is also a link button
+    // blog titles are clickable links for convenience, but want to use the normal header color since there is also a link button
     color: $base-font-color;
+
+    &:hover {
+        color: desaturate($blue,15%);
+        text-decoration: none;
+    }
+}
+
+// Blog Posts
+.post {
+    margin: 0 auto 6em;
+    max-width: 40em;
+}
+.post-title {
+    margin-bottom: 0.35em;
 }
 
 // - - - - - - - - - - - - - - - - - - -

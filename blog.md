@@ -17,7 +17,7 @@ nav_order: 40
         <h2><a class="blog-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
         <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}</p>
         <p>{{ post.description }}</p>
-        <a href="{{ post.url | prepend: site.baseurl }}" class="button button--outline">Read More</a>
+        <!-- <a href="{{ post.url | prepend: site.baseurl }}" class="button button--outline">Read More</a> -->
     </article>
 {% endfor %}
 </section>

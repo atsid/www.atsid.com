@@ -62,27 +62,7 @@
         }
     }
 
-    .hero__byline {
-        font-weight: 300;
-        font-size: 2em;
-        max-width: 25em;
-        margin: auto;
-        line-height: 1.4;
-
-        // tablet view
-        @include media($tablet) {
-            font-size: 1.5em;
-        }
-
-        // mobile view
-        @include media($mobile) {
-             font-size: $mobile-byline-size;
-             font-weight: 400;
-             padding: 0 1em;
-        }
-    }
-
-     .hero__summary {
+     .hero__summary, .hero__byline {
         font-weight: 300;
         font-size: 1.4em;
         max-width: 38em;
@@ -233,7 +213,7 @@
     }
 
     &.hero--blog {
-      $hero-image: '../assets/images/hero-contact.png';
+      $hero-image: '../assets/images/hero-blog.png';
 
       @include background(url($hero-image) no-repeat fixed);
       // @extend .hero--tint;
@@ -244,12 +224,19 @@
       background-size: cover;
     }
 
-    // contact
+    // blog post
     &.hero--blog-post {
-      height: 180px;
+      $hero-image: '../assets/images/hero-blog-post.png';
+
+      @include background(url($hero-image) no-repeat fixed);
+      // @extend .hero--tint;
+
       background-color:  $hero-background;
       background-position: top;
       background-repeat: no-repeat;
+      background-size: cover;
+
+      height: 300px;
     }
 
     // not found   

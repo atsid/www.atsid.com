@@ -45,7 +45,7 @@ redirect_from:
 <article class="hero hero--about">
     <div class="hero__content hero__content--short">
         <h2 class="hero__title">Fueled by passion. Driven to solutions. </h2>
-        <p class="hero__summary">We deliver a combination of modern technologies, process improvements, and the right personnel to help your business thrive. We’ve done this by building a team of <strong>passionate</strong>, <strong>curious</strong>, and <strong>talented</strong> people to work with you one-on-one to <br /> find the best possible solution to suit your needs.</p>    
+        <p class="hero__summary">We deliver a combination of modern technologies, process improvements, and the right personnel to help your business thrive. We’ve done this by building a team of <strong>passionate</strong>, <strong>curious</strong>, and <strong>talented</strong> people to work with you one-on-one to find the best possible solution to suit your needs.</p>    
     </div>
 </article>
 
