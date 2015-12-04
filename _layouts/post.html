@@ -26,9 +26,9 @@ layout: default
       </article>
 
       <div class="original">
-        {% unless page.entire_content %}
+        {% if page.preview %}
         {% if page.platform %}<a href="{{ page.original }}">Read the rest on {{ page.platform }}</a>{% endif %}
-        {% endunless %}
+        {% endif %}
       </div>
     </div>
 

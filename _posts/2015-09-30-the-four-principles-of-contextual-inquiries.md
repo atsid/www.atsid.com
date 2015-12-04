@@ -5,6 +5,7 @@ description: Four principles to guide your contextual inquiry interviews and kee
 date:   2015-09-30 15:40:00
 author: David Herring
 platform: LinkedIn
+preview: true
 original: https://www.linkedin.com/pulse/four-principles-user-interviews-david-herring
 category: blog
 ---

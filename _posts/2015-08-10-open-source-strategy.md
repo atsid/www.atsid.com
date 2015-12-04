@@ -5,7 +5,6 @@ description: ATS released our first open source project in early 2013. This pape
 date:   2015-08-10 15:20:00
 author: Nathan Evans
 platform: Medium
-entire_content: true
 original: https://medium.com/@natoverse/an-open-source-strategy-for-ats-c5cca250ef48
 category: blog
 ---

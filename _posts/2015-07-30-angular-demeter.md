@@ -5,6 +5,7 @@ description: We use Angular a lot at ATS, but we've frequently encountered issue
 date:   2015-07-30 16:42:04
 author: Chris Trevino
 platform: Medium
+preview: true
 original: https://medium.com/@darthtrevino/angular-and-the-law-of-demeter-ebde032c52cf
 category: blog
 ---

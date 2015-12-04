@@ -5,6 +5,7 @@ description: Recently, our company encountered a significant (28%) complaint rat
 date:   2015-08-26 14:13:00
 author: Chris Trevino
 platform: Medium
+preview: true
 original: https://medium.com/@darthtrevino/angularjs-testing-lessons-learned-14a5d1e17f3
 category: blog
 ---
