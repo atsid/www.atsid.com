@@ -1,12 +1,10 @@
 ---
-layout: post
 title:  Angular and the Law of Demeter
 description: We use Angular a lot at ATS, but we've frequently encountered issues with scope data accumulation.
 author: Chris Trevino
 platform: Medium
 preview: true
 original: https://medium.com/@darthtrevino/angular-and-the-law-of-demeter-ebde032c52cf
-category: blog
 ---
 
 We use Angular quite a bit at ATS. It provides a high-productivity development environment, a clean structure to Javascript applications, and a vibrant community with lots of plugins and enhancements.

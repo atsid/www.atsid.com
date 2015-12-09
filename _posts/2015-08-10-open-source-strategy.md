@@ -1,11 +1,9 @@
 ---
-layout: post
 title:  An Open Source Strategy for ATS
 description: ATS released our first open source project in early 2013. This paper outlines some of the reasoning behind our OSS contributions.
 author: Nathan Evans
 platform: Medium
 original: https://medium.com/@natoverse/an-open-source-strategy-for-ats-c5cca250ef48
-category: blog
 ---
 
 *The following is a position paper I put together for the ATS management team in late 2012. It was intended to introduce them to the idea of open source as something that we, as a for-profit company, could participate in.

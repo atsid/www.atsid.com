@@ -1,12 +1,10 @@
 ---
-layout: post
 title:  The Four Principles of Contextual Inquiries
 description: Four principles to guide your contextual inquiry interviews and keep the research focused; leading to rich, useful data.
 author: David Herring
 platform: LinkedIn
 preview: true
 original: https://www.linkedin.com/pulse/four-principles-user-interviews-david-herring
-category: blog
 ---
 Before you can improve a product, or create a product that’s an improvement on existing offerings, you have to know what users need and turn them into requirements. Gathering requirements isn’t simply a matter of asking users what they need. Just asking people what they want doesn’t work because people generally don’t know what technology is capable of, and they’re really bad at explaining what they do day-to-day. So much of a person’s work is habitual and done unconsciously, making it difficult or impossible to articulate.
 
