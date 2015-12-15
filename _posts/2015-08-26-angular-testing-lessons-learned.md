@@ -1,4 +1,6 @@
 ---
+category: blog
+layout: post
 title:  AngularJS Testing Lessons Learned
 description: Recently, our company encountered a significant (28%) complaint rate spike in one of our email-sending applications that utilized AWS’ Simple Email Service (SES). An error spike of this magnitude is unacceptable.
 author: Chris Trevino

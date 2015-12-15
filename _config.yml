@@ -10,16 +10,6 @@ gems:
 # Build settings
 markdown: kramdown
 
-# default YAML front matter properties so we don't need to dup in all files
-defaults:
-  -
-    scope:
-      path: "_posts"
-    values:
-      category: "blog"
-      layout: "post"
-
-
 locations:
   west:
     - name: Silverdale - Anderson Hill (HQ)

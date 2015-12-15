@@ -1,4 +1,6 @@
 ---
+category: blog
+layout: post
 title:  The Four Principles of Contextual Inquiries
 description: Four principles to guide your contextual inquiry interviews and keep the research focused; leading to rich, useful data.
 author: David Herring

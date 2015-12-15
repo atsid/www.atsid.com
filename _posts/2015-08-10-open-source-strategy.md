@@ -1,4 +1,6 @@
 ---
+category: blog
+layout: post
 title:  An Open Source Strategy for ATS
 description: ATS released our first open source project in early 2013. This paper outlines some of the reasoning behind our OSS contributions.
 author: Nathan Evans

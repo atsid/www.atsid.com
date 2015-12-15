@@ -1,4 +1,6 @@
 ---
+category: blog
+layout: post
 title:  Angular and the Law of Demeter
 description: We use Angular a lot at ATS, but we've frequently encountered issues with scope data accumulation.
 author: Chris Trevino
