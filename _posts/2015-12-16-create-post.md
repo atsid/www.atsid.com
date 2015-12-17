@@ -3,7 +3,7 @@ title: Creating Jekyll blog posts right from GitHub
 description: The non-programmer's guide to creating a Jekyll blog post using only the GitHub web interface.
 author: Nathan Evans
 platform: Medium
-original: https://medium.com/@natoverse/creating-jekyll-blog-posts-right-from-github-9e09a066bbaa#.xfbof44lg
+original: https://medium.com/@natoverse/creating-jekyll-blog-posts-right-from-github-9e09a066bbaa
 preview: true
 category: blog
 layout: post
@@ -23,7 +23,7 @@ Here’s a short summary of the steps below without all the explanatory text and
 
 1. Navigate to the **_posts** folder.
 1. Create a new file for your post. Name it like **YYYY-MM-DD-short-name.md**.
-1. Add the YAML front matter at the top of the post file. **title**, **description**, **author**, **layout**, and **category** are required. Use the optional platform, original, and preview fields as needed to link to external content.
+1. Add the YAML front matter at the top of the post file. **title**, **description**, **author**, **layout**, and **category** are required. Use the optional **platform**, **original**, and **preview** fields as needed to link to external content.
 1. Add your post content using **Markdown** syntax, either in full or as a compelling preview.
 1. **Commit** the file, creating a **branch** and **pull request** in the process.
 1. **Merge** the branch after you’ve gotten some feedback from your peers.
