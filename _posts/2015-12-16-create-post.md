@@ -3,12 +3,13 @@ title: Creating Jekyll blog posts right from GitHub
 description: The non-programmer's guide to creating a Jekyll blog post using only the GitHub web interface.
 author: Nathan Evans
 platform: Medium
+original: https://medium.com/@natoverse/creating-jekyll-blog-posts-right-from-github-9e09a066bbaa#.xfbof44lg
 preview: true
 category: blog
 layout: post
 ---
 
-Like many organizations, we’ve moved to a CMS-free website stored in [GitHub](https://github.com/atsid/www.atsid.com), using [Jekyll](http://jekyllrb.com) to generate the content. Our website has a blog, which Jekyll has specific support for. However, not everyone in the organization is going to be fluent in the technologies needed to publish blog posts (git, Markdown, YAML), so this is a tutorial showing how to do it right from the GitHub website. All you need is a GitHub account with write access to your website’s repository.
+Like many organizations, we’ve moved to a CMS-free website stored in [GitHub](https://github.com/atsid/www.atsid.com), using [Jekyll](http://jekyllrb.com) to generate the content. Our website has a blog, which Jekyll has specific support for. However, not everyone in the organization is going to be fluent in the technologies needed to publish blog posts (git, Markdown, YAML), so this is a tutorial showing how to do it **right from the GitHub website**. All you need is a GitHub account with **write** access to your website’s repository.
 
 A couple of notes before we jump in:
 
