@@ -23,4 +23,4 @@ redirect_from:
 
 <h3 id="opportunities">Current Opportunities</h3>
 <div id="jobs" class="jobs"><p class="jobs__loading">Loading jobs...</p></div>
-<p>Not seeing the position you’re looking for? We still want to hear from you!<br>Email us at <a href="mailto:jobs@atsid.com">jobs@atsid.com</a>.</p>
+<p>Not seeing the position you’re looking for? We still want to hear from you!<br>Email us at <a href="mailto:careers@atsid.com">careers@atsid.com</a>.</p>
