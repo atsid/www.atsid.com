@@ -2,7 +2,6 @@
 layout: default
 title: Maintenance Support
 permalink: /maintenance-support/
-exclude_from_nav: true
 redirect_from: 
   - /maintenance-support-us-navy
   - /solutions/lifecycle-support-solutions/

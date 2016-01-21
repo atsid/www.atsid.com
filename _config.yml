@@ -10,6 +10,16 @@ gems:
 # Build settings
 markdown: kramdown
 
+nav:
+  - title: About
+    url: /about/
+  - title: Capabilities
+    url: /capabilities/
+  - title: Careers
+    url: /careers/
+  - title: Contact
+    url: /contact/
+
 locations:
   west:
     - name: Silverdale - Anderson Hill (HQ)

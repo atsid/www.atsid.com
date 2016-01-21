@@ -2,7 +2,6 @@
 layout: default
 title: Contract Vehicles
 permalink: /contract-vehicles/
-exclude_from_nav: true
 redirect_from: 
   - /contracts-and-partnerships/clients-and-partners
   - /contracts-and-partnerships/contract-vehicles/
