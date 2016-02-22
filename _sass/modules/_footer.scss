@@ -88,6 +88,9 @@
                     &.github {
                         @include icon(before, github-alt, false);
                     }
+                    &.medium {
+                        @include icon(before, medium, false);
+                    }
                 }
             }
         }
