@@ -79,6 +79,11 @@ redirect_from:
 	    </article>
 	</section>
 
+    <section>
+        <br />
+        <article><strong>Interested in learning more about how we work? </strong><a href="http://labs.atsid.com/guides/">&nbsp;View our developer guides</a></p></article>
+    </section>
+
 	<section class="software-outro">
 		<article>
 			<p>ATS uses these steps to iterate quickly and maximize learning. The Agile development and delivery lifecycle is prioritized to get useful capabilities in the hands of users as rapidly as possible. </p>
