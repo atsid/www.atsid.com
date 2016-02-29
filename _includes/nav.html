@@ -12,9 +12,7 @@
 
         <ul class="nav__menu" id="nav-menu">
             {% for n in site.nav %}
-            <li class="nav__link {% if page.title == n.title %}nav__link--active{% endif %} ">
-                <a href="{% unless n.absolute %}{{site.baseurl}}{% endunless %}{{ n.url }}">{{ n.title }}</a>
-            </li>
+            <li class="nav__link {% if page.title == n.title %}nav__link--active{% endif %} "><a href="{{ n.url }}">{{ n.title }}</a></li>
             {% endfor %}
         </ul>
     </nav>
