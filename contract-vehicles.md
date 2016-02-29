@@ -33,7 +33,7 @@ redirect_from:
             </p>
             <dl>
                 <dt>Contract Number</dt>
-                <dd>N00178-06-D-4684</dd>
+                <dd>N00178-06-D-4684 &#40;<a href="{{ site.baseurl }}/assets/files/N00178-06-D-4684-FC0141.pdf">MOD 41</a>&#41;</dd>
 
                 <dt>Issued By</dt>
                 <dd>NSWC, Dahlgren Division</dd>
