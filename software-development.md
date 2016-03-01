@@ -2,7 +2,6 @@
 layout: default
 title: Software Development
 permalink: /software-development/
-exclude_from_nav: true
 redirect_from:
   - /data-analytics-intelligence-community
   - /solutions/it-solutions/
@@ -79,6 +78,11 @@ redirect_from:
 	        <img src="{{ site.baseurl }}/assets/images/icon-data.png" alt="Logistics and Maintenance Support" alt="Data Infographic">
 	    </article>
 	</section>
+
+    <section>
+        <br />
+        <article><strong>Interested in learning more about how we work? </strong><a href="http://labs.atsid.com/guides/">&nbsp;View our developer guides</a></p></article>
+    </section>
 
 	<section class="software-outro">
 		<article>

@@ -9,13 +9,10 @@
                 <path d="M10.141 10.328q0 0.312-0.219 0.531l-1.062 1.062q-0.219 0.219-0.531 0.219t-0.531-0.219l-2.297-2.297-2.297 2.297q-0.219 0.219-0.531 0.219t-0.531-0.219l-1.062-1.062q-0.219-0.219-0.219-0.531t0.219-0.531l2.297-2.297-2.297-2.297q-0.219-0.219-0.219-0.531t0.219-0.531l1.062-1.062q0.219-0.219 0.531-0.219t0.531 0.219l2.297 2.297 2.297-2.297q0.219-0.219 0.531-0.219t0.531 0.219l1.062 1.062q0.219 0.219 0.219 0.531t-0.219 0.531l-2.297 2.297 2.297 2.297q0.219 0.219 0.219 0.531z" fill="#fff"></path>
             </svg>
         </button>
+
         <ul class="nav__menu" id="nav-menu">
-            {% for p in site.pages %}
-                {% unless p.exclude_from_nav %}
-                    {% if p.title %}
-                    <li class="nav__link {% if page.title == p.title %}nav__link--active{% endif %} "><a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></li>
-                    {% endif %}
-                {% endunless %}
+            {% for n in site.nav %}
+            <li class="nav__link {% if page.title == n.title %}nav__link--active{% endif %} "><a href="{{ n.url | prepend: site.baseurl }}">{{ n.title }}</a></li>
             {% endfor %}
         </ul>
     </nav>

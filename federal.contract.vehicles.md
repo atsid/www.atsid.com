@@ -3,7 +3,6 @@ layout: page
 title: Federal Contract Vehicles
 permalink: /federal.contact.vehicles/
 byline: ATS Federal Contracts
-exclude_from_nav: true
 ---
 
 ## Contract Vehicles

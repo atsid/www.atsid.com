@@ -120,6 +120,11 @@
         font-weight: 700;
         margin-bottom: 0.6em;
         text-transform: uppercase;
+
+        > a {
+            color: $footer-color;
+            text-decoration: none;
+        }
     }  
 
     .footer__disclaimer {
