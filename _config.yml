@@ -17,9 +17,6 @@ nav:
     url: /capabilities/
   - title: Careers
     url: /careers/
-  - title: Blog
-    url: https://blog.atsid.com
-    absolute: true
   - title: Contact
     url: /contact/
 
