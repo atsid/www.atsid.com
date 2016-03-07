@@ -1,5 +1,7 @@
 @include font-face('Icons', '../assets/fonts/icons/atsid-font');
 
+// Font family generation via: http://app.fontastic.me/
+
 // Map icon names to font unicode characters
 $icons: (
     github: "\e000",
@@ -14,6 +16,8 @@ $icons: (
     gplus-circled: "\e009",
     github-alt: "\e00a",
     youtube: "\e00b",
+    medium-circled: "\e00c",
+    medium: "\e00d",
 );
 
 // For adding font icons to elements using CSS pseudo-elements
