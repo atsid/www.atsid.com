@@ -72,7 +72,7 @@ permalink: /terms/
 
 <ul>
     <li>Applied Technical Systems, Inc.</li>
-    <li>3505 NW Anderson Hill Rd., Suite 200</li>
+    <li>9307 Bayshore Dr.</li>
     <li>Silverdale, WA 98383</li>
 
     <li><strong>Email:</strong> <a href="mailto:info@atsid.com">info@atsid.com</a></li>
