@@ -22,15 +22,7 @@ nav:
 
 locations:
   west:
-    - name: Silverdale - Anderson Hill (HQ)
-      addressLine1: 3505 NW Anderson Hill Rd., Suite 200
-      addressLine2: Silverdale, WA 98383
-      phone: 360.698.7100
-      fax: 360.698.7200
-      email: ats.silverdale@atsid.com
-      photo: ../assets/images/location-silverdale.png
-      link: https://www.google.com/maps/place/Applied+Technical+Systems,+Inc./@47.6478693,-122.6982917,17z/data=!3m1!4b1!4m2!3m1!1s0x54903a977b46c8b3:0xe4e589018b5f5245
-    - name: Silverdale - Bayshore
+    - name: Silverdale - Bayshore (HQ)
       addressLine1: 9307 Bayshore Drive NW
       addressLine2: Silverdale, WA 98383
       phone: 360.698.7100
@@ -38,6 +30,14 @@ locations:
       email: ats.silverdale@atsid.com
       photo: ../assets/images/location-bayshore.png
       link: https://www.google.com/maps/place/9307%20Bayshore%20Drive%20NW%20Silverdale,%20WA%2098383
+    - name: Silverdale - Anderson Hill
+      addressLine1: 3505 NW Anderson Hill Rd., Suite 200
+      addressLine2: Silverdale, WA 98383
+      phone: 360.698.7100
+      fax: 360.698.7200
+      email: ats.silverdale@atsid.com
+      photo: ../assets/images/location-silverdale.png
+      link: https://www.google.com/maps/place/Applied+Technical+Systems,+Inc./@47.6478693,-122.6982917,17z/data=!3m1!4b1!4m2!3m1!1s0x54903a977b46c8b3:0xe4e589018b5f5245
   east:
     - name: Alexandria - Jamieson
       addressLine1: 2051 Jamieson Ave, Suite 502
