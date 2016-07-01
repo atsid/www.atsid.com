@@ -2,8 +2,8 @@
 //AWS lambda function to retrieve the HRM Direct jobs site and parse it into usable JSON.
 //This exists because we've tried Kimono (shut down) and import.io, and they weren't reliable.
 const http = require('http');
-const baseUrl = 'http://atsid.hrmdirect.com/employment/';
-const searchUrl = baseUrl + 'job-openings.php?search=true';
+const BASE_URL = 'http://atsid.hrmdirect.com/employment/';
+const SEARCH_URL = BASE_URL + 'job-openings.php?search=true';
 
 const fields = ['title', 'href', 'department', 'city', 'state'];
 const titlePattern = /<td id='posTitle'[\w\s="]*>.*>([\w\s\/]*)<\/td>/g;
@@ -67,13 +67,11 @@ function objectify(tuple, props) {
 }
 
 exports.handler = (event, context, callback) => {
-    const req = http.get(searchUrl, (res) => {
+    const req = http.get(SEARCH_URL, (res) => {
         let body = '';
         res.setEncoding('utf8');
         res.on('data', (chunk) => body += chunk);
         res.on('end', () => {
-
-            console.log('Successfully processed HTTPS response');
 
             let tuple = extractTuple([
                 titlePattern,
@@ -83,16 +81,12 @@ exports.handler = (event, context, callback) => {
                 statePattern
             ], body);
 
-            console.log(tuple);
-
             let results = objectify(tuple, fields);
 
             //correct the job URL
             results.forEach((job) => {
-                job.href = baseUrl + job.href;
+                job.href = BASE_URL + job.href;
             });
-
-            console.log(results);
 
             callback(null, results);
         });
@@ -100,5 +94,4 @@ exports.handler = (event, context, callback) => {
 
     req.on('error', callback);
     req.end();
-
 };
