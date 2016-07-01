@@ -41,7 +41,8 @@ redirect_from:
 		            <li>reduces repair time by recommending repair parts that should be available when needed, and</li>
 		            <li>improves visibility and awareness of systemic issues by providing custom dashboards to monitor failure data, allowing you to keep your finger on the pulse of the system.</li>
 	        	</ul>
-    	</p>
+    	    </p>
+    	    <iframe width="560" height="315" src="https://www.youtube.com/embed/CHj8gIbiP40" frameborder="0" allowfullscreen></iframe>
         </article>
         <article>
             <img src="{{ site.baseurl }}/assets/images/icon-support.png" alt="Agile Software Development" alt="Maintenance and Support Analysis Infographic">
