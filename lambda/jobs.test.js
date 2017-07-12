@@ -39,4 +39,23 @@ describe('Jobs HTML-to-JSON lambda', () => {
 
     });
 
+    it('one job, systems division, special char', (done) => {
+ 
+        let scope = nock(HRM_URL)
+            .get('/employment/job-openings.php?search=true')
+            .replyWithFile(200, __dirname + '/test-data/hrm-direct-1-special-char.job.htm');
+
+        jobs.handler.call(this, {}, {}, (err, results) => {
+            expect(results).to.have.lengthOf(1);
+            let result = results[0];
+            expect(result).to.have.all.keys(['title', 'href', 'department', 'city', 'state']);
+            expect(result).to.have.property('title', 'Java-Script Developer');
+            expect(result).to.have.property('department', 'Systems Engineering');
+            expect(result).to.have.property('city', 'Alexandria');
+            expect(result).to.have.property('state', 'VA');
+            done();
+        });
+
+    });
 });
+

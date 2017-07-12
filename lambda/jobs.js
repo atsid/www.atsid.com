@@ -6,8 +6,8 @@ const BASE_URL = 'http://atsid.hrmdirect.com/employment/';
 const SEARCH_URL = BASE_URL + 'job-openings.php?search=true';
 
 const fields = ['title', 'href', 'department', 'city', 'state'];
-const titlePattern = /<td id='posTitle'[\w\s="]*>.*>([\w\s\/]*)<\/td>/g;
-const linkPattern = /<td id='posTitle'[\w\s="]*><a href="(.*)">[\w\s\/]*<\/td>/g;
+const titlePattern = /<td id='posTitle'[\w\s="]*>.*>([-\w\s\/]*)<\/td>/g;
+const linkPattern = /<td id='posTitle'[-\w\s="]*><a href="(.*)">[\w\s\/]*<\/td>/g;
 const departmentPattern = /<td id='departments'[\w\s="]*>([\w\s\/]*)<\/td>/g;
 const cityPattern = /<td id='cities'[\w\s="]*>([\w\s\/]*)<\/td>/g;
 const statePattern = /<td id='state'[\w\s="]*>([\w\s\/]*)<\/td>/g;
@@ -95,3 +95,4 @@ exports.handler = (event, context, callback) => {
     req.on('error', callback);
     req.end();
 };
+
