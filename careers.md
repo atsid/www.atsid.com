@@ -21,6 +21,5 @@ redirect_from:
 <h3>Join us!</h3>
 <p>We’re always looking for passionate, talented people to come build beautiful things with us. We like to surround ourselves with great team members and clients. For us, success is determined by positive experiences, not the bottom line. If you have a passion for learning, want to make a difference, and want to work with other brilliant people, then we’d love to hear from you. </p>
 
-<h3 id="opportunities">Current Opportunities</h3>
-<div id="jobs" class="jobs"><p class="jobs__loading">Loading jobs...</p></div>
+<h3 id="opportunities"><a href="http://atsid.hrmdirect.com/employment/job-openings.php?search=true">Current Opportunities</a></h3>
 <p>Not seeing the position you’re looking for? We still want to hear from you!<br>Email us at <a href="mailto:careers@atsid.com">careers@atsid.com</a>.</p>

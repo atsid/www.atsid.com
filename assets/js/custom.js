@@ -16,57 +16,6 @@ function checkAndUpdateHeader(e) {
     }
 }
 
-function initJobs() {
-    var cont = document.getElementById('jobs');
-    if (cont) {
-        var url = "https://235g4vs0dj.execute-api.us-west-2.amazonaws.com/prod/hrm-direct-jobs";
-        var request = new Http.Get(url, true);
-        request.start().then(function (response) {
-            cont.innerHTML = "";
-
-            var jobs = response;
-
-            jobs.sort(function (a, b) {
-                if (a.state > b.state) {
-                    return 1;
-                }
-                if (a.state < b.state) {
-                    return -1;
-                }
-                if (a.city > b.city) {
-                    return 1;
-                }
-                if (a.city < b.city) {
-                    return -1;
-                }
-                if (a.title > b.title) {
-                    return 1;
-                }
-                if (a.title < b.title) {
-                    return -1;
-                }
-                return 0;
-            });
-
-            var html = "";
-            var job;
-            var tpl;
-
-            console.log(jobs);
-
-            for (var i = 0; i < jobs.length; i++) {
-                job = jobs[i];
-                tpl = '<div class="jobs__item">' +
-                '<div class="jobs__item__location">' + job.city + ', ' + job.state + '</div>' +
-                '<div class="jobs__item__position"><a href="' + job.href + '" target="_blank">' + job.title + '</a></div>' +
-                '</div>'
-                cont.innerHTML += tpl;
-            }
-        });
-    }}
-
-
-
 function initMenu() {
     var opened = false;
 
@@ -87,7 +36,6 @@ function init() {
     window.addEventListener('scroll', checkAndUpdateHeader);
     window.addEventListener('resize', checkAndUpdateHeader);
     checkAndUpdateHeader();
-    initJobs();
     initMenu();
 }
 
