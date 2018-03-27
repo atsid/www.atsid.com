@@ -81,7 +81,7 @@ redirect_from:
 
     <section>
         <br />
-        <article><strong>Interested in learning more about how we work? </strong><a href="http://labs.atsid.com/guides/">&nbsp;View our developer guides</a></p></article>
+        <article><strong>Interested in learning more about how we work? </strong><a href="http://labs.atsid.com/guides/">&nbsp;View our developer guides</a></article>
     </section>
 
 	<section class="software-outro">
